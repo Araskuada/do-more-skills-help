@@ -1,0 +1,518 @@
+{
+  "10:0:3d-scan-calc": {
+    "query": "STL mesh parsing connected component analysis volume calculation",
+    "gold": [
+      "benchflow-ai--mesh-analysis"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--mesh-analysis",
+        "score": 8.44083715090432,
+        "name": "mesh-analysis"
+      }
+    ]
+  },
+  "10:0:adaptive-cruise-control": {
+    "query": "PID controller simulation YAML config parsing CSV time series",
+    "gold": [
+      "benchflow-ai--csv-processing",
+      "benchflow-ai--pid-controller",
+      "benchflow-ai--simulation-metrics",
+      "benchflow-ai--vehicle-dynamics",
+      "benchflow-ai--yaml-config"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--yaml-config",
+        "score": 8.150891940007448,
+        "name": "yaml-config"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--csv-processing",
+        "score": 7.899423652551976,
+        "name": "csv-processing"
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--pid-controller",
+        "score": 4.751724576107779,
+        "name": "pid-controller"
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--simulation-metrics",
+        "score": 3.821193986444478,
+        "name": "simulation-metrics"
+      },
+      {
+        "rank": 5,
+        "skill_id": "benchflow-ai--vehicle-dynamics",
+        "score": 1.1560460255229745,
+        "name": "vehicle-dynamics"
+      }
+    ]
+  },
+  "10:0:azure-bgp-oscillation-route-leak": {
+    "query": "BGP routing analysis graph cycle detection JSON network topology",
+    "gold": [
+      "benchflow-ai--azure-bgp"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--azure-bgp",
+        "score": 3.632826144505718,
+        "name": "azure-bgp"
+      },
+      {
+        "rank": 2,
+        "skill_id": "curiositech--test-automation-expert",
+        "score": 1.4931240147901852,
+        "name": "test-automation-expert"
+      }
+    ]
+  },
+  "10:0:citation-check": {
+    "query": "BibTeX parser academic citation verification",
+    "gold": [
+      "benchflow-ai--citation-management"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--citation-management",
+        "score": 8.337682682975766,
+        "name": "citation-management"
+      },
+      {
+        "rank": 2,
+        "skill_id": "troykelly--project-board-enforcement",
+        "score": 1.7845931598160636,
+        "name": "project-board-enforcement"
+      },
+      {
+        "rank": 3,
+        "skill_id": "omer-metin--smart-contract-auditor",
+        "score": 1.2957810016732687,
+        "name": "smart-contract-auditor"
+      }
+    ]
+  },
+  "10:0:civ6-adjacency-optimizer": {
+    "query": "Civ6Map file parsing hex grid adjacency combinatorial optimization",
+    "gold": [
+      "benchflow-ai--civ6lib",
+      "benchflow-ai--hex-grid-spatial",
+      "benchflow-ai--map-optimization-strategy",
+      "benchflow-ai--sqlite-map-parser"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--hex-grid-spatial",
+        "score": 5.634986153958854,
+        "name": "hex-grid-spatial"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--map-optimization-strategy",
+        "score": 3.6378621089175587,
+        "name": "map-optimization-strategy"
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--civ6lib",
+        "score": 2.328080623517767,
+        "name": "civ6lib"
+      },
+      {
+        "rank": 4,
+        "skill_id": "sickn33--network-engineer",
+        "score": 1.9280513924850815,
+        "name": "network-engineer"
+      }
+    ]
+  },
+  "10:0:court-form-filling": {
+    "query": "PDF form filling court form automation",
+    "gold": [
+      "benchflow-ai--pdf-1"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--pdf-1",
+        "score": 7.38109989640016,
+        "name": "pdf-1"
+      }
+    ]
+  },
+  "10:0:crystallographic-wyckoff-position-analysis": {
+    "query": "CIF file parser crystallography space groups Wyckoff position analysis",
+    "gold": [
+      "benchflow-ai--pymatgen",
+      "benchflow-ai--sympy"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--pymatgen",
+        "score": 2.5809580408127557,
+        "name": "pymatgen"
+      },
+      {
+        "rank": 2,
+        "skill_id": "jeremylongshore--guidewire-core-workflow-b",
+        "score": 2.1345756748782896,
+        "name": "guidewire-core-workflow-b"
+      }
+    ]
+  },
+  "10:0:dapt-intrusion-detection": {
+    "query": "pcap packet parsing network traffic analysis Shannon entropy calculation",
+    "gold": [
+      "benchflow-ai--pcap-analysis",
+      "benchflow-ai--threat-detection"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--pcap-analysis",
+        "score": 9.968569990803507,
+        "name": "pcap-analysis"
+      },
+      {
+        "rank": 2,
+        "skill_id": "melodic-software--gemini-delegation-patterns",
+        "score": 2.0413500929532877,
+        "name": "gemini-delegation-patterns"
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--threat-detection",
+        "score": 1.876292000121337,
+        "name": "threat-detection"
+      },
+      {
+        "rank": 4,
+        "skill_id": "synapsync--universal-planner",
+        "score": 1.385673311655741,
+        "name": "universal-planner"
+      }
+    ]
+  },
+  "10:0:data-to-d3": {
+    "query": "D3.js visualization bubble chart force layout CSV data processing",
+    "gold": [
+      "benchflow-ai--d3js-visualization"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--d3js-visualization",
+        "score": 6.955587790629048,
+        "name": "d3js-visualization"
+      },
+      {
+        "rank": 2,
+        "skill_id": "yanko-belov--input-validation",
+        "score": 2.326158779684763,
+        "name": "input-validation"
+      }
+    ]
+  },
+  "10:0:dialogue-parser": {
+    "query": "dialogue tree parsing Graphviz DOT generation text to JSON graph",
+    "gold": [
+      "benchflow-ai--dialogue-graph"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--dialogue-graph",
+        "score": 6.743364351616421,
+        "name": "dialogue-graph"
+      },
+      {
+        "rank": 2,
+        "skill_id": "oocx--website-devtools",
+        "score": 1.6296502309158685,
+        "name": "website-devtools"
+      },
+      {
+        "rank": 3,
+        "skill_id": "marcusgoll--clarification-phase",
+        "score": 1.5251021733326466,
+        "name": "clarification-phase"
+      }
+    ]
+  },
+  "10:0:dynamic-object-aware-egomotion": {
+    "query": "optical flow video camera motion estimation sparse mask numpy",
+    "gold": [
+      "benchflow-ai--dyn-object-masks",
+      "benchflow-ai--egomotion-estimation",
+      "benchflow-ai--output-validation",
+      "benchflow-ai--sampling-and-indexing"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--egomotion-estimation",
+        "score": 12.332971402349362,
+        "name": "egomotion-estimation"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--dyn-object-masks",
+        "score": 4.449502578619456,
+        "name": "dyn-object-masks"
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--sampling-and-indexing",
+        "score": 3.940017550533258,
+        "name": "sampling-and-indexing"
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--output-validation",
+        "score": 1.8976215795088476,
+        "name": "output-validation"
+      }
+    ]
+  },
+  "10:0:earthquake-phase-association": {
+    "query": "SeisBench seismic picking obspy mseed waveform",
+    "gold": [
+      "benchflow-ai--gamma-phase-associator",
+      "benchflow-ai--obspy-data-api",
+      "benchflow-ai--seisbench-model-api",
+      "benchflow-ai--seismic-picker-selection"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--seisbench-model-api",
+        "score": 7.851931564466959,
+        "name": "seisbench-model-api"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--seismic-picker-selection",
+        "score": 4.183353997903668,
+        "name": "seismic-picker-selection"
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--obspy-data-api",
+        "score": 3.645843231138628,
+        "name": "obspy-data-api"
+      }
+    ]
+  },
+  "10:0:earthquake-plate-calculation": {
+    "query": "geopandas plate boundaries geospatial distance calculation",
+    "gold": [
+      "benchflow-ai--geospatial-analysis"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--geospatial-analysis",
+        "score": 10.50115857000647,
+        "name": "geospatial-analysis"
+      }
+    ]
+  },
+  "10:0:econ-detrending-correlation": {
+    "query": "Hodrick-Prescott filter pandas Excel economics",
+    "gold": [
+      "benchflow-ai--timeseries-detrending"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--timeseries-detrending",
+        "score": 1.8163176016566474,
+        "name": "timeseries-detrending"
+      }
+    ]
+  },
+  "10:0:energy-ac-optimal-power-flow": {
+    "query": "AC optimal power flow power systems optimization",
+    "gold": [
+      "benchflow-ai--ac-branch-pi-model",
+      "benchflow-ai--casadi-ipopt-nlp",
+      "benchflow-ai--power-flow-data"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--ac-branch-pi-model",
+        "score": 7.6599612967688575,
+        "name": "ac-branch-pi-model"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--power-flow-data",
+        "score": 6.821072876877525,
+        "name": "power-flow-data"
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--casadi-ipopt-nlp",
+        "score": 5.700462792482023,
+        "name": "casadi-ipopt-nlp"
+      },
+      {
+        "rank": 4,
+        "skill_id": "srstomp--performance-optimization",
+        "score": 2.419895912934722,
+        "name": "performance-optimization"
+      },
+      {
+        "rank": 5,
+        "skill_id": "curiositech--panic-room-finder",
+        "score": 1.0467858169573263,
+        "name": "panic-room-finder"
+      }
+    ]
+  },
+  "10:0:energy-market-pricing": {
+    "query": "DC-OPF market clearing MATPOWER network parsing",
+    "gold": [
+      "benchflow-ai--dc-power-flow",
+      "benchflow-ai--economic-dispatch",
+      "benchflow-ai--locational-marginal-prices",
+      "benchflow-ai--power-flow-data"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--locational-marginal-prices",
+        "score": 5.397559850931039,
+        "name": "locational-marginal-prices"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--power-flow-data",
+        "score": 3.8554812553454028,
+        "name": "power-flow-data"
+      },
+      {
+        "rank": 3,
+        "skill_id": "sickn33--network-engineer",
+        "score": 2.491428029461114,
+        "name": "network-engineer"
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--dc-power-flow",
+        "score": 2.3485805539102236,
+        "name": "dc-power-flow"
+      }
+    ]
+  },
+  "10:0:enterprise-information-search": {
+    "query": "enterprise data retrieval JSON question answering",
+    "gold": [
+      "benchflow-ai--enterprise-artifact-search"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--enterprise-artifact-search",
+        "score": 4.47357507647034,
+        "name": "enterprise-artifact-search"
+      },
+      {
+        "rank": 2,
+        "skill_id": "jeremylongshore--kpi-dashboard-template",
+        "score": 2.0145058393008424,
+        "name": "kpi-dashboard-template"
+      }
+    ]
+  },
+  "10:0:exceltable-in-ppt": {
+    "query": "python-pptx embedded Excel pptx table editing",
+    "gold": [
+      "benchflow-ai--pptx",
+      "benchflow-ai--xlsx-1"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--pptx",
+        "score": 7.405549556918924,
+        "name": "pptx"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--xlsx-1",
+        "score": 1.0953496606054514,
+        "name": "xlsx-1"
+      }
+    ]
+  },
+  "10:0:exoplanet-detection-period": {
+    "query": "TESS lightcurve analysis transit period detection astropy timeseries",
+    "gold": [
+      "benchflow-ai--box-least-squares",
+      "benchflow-ai--exoplanet-workflows",
+      "benchflow-ai--light-curve-preprocessing",
+      "benchflow-ai--lomb-scargle-periodogram",
+      "benchflow-ai--transit-least-squares"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--box-least-squares",
+        "score": 5.126123859932087,
+        "name": "box-least-squares"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--exoplanet-workflows",
+        "score": 4.4894769822470915,
+        "name": "exoplanet-workflows"
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--light-curve-preprocessing",
+        "score": 3.3744604624598677,
+        "name": "light-curve-preprocessing"
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--transit-least-squares",
+        "score": 2.4132944458311654,
+        "name": "transit-least-squares"
+      }
+    ]
+  },
+  "10:0:financial-modeling-qa": {
+    "query": "pandas Excel analysis PDF parsing extraction",
+    "gold": [
+      "benchflow-ai--pdf-1",
+      "benchflow-ai--xlsx-2"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--pdf-1",
+        "score": 3.2576960356978546,
+        "name": "pdf-1"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--xlsx-2",
+        "score": 2.450426556866432,
+        "name": "xlsx-2"
+      }
+    ]
+  }
+}
