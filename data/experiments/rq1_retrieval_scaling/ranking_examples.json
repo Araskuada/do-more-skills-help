@@ -1,0 +1,992 @@
+{
+  "10:0:3d-scan-calc": {
+    "query": "STL mesh parsing connected component analysis volume calculation",
+    "gold": [
+      "benchflow-ai--mesh-analysis"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--mesh-analysis",
+        "score": 8.440837,
+        "name": "mesh-analysis",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "10:0:adaptive-cruise-control": {
+    "query": "PID controller simulation YAML config parsing CSV time series",
+    "gold": [
+      "benchflow-ai--csv-processing",
+      "benchflow-ai--pid-controller",
+      "benchflow-ai--simulation-metrics",
+      "benchflow-ai--vehicle-dynamics",
+      "benchflow-ai--yaml-config"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--yaml-config",
+        "score": 8.150892,
+        "name": "yaml-config",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--csv-processing",
+        "score": 7.899424,
+        "name": "csv-processing",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--pid-controller",
+        "score": 4.751725,
+        "name": "pid-controller",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--simulation-metrics",
+        "score": 3.821194,
+        "name": "simulation-metrics",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 5,
+        "skill_id": "benchflow-ai--vehicle-dynamics",
+        "score": 1.156046,
+        "name": "vehicle-dynamics",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "10:0:azure-bgp-oscillation-route-leak": {
+    "query": "BGP routing analysis graph cycle detection JSON network topology",
+    "gold": [
+      "benchflow-ai--azure-bgp"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--azure-bgp",
+        "score": 3.632826,
+        "name": "azure-bgp",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "curiositech--test-automation-expert",
+        "score": 1.493124,
+        "name": "test-automation-expert",
+        "owner": "curiositech",
+        "repo": "some_claude_skills"
+      }
+    ]
+  },
+  "10:0:citation-check": {
+    "query": "BibTeX parser academic citation verification",
+    "gold": [
+      "benchflow-ai--citation-management"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--citation-management",
+        "score": 8.337683,
+        "name": "citation-management",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "troykelly--project-board-enforcement",
+        "score": 1.784593,
+        "name": "project-board-enforcement",
+        "owner": "troykelly",
+        "repo": "claude-skills"
+      },
+      {
+        "rank": 3,
+        "skill_id": "omer-metin--smart-contract-auditor",
+        "score": 1.295781,
+        "name": "smart-contract-auditor",
+        "owner": "omer-metin",
+        "repo": "skills-for-antigravity"
+      }
+    ]
+  },
+  "10:0:civ6-adjacency-optimizer": {
+    "query": "Civ6Map file parsing hex grid adjacency combinatorial optimization",
+    "gold": [
+      "benchflow-ai--civ6lib",
+      "benchflow-ai--hex-grid-spatial",
+      "benchflow-ai--map-optimization-strategy",
+      "benchflow-ai--sqlite-map-parser"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--hex-grid-spatial",
+        "score": 5.634986,
+        "name": "hex-grid-spatial",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--map-optimization-strategy",
+        "score": 3.637862,
+        "name": "map-optimization-strategy",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--civ6lib",
+        "score": 2.328081,
+        "name": "civ6lib",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "sickn33--network-engineer",
+        "score": 1.928051,
+        "name": "network-engineer",
+        "owner": "sickn33",
+        "repo": "antigravity-awesome-skills"
+      }
+    ]
+  },
+  "10:0:court-form-filling": {
+    "query": "PDF form filling court form automation",
+    "gold": [
+      "benchflow-ai--pdf-1"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--pdf-1",
+        "score": 7.3811,
+        "name": "pdf-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "10:0:crystallographic-wyckoff-position-analysis": {
+    "query": "CIF file parser crystallography space groups Wyckoff position analysis",
+    "gold": [
+      "benchflow-ai--pymatgen",
+      "benchflow-ai--sympy"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--pymatgen",
+        "score": 2.580958,
+        "name": "pymatgen",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "jeremylongshore--guidewire-core-workflow-b",
+        "score": 2.134576,
+        "name": "guidewire-core-workflow-b",
+        "owner": "jeremylongshore",
+        "repo": "claude-code-plugins-plus-skills"
+      }
+    ]
+  },
+  "10:0:dapt-intrusion-detection": {
+    "query": "pcap packet parsing network traffic analysis Shannon entropy calculation",
+    "gold": [
+      "benchflow-ai--pcap-analysis",
+      "benchflow-ai--threat-detection"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--pcap-analysis",
+        "score": 9.96857,
+        "name": "pcap-analysis",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "melodic-software--gemini-delegation-patterns",
+        "score": 2.04135,
+        "name": "gemini-delegation-patterns",
+        "owner": "melodic-software",
+        "repo": "claude-code-plugins"
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--threat-detection",
+        "score": 1.876292,
+        "name": "threat-detection",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "synapsync--universal-planner",
+        "score": 1.385673,
+        "name": "universal-planner",
+        "owner": "synapsync",
+        "repo": "synapse_registry"
+      }
+    ]
+  },
+  "10:0:data-to-d3": {
+    "query": "D3.js visualization bubble chart force layout CSV data processing",
+    "gold": [
+      "benchflow-ai--d3js-visualization"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--d3js-visualization",
+        "score": 6.955588,
+        "name": "d3js-visualization",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "yanko-belov--input-validation",
+        "score": 2.326159,
+        "name": "input-validation",
+        "owner": "yanko-belov",
+        "repo": "code-craft"
+      }
+    ]
+  },
+  "10:0:dialogue-parser": {
+    "query": "dialogue tree parsing Graphviz DOT generation text to JSON graph",
+    "gold": [
+      "benchflow-ai--dialogue-graph"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--dialogue-graph",
+        "score": 6.743364,
+        "name": "dialogue-graph",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "oocx--website-devtools",
+        "score": 1.62965,
+        "name": "website-devtools",
+        "owner": "oocx",
+        "repo": "tfplan2md"
+      },
+      {
+        "rank": 3,
+        "skill_id": "marcusgoll--clarification-phase",
+        "score": 1.525102,
+        "name": "clarification-phase",
+        "owner": "marcusgoll",
+        "repo": ""
+      }
+    ]
+  },
+  "10:0:dynamic-object-aware-egomotion": {
+    "query": "optical flow video camera motion estimation sparse mask numpy",
+    "gold": [
+      "benchflow-ai--dyn-object-masks",
+      "benchflow-ai--egomotion-estimation",
+      "benchflow-ai--output-validation",
+      "benchflow-ai--sampling-and-indexing"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--egomotion-estimation",
+        "score": 12.332971,
+        "name": "egomotion-estimation",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--dyn-object-masks",
+        "score": 4.449503,
+        "name": "dyn-object-masks",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--sampling-and-indexing",
+        "score": 3.940018,
+        "name": "sampling-and-indexing",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--output-validation",
+        "score": 1.897622,
+        "name": "output-validation",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "10:0:earthquake-phase-association": {
+    "query": "SeisBench seismic picking obspy mseed waveform",
+    "gold": [
+      "benchflow-ai--gamma-phase-associator",
+      "benchflow-ai--obspy-data-api",
+      "benchflow-ai--seisbench-model-api",
+      "benchflow-ai--seismic-picker-selection"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--seisbench-model-api",
+        "score": 7.851932,
+        "name": "seisbench-model-api",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--seismic-picker-selection",
+        "score": 4.183354,
+        "name": "seismic-picker-selection",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--obspy-data-api",
+        "score": 3.645843,
+        "name": "obspy-data-api",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "10:0:earthquake-plate-calculation": {
+    "query": "geopandas plate boundaries geospatial distance calculation",
+    "gold": [
+      "benchflow-ai--geospatial-analysis"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--geospatial-analysis",
+        "score": 10.501159,
+        "name": "geospatial-analysis",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "10:0:econ-detrending-correlation": {
+    "query": "Hodrick-Prescott filter pandas Excel economics",
+    "gold": [
+      "benchflow-ai--timeseries-detrending"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--timeseries-detrending",
+        "score": 1.816318,
+        "name": "timeseries-detrending",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "10:0:energy-ac-optimal-power-flow": {
+    "query": "AC optimal power flow power systems optimization",
+    "gold": [
+      "benchflow-ai--ac-branch-pi-model",
+      "benchflow-ai--casadi-ipopt-nlp",
+      "benchflow-ai--power-flow-data"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--ac-branch-pi-model",
+        "score": 7.659961,
+        "name": "ac-branch-pi-model",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--power-flow-data",
+        "score": 6.821073,
+        "name": "power-flow-data",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--casadi-ipopt-nlp",
+        "score": 5.700463,
+        "name": "casadi-ipopt-nlp",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "srstomp--performance-optimization",
+        "score": 2.419896,
+        "name": "performance-optimization",
+        "owner": "srstomp",
+        "repo": "pokayokay"
+      },
+      {
+        "rank": 5,
+        "skill_id": "curiositech--panic-room-finder",
+        "score": 1.046786,
+        "name": "panic-room-finder",
+        "owner": "curiositech",
+        "repo": "some_claude_skills"
+      }
+    ]
+  },
+  "10:0:energy-market-pricing": {
+    "query": "DC-OPF market clearing MATPOWER network parsing",
+    "gold": [
+      "benchflow-ai--dc-power-flow",
+      "benchflow-ai--economic-dispatch",
+      "benchflow-ai--locational-marginal-prices",
+      "benchflow-ai--power-flow-data"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--locational-marginal-prices",
+        "score": 5.39756,
+        "name": "locational-marginal-prices",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--power-flow-data",
+        "score": 3.855481,
+        "name": "power-flow-data",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "sickn33--network-engineer",
+        "score": 2.491428,
+        "name": "network-engineer",
+        "owner": "sickn33",
+        "repo": "antigravity-awesome-skills"
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--dc-power-flow",
+        "score": 2.348581,
+        "name": "dc-power-flow",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "10:0:enterprise-information-search": {
+    "query": "enterprise data retrieval JSON question answering",
+    "gold": [
+      "benchflow-ai--enterprise-artifact-search"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--enterprise-artifact-search",
+        "score": 4.473575,
+        "name": "enterprise-artifact-search",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "jeremylongshore--kpi-dashboard-template",
+        "score": 2.014506,
+        "name": "kpi-dashboard-template",
+        "owner": "jeremylongshore",
+        "repo": "claude-code-plugins-plus-skills"
+      }
+    ]
+  },
+  "10:0:exceltable-in-ppt": {
+    "query": "python-pptx embedded Excel pptx table editing",
+    "gold": [
+      "benchflow-ai--pptx",
+      "benchflow-ai--xlsx-1"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--pptx",
+        "score": 7.40555,
+        "name": "pptx",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--xlsx-1",
+        "score": 1.09535,
+        "name": "xlsx-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "10:0:exoplanet-detection-period": {
+    "query": "TESS lightcurve analysis transit period detection astropy timeseries",
+    "gold": [
+      "benchflow-ai--box-least-squares",
+      "benchflow-ai--exoplanet-workflows",
+      "benchflow-ai--light-curve-preprocessing",
+      "benchflow-ai--lomb-scargle-periodogram",
+      "benchflow-ai--transit-least-squares"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--box-least-squares",
+        "score": 5.126124,
+        "name": "box-least-squares",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--exoplanet-workflows",
+        "score": 4.489477,
+        "name": "exoplanet-workflows",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--light-curve-preprocessing",
+        "score": 3.37446,
+        "name": "light-curve-preprocessing",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--transit-least-squares",
+        "score": 2.413294,
+        "name": "transit-least-squares",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "10:0:financial-modeling-qa": {
+    "query": "pandas Excel analysis PDF parsing extraction",
+    "gold": [
+      "benchflow-ai--pdf-1",
+      "benchflow-ai--xlsx-2"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--pdf-1",
+        "score": 3.257696,
+        "name": "pdf-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--xlsx-2",
+        "score": 2.450427,
+        "name": "xlsx-2",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "10:0:find-topk-similiar-chemicals": {
+    "query": "RDKit molecular fingerprints PubChem chemical SMILES Tanimoto similarity search",
+    "gold": [
+      "benchflow-ai--pdf-2",
+      "benchflow-ai--pubchem-database",
+      "benchflow-ai--rdkit"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--rdkit",
+        "score": 11.472095,
+        "name": "rdkit",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--pubchem-database",
+        "score": 8.717857,
+        "name": "pubchem-database",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "10:0:fix-build-agentops": {
+    "query": "Python build debugging git diff patch format",
+    "gold": [
+      "benchflow-ai--analyze-ci",
+      "benchflow-ai--temporal-python-testing",
+      "benchflow-ai--testing-python",
+      "benchflow-ai--uv-package-manager"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--testing-python",
+        "score": 2.761892,
+        "name": "testing-python",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--temporal-python-testing",
+        "score": 2.240476,
+        "name": "temporal-python-testing",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--uv-package-manager",
+        "score": 2.048435,
+        "name": "uv-package-manager",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "greyhaven-ai--grey-haven-smart-debugging",
+        "score": 1.789787,
+        "name": "grey-haven-smart-debugging",
+        "owner": "greyhaven-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "10:0:fix-build-google-auto": {
+    "query": "Java build debugging Maven build fix",
+    "gold": [
+      "benchflow-ai--maven-build-lifecycle",
+      "benchflow-ai--maven-dependency-management",
+      "benchflow-ai--maven-plugin-configuration"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--maven-build-lifecycle",
+        "score": 9.405326,
+        "name": "maven-build-lifecycle",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--maven-dependency-management",
+        "score": 3.807659,
+        "name": "maven-dependency-management",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "oakoss--accessibility",
+        "score": 2.218445,
+        "name": "accessibility",
+        "owner": "oakoss",
+        "repo": "agent-skills"
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--maven-plugin-configuration",
+        "score": 1.908554,
+        "name": "maven-plugin-configuration",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "10:0:fix-druid-loophole-cve": {
+    "query": "Apache Druid security CVE patch Maven build",
+    "gold": [
+      "benchflow-ai--jackson-security",
+      "benchflow-ai--senior-java"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--jackson-security",
+        "score": 2.29823,
+        "name": "jackson-security",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--senior-java",
+        "score": 1.220498,
+        "name": "senior-java",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "10:0:fix-erlang-ssh-cve": {
+    "query": "Erlang OTP SSH SSH protocol vulnerability fix",
+    "gold": [
+      "benchflow-ai--erlang-concurrency",
+      "benchflow-ai--erlang-distribution",
+      "benchflow-ai--erlang-otp-behaviors",
+      "benchflow-ai--find-bugs",
+      "benchflow-ai--senior-security",
+      "benchflow-ai--ssh-penetration-testing"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--ssh-penetration-testing",
+        "score": 8.277378,
+        "name": "ssh-penetration-testing",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--erlang-otp-behaviors",
+        "score": 4.509143,
+        "name": "erlang-otp-behaviors",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--erlang-distribution",
+        "score": 1.750846,
+        "name": "erlang-distribution",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--erlang-concurrency",
+        "score": 1.735014,
+        "name": "erlang-concurrency",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "10:0:fix-visual-stability": {
+    "query": "Next.js layout shift React CLS optimization",
+    "gold": [
+      "benchflow-ai--browser-testing-1",
+      "benchflow-ai--react-best-practices-1",
+      "benchflow-ai--web-interface-guidelines"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--react-best-practices-1",
+        "score": 11.242596,
+        "name": "react-best-practices-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--browser-testing-1",
+        "score": 2.086269,
+        "name": "browser-testing-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "jeremylongshore--analyzing-database-indexes",
+        "score": 1.952714,
+        "name": "analyzing-database-indexes",
+        "owner": "jeremylongshore",
+        "repo": "claude-code-plugins-plus-skills"
+      },
+      {
+        "rank": 4,
+        "skill_id": "djankies--following-the-rules-of-hooks",
+        "score": 1.902387,
+        "name": "following-the-rules-of-hooks",
+        "owner": "djankies",
+        "repo": ""
+      }
+    ]
+  },
+  "10:0:flink-query": {
+    "query": "Apache Flink job stream processing session window",
+    "gold": [
+      "benchflow-ai--pdf-1",
+      "benchflow-ai--senior-data-engineer"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--senior-data-engineer",
+        "score": 1.198555,
+        "name": "senior-data-engineer",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "10:0:flood-risk-analysis": {
+    "query": "USGS streamflow data flood threshold analysis",
+    "gold": [
+      "benchflow-ai--flood-detection",
+      "benchflow-ai--nws-flood-thresholds",
+      "benchflow-ai--usgs-data-download"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--usgs-data-download",
+        "score": 5.574931,
+        "name": "usgs-data-download",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--nws-flood-thresholds",
+        "score": 4.098647,
+        "name": "nws-flood-thresholds",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--flood-detection",
+        "score": 3.521018,
+        "name": "flood-detection",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "jmsktm--financial-analyst",
+        "score": 1.500864,
+        "name": "financial-analyst",
+        "owner": "jmsktm",
+        "repo": "claude-settings"
+      },
+      {
+        "rank": 5,
+        "skill_id": "guia-matthieu--web-scraper",
+        "score": 1.338337,
+        "name": "web-scraper",
+        "owner": "guia-matthieu",
+        "repo": "clawfu-skills"
+      }
+    ]
+  },
+  "10:0:gh-repo-analytics": {
+    "query": "GitHub API analytics gh CLI pull requests",
+    "gold": [
+      "benchflow-ai--gh-cli"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--gh-cli",
+        "score": 9.761735,
+        "name": "gh-cli",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "arvindand--github-navigator",
+        "score": 6.144548,
+        "name": "github-navigator",
+        "owner": "arvindand",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "zenobi-us--api-documenter",
+        "score": 3.266279,
+        "name": "api-documenter",
+        "owner": "zenobi-us",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "flux-point-studios--cardano-cli-doctor",
+        "score": 1.900635,
+        "name": "cardano-cli-doctor",
+        "owner": "flux-point-studios",
+        "repo": "cardano-agent-skills"
+      }
+    ]
+  },
+  "10:0:glm-lake-mendota": {
+    "query": "GLM lake simulation NetCDF hydrodynamic model",
+    "gold": [
+      "benchflow-ai--glm-basics",
+      "benchflow-ai--glm-calibration",
+      "benchflow-ai--glm-output"
+    ],
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--glm-basics",
+        "score": 8.378553,
+        "name": "glm-basics",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--glm-calibration",
+        "score": 5.249676,
+        "name": "glm-calibration",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--glm-output",
+        "score": 4.023838,
+        "name": "glm-output",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  }
+}

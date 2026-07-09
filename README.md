@@ -14,7 +14,26 @@ The project studies whether larger skill libraries actually help LLM agents, or 
 4. **RQ4:** Does retrieving the correct skill always improve downstream task performance?
 5. **RQ5:** Does exposing more skill descriptions cause context pollution?
 
-## Current Pilot Experiment
+## Current RQ1 Experiment
+
+We completed the formal RQ1 retrieval-scaling experiment using the Skill-Usage dataset.
+
+- Tasks: 87
+- Skill library size: 34,396
+- Candidate pool sizes: 10, 50, 100, 500, 1000, 5000, 10000, full
+- Retriever: lightweight local BM25 over skill name + description
+- Repeats: 20 random-distractor repeats for non-full pools; 1 full-library run
+- Metrics: Top-1 Accuracy, Hit@K, Recall@K, MRR@10, NDCG@10
+
+Main result:
+
+- Top-1 Accuracy drops from **0.964** at pool size 10 to **0.414** at full library.
+- Hit@10 drops from **0.989** to **0.667**.
+- Recall@10 drops from **0.880** to **0.449**.
+
+See the full analysis in [`docs/rq1_retrieval_scaling_analysis_2026-07-09.md`](docs/rq1_retrieval_scaling_analysis_2026-07-09.md).
+
+## Previous Pilot Experiment
 
 We completed a first retrieval-scaling pilot using the Skill-Usage dataset.
 
@@ -37,15 +56,24 @@ This supports our initial hypothesis that larger skill libraries can make correc
 ```text
 docs/
   do_more_skills_help_formal_proposal.md
-  teacher_progress_report_2026-07-08.md
+  rq1_retrieval_scaling_analysis_2026-07-09.md
   first_experiment_retrieval_scaling_pilot.md
   data_usage_guide.md
   project_data_inventory.md
 
 experiments/
+  rq1_retrieval_scaling.py
   retrieval_scaling_pilot.py
 
 data/experiments/
+  rq1_retrieval_scaling/
+    summary.csv
+    summary.json
+    repeat_summary.csv
+    per_query_metrics.csv
+    ranking_examples.json
+    full_pool_error_cases.json
+    metric_trends.svg
   retrieval_scaling_pilot/
     summary.csv
     summary.json
@@ -83,6 +111,20 @@ git clone https://github.com/GeniusHTX/SWE-Skills-Bench.git
 ```
 
 See `docs/data_usage_guide.md` and `docs/project_data_inventory.md` for more details about data size, expected paths, and usage notes.
+
+## Reproducing RQ1
+
+After downloading the raw Skill-Usage data to `data/raw/Skill-Usage`, run:
+
+```bash
+python3 experiments/rq1_retrieval_scaling.py
+```
+
+The script writes results to:
+
+```text
+data/experiments/rq1_retrieval_scaling/
+```
 
 ## Reproducing the Pilot
 
