@@ -9,6 +9,7 @@ so this experiment uses reproducible proxy distractor families:
 - query_overlap: non-gold skills with the highest token overlap with the query.
 - bm25_hard: non-gold skills that BM25 itself ranks highly for the query.
 - gold_skill_near: non-gold skills lexically similar to the gold skill text.
+- embedding_semantic_near: non-gold skills closest to the gold skill embedding.
 """
 
 from __future__ import annotations
@@ -20,6 +21,8 @@ import math
 import random
 from pathlib import Path
 from statistics import mean, pstdev
+
+import numpy as np
 
 from rq1_retrieval_scaling import (
     GT_OWNER,
@@ -38,12 +41,22 @@ from rq1_retrieval_scaling import (
 
 
 DEFAULT_POOL_SIZES = ["50", "100", "500", "1000"]
-DEFAULT_DISTRACTOR_TYPES = ["random", "query_overlap", "bm25_hard", "gold_skill_near"]
+DEFAULT_DISTRACTOR_TYPES = [
+    "random",
+    "query_overlap",
+    "bm25_hard",
+    "gold_skill_near",
+    "embedding_semantic_near",
+]
 DISTRACTOR_DESCRIPTIONS = {
     "random": "Uniform random non-gold skills.",
     "query_overlap": "Non-gold skills with the highest token Jaccard similarity to the task query.",
     "bm25_hard": "Non-gold skills that the same BM25 retriever ranks highest for the task query.",
     "gold_skill_near": "Non-gold skills with the highest token Jaccard similarity to the gold skill text.",
+    "embedding_semantic_near": (
+        "Non-gold skills nearest to the gold skill centroid in the official precomputed "
+        "Skill-Usage embedding index."
+    ),
 }
 
 
@@ -52,7 +65,7 @@ def write_csv(path: Path, rows: list[dict]) -> None:
         path.write_text("")
         return
     with path.open("w", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=list(rows[0]))
+        writer = csv.DictWriter(f, fieldnames=list(rows[0]), lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 
@@ -93,6 +106,58 @@ def rank_by_gold_skill_near(gold: set[str], non_gold_ids: list[str], docs: dict[
             scored.append((score, sid))
     scored.sort(key=lambda item: (-item[0], item[1]))
     return [sid for _, sid in scored]
+
+
+def load_source_id_map(meta_path: Path) -> dict[str, str]:
+    source_id_to_skill_id = {}
+    with meta_path.open() as f:
+        for line in f:
+            if not line.strip():
+                continue
+            row = json.loads(line)
+            source_id = row.get("id")
+            skill_id = row.get("skill_id")
+            if source_id and skill_id:
+                source_id_to_skill_id[source_id] = skill_id
+    return source_id_to_skill_id
+
+
+def load_embedding_index(index_dir: Path, meta_path: Path) -> tuple[np.ndarray, dict[str, int], list[str]]:
+    embeddings = np.load(index_dir / "embeddings.npy", mmap_mode="r")
+    index_ids = json.loads((index_dir / "skill_ids.json").read_text())
+    source_id_to_skill_id = load_source_id_map(meta_path)
+
+    index_skill_ids = [source_id_to_skill_id[source_id] for source_id in index_ids]
+    skill_id_to_index = {sid: index for index, sid in enumerate(index_skill_ids)}
+    return embeddings, skill_id_to_index, index_skill_ids
+
+
+def rank_by_embedding_semantic_near(
+    gold: set[str],
+    non_gold_ids: list[str],
+    embeddings: np.ndarray,
+    skill_id_to_index: dict[str, int],
+    index_skill_ids: list[str],
+) -> list[str]:
+    gold_indices = [skill_id_to_index[sid] for sid in gold if sid in skill_id_to_index]
+    if not gold_indices:
+        return []
+
+    gold_vectors = np.asarray(embeddings[gold_indices], dtype=np.float32)
+    centroid = gold_vectors.mean(axis=0)
+    norm = np.linalg.norm(centroid)
+    if norm == 0:
+        return []
+    centroid = centroid / norm
+
+    scores = np.asarray(embeddings @ centroid, dtype=np.float32)
+    non_gold_lookup = set(non_gold_ids)
+    ranked = []
+    for index in np.argsort(scores)[::-1]:
+        sid = index_skill_ids[int(index)]
+        if sid in non_gold_lookup:
+            ranked.append(sid)
+    return ranked
 
 
 def fill_from_ranked(
@@ -169,12 +234,14 @@ def write_metric_svg(summary_rows: list[dict], path: Path) -> None:
         "query_overlap": "#d62728",
         "bm25_hard": "#9467bd",
         "gold_skill_near": "#2ca02c",
+        "embedding_semantic_near": "#ff7f0e",
     }
     labels = {
         "random": "Random",
         "query_overlap": "Query overlap",
         "bm25_hard": "BM25 hard",
         "gold_skill_near": "Gold-skill near",
+        "embedding_semantic_near": "Embedding near",
     }
 
     pool_sizes = sorted({int(row["pool_size"]) for row in summary_rows})
@@ -237,6 +304,11 @@ def main() -> None:
     parser.add_argument("--seed", type=int, default=6002)
     parser.add_argument("--limit-tasks", type=int, default=0, help="0 means all tasks")
     parser.add_argument("--top-k", type=int, default=10)
+    parser.add_argument(
+        "--embedding-index-dir",
+        default="data/raw/Skill-Usage/search_server/index",
+        help="Directory containing official Skill-Usage embeddings.npy and skill_ids.json",
+    )
     args = parser.parse_args()
 
     root = Path(args.skill_usage_root)
@@ -250,6 +322,16 @@ def main() -> None:
     tasks = sorted(set(queries) & set(gt))
     if args.limit_tasks:
         tasks = tasks[: args.limit_tasks]
+
+    embeddings = None
+    skill_id_to_index = {}
+    index_skill_ids = []
+    if "embedding_semantic_near" in args.distractor_types:
+        embeddings, skill_id_to_index, index_skill_ids = load_embedding_index(
+            Path(args.embedding_index_dir),
+            root / "skills-34k" / "skills_meta.jsonl",
+        )
+        print(f"Loaded embedding index with {len(index_skill_ids)} skills")
 
     max_pool_size = max(parse_pool_size(value) for value in args.pool_sizes)
     ranked_by_task = {}
@@ -267,6 +349,14 @@ def main() -> None:
             ],
             "gold_skill_near": rank_by_gold_skill_near(gold, non_gold_ids, docs)[:max_needed],
         }
+        if "embedding_semantic_near" in args.distractor_types:
+            ranked_by_task[task]["embedding_semantic_near"] = rank_by_embedding_semantic_near(
+                gold,
+                non_gold_ids,
+                embeddings,
+                skill_id_to_index,
+                index_skill_ids,
+            )[:max_needed]
         if index % 25 == 0:
             print(f"Prepared hard distractors for {index}/{len(tasks)} tasks")
 
@@ -343,9 +433,13 @@ def main() -> None:
     output_payload = {
         "metadata_note": (
             "Skill-Usage gold skills have no category/repo/tag metadata in the local "
-            "skills_meta.jsonl, so RQ2 uses query/gold-text based hard-negative proxies."
+            "skills_meta.jsonl, so same-category and same-subcategory distractors are "
+            "not directly evaluated. RQ2 uses lexical hard-negative proxies plus an "
+            "embedding_semantic_near condition based on the official Skill-Usage "
+            "precomputed skill embedding index."
         ),
         "gold_owner_prefix": GT_OWNER,
+        "embedding_index_dir": args.embedding_index_dir,
         "distractor_descriptions": DISTRACTOR_DESCRIPTIONS,
         "summary": summary_rows,
     }

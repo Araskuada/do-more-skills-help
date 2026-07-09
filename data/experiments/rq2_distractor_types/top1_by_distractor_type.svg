@@ -41,6 +41,11 @@
 <circle cx="245.82" cy="206.60" r="4" fill="#2ca02c"/>
 <circle cx="626.18" cy="233.22" r="4" fill="#2ca02c"/>
 <circle cx="790.00" cy="237.66" r="4" fill="#2ca02c"/>
+<polyline fill="none" stroke="#ff7f0e" stroke-width="3" points="82.00,211.03 245.82,215.47 626.18,246.53 790.00,246.53"/>
+<circle cx="82.00" cy="211.03" r="4" fill="#ff7f0e"/>
+<circle cx="245.82" cy="215.47" r="4" fill="#ff7f0e"/>
+<circle cx="626.18" cy="246.53" r="4" fill="#ff7f0e"/>
+<circle cx="790.00" cy="246.53" r="4" fill="#ff7f0e"/>
 <line x1="818" y1="56" x2="844" y2="56" stroke="#1f77b4" stroke-width="3"/>
 <text x="852" y="60" font-family="Arial" font-size="13">Random</text>
 <line x1="818" y1="80" x2="844" y2="80" stroke="#d62728" stroke-width="3"/>
@@ -49,6 +54,8 @@
 <text x="852" y="108" font-family="Arial" font-size="13">BM25 hard</text>
 <line x1="818" y1="128" x2="844" y2="128" stroke="#2ca02c" stroke-width="3"/>
 <text x="852" y="132" font-family="Arial" font-size="13">Gold-skill near</text>
+<line x1="818" y1="152" x2="844" y2="152" stroke="#ff7f0e" stroke-width="3"/>
+<text x="852" y="156" font-family="Arial" font-size="13">Embedding near</text>
 <text x="436.00" y="482" text-anchor="middle" font-family="Arial" font-size="13">Candidate pool size (log scale)</text>
 <text x="18" y="231.00" transform="rotate(-90 18,231.00)" text-anchor="middle" font-family="Arial" font-size="13">Top-1 accuracy</text>
 </svg>

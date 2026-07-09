@@ -37,18 +37,20 @@ See the full analysis in [`docs/rq1_retrieval_scaling_analysis_2026-07-09.md`](d
 
 We completed the formal RQ2 distractor-type experiment using the same Skill-Usage setup.
 
-Because the local Skill-Usage gold skills do not include category/repo/tag metadata, we compare four reproducible distractor families:
+Because the local Skill-Usage gold skills do not include category/repo/tag metadata, we compare five reproducible distractor families:
 
 - `random`: uniformly sampled non-gold skills
 - `query_overlap`: non-gold skills with high token overlap with the task query
 - `bm25_hard`: non-gold skills that BM25 itself ranks highly for the task query
 - `gold_skill_near`: non-gold skills lexically similar to the gold skill text
+- `embedding_semantic_near`: non-gold skills closest to the gold skill centroid in the official embedding index
 
 Main result:
 
 - At pool size 100, random distractors achieve **0.889** Top-1 Accuracy.
 - Query-overlap distractors reduce Top-1 Accuracy to **0.379**.
 - BM25-hard distractors reduce Top-1 Accuracy to **0.425**.
+- Embedding-semantic-near distractors reduce Top-1 Accuracy to **0.540**.
 - Gold-skill-near distractors reduce Top-1 Accuracy to **0.563**.
 
 See the full analysis in [`docs/rq2_distractor_type_analysis_2026-07-09.md`](docs/rq2_distractor_type_analysis_2026-07-09.md).
