@@ -58,25 +58,33 @@ See the full analysis in [`docs/rq2_distractor_type_analysis_2026-07-09.md`](doc
 
 ## Current RQ3 Experiment
 
-We completed the formal RQ3 retriever-comparison experiment using local reproducible retrievers.
+We completed an enhanced RQ3 retriever-comparison experiment that extends the original local baseline.
 
 Retrievers:
 
-- `bm25`: corpus-level BM25 over skill name + description
-- `tfidf`: sparse TF-IDF cosine similarity
-- `lsa_dense`: local dense LSA proxy using TF-IDF + TruncatedSVD
-- `hybrid_bm25_lsa`: reciprocal-rank fusion of BM25 and LSA
-- `bm25_lsa_rerank`: BM25 top-100 reranked by LSA
+- `bm25_desc`: corpus-level BM25 over skill name + description
+- `tfidf_desc`: sparse TF-IDF cosine similarity over skill name + description
+- `neural_minilm_desc`: cached `sentence-transformers/all-MiniLM-L6-v2` dense retriever
+- `hybrid_bm25_neural`: reciprocal-rank fusion of BM25 and MiniLM dense retrieval
+- `bm25_full_skill`: BM25 over name + description + full `SKILL.md`
+- `tfidf_full_skill`: TF-IDF over name + description + full `SKILL.md`
 
 Main full-library result:
 
-- BM25: **0.425** Top-1, **0.667** Hit@10.
-- TF-IDF: **0.356** Top-1, **0.655** Hit@10.
-- LSA dense proxy: **0.046** Top-1, **0.126** Hit@10.
-- Hybrid BM25+LSA: **0.103** Top-1, **0.345** Hit@10.
-- BM25→LSA rerank: **0.046** Top-1, **0.218** Hit@10.
+- Hybrid BM25+MiniLM: **0.460** Top-1, **0.724** Hit@10.
+- BM25 full `SKILL.md`: **0.437** Top-1, **0.759** Hit@10.
+- BM25 description-only: **0.425** Top-1, **0.667** Hit@10.
+- MiniLM dense: **0.414** Top-1, **0.701** Hit@10.
+- TF-IDF description-only: **0.356** Top-1, **0.655** Hit@10.
+- TF-IDF full `SKILL.md`: **0.241** Top-1, **0.517** Hit@10.
 
-Note: the neural query embedding model was not locally cached, so `lsa_dense` is a local dense proxy, not a true neural dense retriever. See the full analysis in [`docs/rq3_retriever_comparison_analysis_2026-07-09.md`](docs/rq3_retriever_comparison_analysis_2026-07-09.md).
+Main takeaways:
+
+- A true cached neural retriever helps once it is fused with BM25.
+- Full `SKILL.md` content helps BM25 under hard distractors and slightly improves full-library retrieval.
+- Naive full-document TF-IDF hurts, so longer skill documents need more careful retrieval design.
+
+See the enhanced analysis in [`docs/rq3_retriever_enhanced_analysis_2026-07-09.md`](docs/rq3_retriever_enhanced_analysis_2026-07-09.md). The original baseline remains documented in [`docs/rq3_retriever_comparison_analysis_2026-07-09.md`](docs/rq3_retriever_comparison_analysis_2026-07-09.md).
 
 ## Previous Pilot Experiment
 
@@ -104,6 +112,7 @@ docs/
   rq1_retrieval_scaling_analysis_2026-07-09.md
   rq2_distractor_type_analysis_2026-07-09.md
   rq3_retriever_comparison_analysis_2026-07-09.md
+  rq3_retriever_enhanced_analysis_2026-07-09.md
   first_experiment_retrieval_scaling_pilot.md
   data_usage_guide.md
   project_data_inventory.md
@@ -112,6 +121,7 @@ experiments/
   rq1_retrieval_scaling.py
   rq2_distractor_types.py
   rq3_retriever_comparison.py
+  rq3_retriever_enhanced.py
   retrieval_scaling_pilot.py
 
 data/experiments/
@@ -135,6 +145,11 @@ data/experiments/
     per_query_metrics.csv
     ranking_examples.json
     top1_by_retriever.svg
+  rq3_retriever_enhanced/
+    summary.csv
+    summary.json
+    per_query_metrics.csv
+    neural_doc_embeddings.npy
   retrieval_scaling_pilot/
     summary.csv
     summary.json
@@ -209,10 +224,22 @@ After downloading the raw Skill-Usage data to `data/raw/Skill-Usage`, run:
 python3 experiments/rq3_retriever_comparison.py
 ```
 
-The script writes results to:
+This baseline script writes results to:
 
 ```text
 data/experiments/rq3_retriever_comparison/
+```
+
+For the enhanced RQ3 addendum with a cached MiniLM dense retriever, hybrid retrieval, full `SKILL.md` conditions, and hard distractors, run:
+
+```bash
+python3 experiments/rq3_retriever_enhanced.py
+```
+
+It writes results to:
+
+```text
+data/experiments/rq3_retriever_enhanced/
 ```
 
 ## Reproducing the Pilot
