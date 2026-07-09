@@ -56,6 +56,28 @@ Main result:
 
 See the full analysis in [`docs/rq2_distractor_type_analysis_2026-07-09.md`](docs/rq2_distractor_type_analysis_2026-07-09.md).
 
+## Current RQ3 Experiment
+
+We completed the formal RQ3 retriever-comparison experiment using local reproducible retrievers.
+
+Retrievers:
+
+- `bm25`: corpus-level BM25 over skill name + description
+- `tfidf`: sparse TF-IDF cosine similarity
+- `lsa_dense`: local dense LSA proxy using TF-IDF + TruncatedSVD
+- `hybrid_bm25_lsa`: reciprocal-rank fusion of BM25 and LSA
+- `bm25_lsa_rerank`: BM25 top-100 reranked by LSA
+
+Main full-library result:
+
+- BM25: **0.425** Top-1, **0.667** Hit@10.
+- TF-IDF: **0.356** Top-1, **0.655** Hit@10.
+- LSA dense proxy: **0.046** Top-1, **0.126** Hit@10.
+- Hybrid BM25+LSA: **0.103** Top-1, **0.345** Hit@10.
+- BM25→LSA rerank: **0.046** Top-1, **0.218** Hit@10.
+
+Note: the neural query embedding model was not locally cached, so `lsa_dense` is a local dense proxy, not a true neural dense retriever. See the full analysis in [`docs/rq3_retriever_comparison_analysis_2026-07-09.md`](docs/rq3_retriever_comparison_analysis_2026-07-09.md).
+
 ## Previous Pilot Experiment
 
 We completed a first retrieval-scaling pilot using the Skill-Usage dataset.
@@ -81,6 +103,7 @@ docs/
   do_more_skills_help_formal_proposal.md
   rq1_retrieval_scaling_analysis_2026-07-09.md
   rq2_distractor_type_analysis_2026-07-09.md
+  rq3_retriever_comparison_analysis_2026-07-09.md
   first_experiment_retrieval_scaling_pilot.md
   data_usage_guide.md
   project_data_inventory.md
@@ -88,6 +111,7 @@ docs/
 experiments/
   rq1_retrieval_scaling.py
   rq2_distractor_types.py
+  rq3_retriever_comparison.py
   retrieval_scaling_pilot.py
 
 data/experiments/
@@ -105,6 +129,12 @@ data/experiments/
     per_query_metrics.csv
     error_examples.json
     top1_by_distractor_type.svg
+  rq3_retriever_comparison/
+    summary.csv
+    summary.json
+    per_query_metrics.csv
+    ranking_examples.json
+    top1_by_retriever.svg
   retrieval_scaling_pilot/
     summary.csv
     summary.json
@@ -169,6 +199,20 @@ The script writes results to:
 
 ```text
 data/experiments/rq2_distractor_types/
+```
+
+## Reproducing RQ3
+
+After downloading the raw Skill-Usage data to `data/raw/Skill-Usage`, run:
+
+```bash
+python3 experiments/rq3_retriever_comparison.py
+```
+
+The script writes results to:
+
+```text
+data/experiments/rq3_retriever_comparison/
 ```
 
 ## Reproducing the Pilot

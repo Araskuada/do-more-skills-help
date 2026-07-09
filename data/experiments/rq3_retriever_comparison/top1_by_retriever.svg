@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="500" viewBox="0 0 980 500">
+<rect width="100%" height="100%" fill="white"/>
+<text x="82" y="24" font-family="Arial" font-size="18" font-weight="700">RQ3 retriever comparison: Top-1 accuracy</text>
+<line x1="82" y1="38" x2="82" y2="424" stroke="#333"/>
+<line x1="82" y1="424" x2="790" y2="424" stroke="#333"/>
+<line x1="82" y1="424.00" x2="790" y2="424.00" stroke="#e5e5e5"/>
+<text x="70" y="428.00" text-anchor="end" font-family="Arial" font-size="12">0.00</text>
+<line x1="82" y1="327.50" x2="790" y2="327.50" stroke="#e5e5e5"/>
+<text x="70" y="331.50" text-anchor="end" font-family="Arial" font-size="12">0.25</text>
+<line x1="82" y1="231.00" x2="790" y2="231.00" stroke="#e5e5e5"/>
+<text x="70" y="235.00" text-anchor="end" font-family="Arial" font-size="12">0.50</text>
+<line x1="82" y1="134.50" x2="790" y2="134.50" stroke="#e5e5e5"/>
+<text x="70" y="138.50" text-anchor="end" font-family="Arial" font-size="12">0.75</text>
+<line x1="82" y1="38.00" x2="790" y2="38.00" stroke="#e5e5e5"/>
+<text x="70" y="42.00" text-anchor="end" font-family="Arial" font-size="12">1.00</text>
+<line x1="82.00" y1="424" x2="82.00" y2="430" stroke="#333"/>
+<text x="82.00" y="448" text-anchor="middle" font-family="Arial" font-size="12">100</text>
+<line x1="361.12" y1="424" x2="361.12" y2="430" stroke="#333"/>
+<text x="361.12" y="448" text-anchor="middle" font-family="Arial" font-size="12">1000</text>
+<line x1="640.25" y1="424" x2="640.25" y2="430" stroke="#333"/>
+<text x="640.25" y="448" text-anchor="middle" font-family="Arial" font-size="12">10000</text>
+<line x1="790.00" y1="424" x2="790.00" y2="430" stroke="#333"/>
+<text x="790.00" y="448" text-anchor="middle" font-family="Arial" font-size="12">full</text>
+<polyline fill="none" stroke="#1f77b4" stroke-width="3" points="82.00,74.38 361.12,139.16 640.25,204.82 790.00,259.84"/>
+<circle cx="82.00" cy="74.38" r="4" fill="#1f77b4"/>
+<circle cx="361.12" cy="139.16" r="4" fill="#1f77b4"/>
+<circle cx="640.25" cy="204.82" r="4" fill="#1f77b4"/>
+<circle cx="790.00" cy="259.84" r="4" fill="#1f77b4"/>
+<polyline fill="none" stroke="#2ca02c" stroke-width="3" points="82.00,85.92 361.12,153.36 640.25,220.80 790.00,286.46"/>
+<circle cx="82.00" cy="85.92" r="4" fill="#2ca02c"/>
+<circle cx="361.12" cy="153.36" r="4" fill="#2ca02c"/>
+<circle cx="640.25" cy="220.80" r="4" fill="#2ca02c"/>
+<circle cx="790.00" cy="286.46" r="4" fill="#2ca02c"/>
+<polyline fill="none" stroke="#ff7f0e" stroke-width="3" points="82.00,195.06 361.12,330.83 640.25,396.49 790.00,406.25"/>
+<circle cx="82.00" cy="195.06" r="4" fill="#ff7f0e"/>
+<circle cx="361.12" cy="330.83" r="4" fill="#ff7f0e"/>
+<circle cx="640.25" cy="396.49" r="4" fill="#ff7f0e"/>
+<circle cx="790.00" cy="406.25" r="4" fill="#ff7f0e"/>
+<polyline fill="none" stroke="#9467bd" stroke-width="3" points="82.00,128.51 361.12,258.95 640.25,358.34 790.00,384.07"/>
+<circle cx="82.00" cy="128.51" r="4" fill="#9467bd"/>
+<circle cx="361.12" cy="258.95" r="4" fill="#9467bd"/>
+<circle cx="640.25" cy="358.34" r="4" fill="#9467bd"/>
+<circle cx="790.00" cy="384.07" r="4" fill="#9467bd"/>
+<polyline fill="none" stroke="#d62728" stroke-width="3" points="82.00,202.16 361.12,314.86 640.25,396.49 790.00,406.25"/>
+<circle cx="82.00" cy="202.16" r="4" fill="#d62728"/>
+<circle cx="361.12" cy="314.86" r="4" fill="#d62728"/>
+<circle cx="640.25" cy="396.49" r="4" fill="#d62728"/>
+<circle cx="790.00" cy="406.25" r="4" fill="#d62728"/>
+<line x1="818" y1="56" x2="844" y2="56" stroke="#1f77b4" stroke-width="3"/>
+<text x="852" y="60" font-family="Arial" font-size="13">BM25</text>
+<line x1="818" y1="80" x2="844" y2="80" stroke="#2ca02c" stroke-width="3"/>
+<text x="852" y="84" font-family="Arial" font-size="13">TF-IDF</text>
+<line x1="818" y1="104" x2="844" y2="104" stroke="#ff7f0e" stroke-width="3"/>
+<text x="852" y="108" font-family="Arial" font-size="13">LSA dense</text>
+<line x1="818" y1="128" x2="844" y2="128" stroke="#9467bd" stroke-width="3"/>
+<text x="852" y="132" font-family="Arial" font-size="13">Hybrid</text>
+<line x1="818" y1="152" x2="844" y2="152" stroke="#d62728" stroke-width="3"/>
+<text x="852" y="156" font-family="Arial" font-size="13">BM25->LSA</text>
+<text x="436.00" y="482" text-anchor="middle" font-family="Arial" font-size="13">Candidate pool size (log scale)</text>
+<text x="18" y="231.00" transform="rotate(-90 18,231.00)" text-anchor="middle" font-family="Arial" font-size="13">Top-1 accuracy</text>
+</svg>
