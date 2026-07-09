@@ -33,6 +33,26 @@ Main result:
 
 See the full analysis in [`docs/rq1_retrieval_scaling_analysis_2026-07-09.md`](docs/rq1_retrieval_scaling_analysis_2026-07-09.md).
 
+## Current RQ2 Experiment
+
+We completed the formal RQ2 distractor-type experiment using the same Skill-Usage setup.
+
+Because the local Skill-Usage gold skills do not include category/repo/tag metadata, we compare four reproducible distractor families:
+
+- `random`: uniformly sampled non-gold skills
+- `query_overlap`: non-gold skills with high token overlap with the task query
+- `bm25_hard`: non-gold skills that BM25 itself ranks highly for the task query
+- `gold_skill_near`: non-gold skills lexically similar to the gold skill text
+
+Main result:
+
+- At pool size 100, random distractors achieve **0.889** Top-1 Accuracy.
+- Query-overlap distractors reduce Top-1 Accuracy to **0.379**.
+- BM25-hard distractors reduce Top-1 Accuracy to **0.425**.
+- Gold-skill-near distractors reduce Top-1 Accuracy to **0.563**.
+
+See the full analysis in [`docs/rq2_distractor_type_analysis_2026-07-09.md`](docs/rq2_distractor_type_analysis_2026-07-09.md).
+
 ## Previous Pilot Experiment
 
 We completed a first retrieval-scaling pilot using the Skill-Usage dataset.
@@ -57,12 +77,14 @@ This supports our initial hypothesis that larger skill libraries can make correc
 docs/
   do_more_skills_help_formal_proposal.md
   rq1_retrieval_scaling_analysis_2026-07-09.md
+  rq2_distractor_type_analysis_2026-07-09.md
   first_experiment_retrieval_scaling_pilot.md
   data_usage_guide.md
   project_data_inventory.md
 
 experiments/
   rq1_retrieval_scaling.py
+  rq2_distractor_types.py
   retrieval_scaling_pilot.py
 
 data/experiments/
@@ -74,6 +96,12 @@ data/experiments/
     ranking_examples.json
     full_pool_error_cases.json
     metric_trends.svg
+  rq2_distractor_types/
+    summary.csv
+    summary.json
+    per_query_metrics.csv
+    error_examples.json
+    top1_by_distractor_type.svg
   retrieval_scaling_pilot/
     summary.csv
     summary.json
@@ -124,6 +152,20 @@ The script writes results to:
 
 ```text
 data/experiments/rq1_retrieval_scaling/
+```
+
+## Reproducing RQ2
+
+After downloading the raw Skill-Usage data to `data/raw/Skill-Usage`, run:
+
+```bash
+python3 experiments/rq2_distractor_types.py
+```
+
+The script writes results to:
+
+```text
+data/experiments/rq2_distractor_types/
 ```
 
 ## Reproducing the Pilot

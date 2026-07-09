@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500">
+<rect width="100%" height="100%" fill="white"/>
+<text x="82" y="24" font-family="Arial" font-size="18" font-weight="700">RQ2 distractor type comparison: Top-1 accuracy</text>
+<line x1="82" y1="38" x2="82" y2="424" stroke="#333"/>
+<line x1="82" y1="424" x2="790" y2="424" stroke="#333"/>
+<line x1="82" y1="424.00" x2="790" y2="424.00" stroke="#e5e5e5"/>
+<text x="70" y="428.00" text-anchor="end" font-family="Arial" font-size="12">0.00</text>
+<line x1="82" y1="327.50" x2="790" y2="327.50" stroke="#e5e5e5"/>
+<text x="70" y="331.50" text-anchor="end" font-family="Arial" font-size="12">0.25</text>
+<line x1="82" y1="231.00" x2="790" y2="231.00" stroke="#e5e5e5"/>
+<text x="70" y="235.00" text-anchor="end" font-family="Arial" font-size="12">0.50</text>
+<line x1="82" y1="134.50" x2="790" y2="134.50" stroke="#e5e5e5"/>
+<text x="70" y="138.50" text-anchor="end" font-family="Arial" font-size="12">0.75</text>
+<line x1="82" y1="38.00" x2="790" y2="38.00" stroke="#e5e5e5"/>
+<text x="70" y="42.00" text-anchor="end" font-family="Arial" font-size="12">1.00</text>
+<line x1="82.00" y1="424" x2="82.00" y2="430" stroke="#333"/>
+<text x="82.00" y="448" text-anchor="middle" font-family="Arial" font-size="12">50</text>
+<line x1="245.82" y1="424" x2="245.82" y2="430" stroke="#333"/>
+<text x="245.82" y="448" text-anchor="middle" font-family="Arial" font-size="12">100</text>
+<line x1="626.18" y1="424" x2="626.18" y2="430" stroke="#333"/>
+<text x="626.18" y="448" text-anchor="middle" font-family="Arial" font-size="12">500</text>
+<line x1="790.00" y1="424" x2="790.00" y2="430" stroke="#333"/>
+<text x="790.00" y="448" text-anchor="middle" font-family="Arial" font-size="12">1000</text>
+<polyline fill="none" stroke="#1f77b4" stroke-width="3" points="82.00,73.49 245.82,81.04 626.18,129.62 790.00,147.37"/>
+<circle cx="82.00" cy="73.49" r="4" fill="#1f77b4"/>
+<circle cx="245.82" cy="81.04" r="4" fill="#1f77b4"/>
+<circle cx="626.18" cy="129.62" r="4" fill="#1f77b4"/>
+<circle cx="790.00" cy="147.37" r="4" fill="#1f77b4"/>
+<polyline fill="none" stroke="#d62728" stroke-width="3" points="82.00,273.15 245.82,277.59 626.18,264.28 790.00,268.71"/>
+<circle cx="82.00" cy="273.15" r="4" fill="#d62728"/>
+<circle cx="245.82" cy="277.59" r="4" fill="#d62728"/>
+<circle cx="626.18" cy="264.28" r="4" fill="#d62728"/>
+<circle cx="790.00" cy="268.71" r="4" fill="#d62728"/>
+<polyline fill="none" stroke="#9467bd" stroke-width="3" points="82.00,273.15 245.82,259.84 626.18,259.84 790.00,264.28"/>
+<circle cx="82.00" cy="273.15" r="4" fill="#9467bd"/>
+<circle cx="245.82" cy="259.84" r="4" fill="#9467bd"/>
+<circle cx="626.18" cy="259.84" r="4" fill="#9467bd"/>
+<circle cx="790.00" cy="264.28" r="4" fill="#9467bd"/>
+<polyline fill="none" stroke="#2ca02c" stroke-width="3" points="82.00,206.60 245.82,206.60 626.18,233.22 790.00,237.66"/>
+<circle cx="82.00" cy="206.60" r="4" fill="#2ca02c"/>
+<circle cx="245.82" cy="206.60" r="4" fill="#2ca02c"/>
+<circle cx="626.18" cy="233.22" r="4" fill="#2ca02c"/>
+<circle cx="790.00" cy="237.66" r="4" fill="#2ca02c"/>
+<line x1="818" y1="56" x2="844" y2="56" stroke="#1f77b4" stroke-width="3"/>
+<text x="852" y="60" font-family="Arial" font-size="13">Random</text>
+<line x1="818" y1="80" x2="844" y2="80" stroke="#d62728" stroke-width="3"/>
+<text x="852" y="84" font-family="Arial" font-size="13">Query overlap</text>
+<line x1="818" y1="104" x2="844" y2="104" stroke="#9467bd" stroke-width="3"/>
+<text x="852" y="108" font-family="Arial" font-size="13">BM25 hard</text>
+<line x1="818" y1="128" x2="844" y2="128" stroke="#2ca02c" stroke-width="3"/>
+<text x="852" y="132" font-family="Arial" font-size="13">Gold-skill near</text>
+<text x="436.00" y="482" text-anchor="middle" font-family="Arial" font-size="13">Candidate pool size (log scale)</text>
+<text x="18" y="231.00" transform="rotate(-90 18,231.00)" text-anchor="middle" font-family="Arial" font-size="13">Top-1 accuracy</text>
+</svg>

@@ -1,0 +1,4600 @@
+{
+  "random:50:0:fix-build-agentops": {
+    "query": "Python build debugging git diff patch format",
+    "gold": [
+      "benchflow-ai--analyze-ci",
+      "benchflow-ai--temporal-python-testing",
+      "benchflow-ai--testing-python",
+      "benchflow-ai--uv-package-manager"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "fvadicamo--git-commit",
+        "score": 6.830907,
+        "name": "git-commit",
+        "owner": "fvadicamo",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--testing-python",
+        "score": 6.014953,
+        "name": "testing-python",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--temporal-python-testing",
+        "score": 4.908754,
+        "name": "temporal-python-testing",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--uv-package-manager",
+        "score": 4.409945,
+        "name": "uv-package-manager",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 5,
+        "skill_id": "guia-matthieu--persona-generator",
+        "score": 3.751516,
+        "name": "persona-generator",
+        "owner": "guia-matthieu",
+        "repo": "clawfu-skills"
+      },
+      {
+        "rank": 6,
+        "skill_id": "laurigates--uv-advanced-dependencies",
+        "score": 3.653315,
+        "name": "uv-advanced-dependencies",
+        "owner": "laurigates",
+        "repo": "claude-plugins"
+      },
+      {
+        "rank": 7,
+        "skill_id": "agntswrm--image-convert",
+        "score": 3.261556,
+        "name": "image-convert",
+        "owner": "agntswrm",
+        "repo": "agent-media"
+      },
+      {
+        "rank": 8,
+        "skill_id": "2ykwang--code-history",
+        "score": 3.024384,
+        "name": "code-history",
+        "owner": "2ykwang",
+        "repo": "agent-skills"
+      },
+      {
+        "rank": 9,
+        "skill_id": "rmyndharis--screen-reader-testing",
+        "score": 2.663017,
+        "name": "screen-reader-testing",
+        "owner": "rmyndharis",
+        "repo": "antigravity-skills"
+      },
+      {
+        "rank": 10,
+        "skill_id": "harlan-zw--vue-skilld",
+        "score": 2.48685,
+        "name": "vue-skilld",
+        "owner": "harlan-zw",
+        "repo": "vue-ecosystem-skills"
+      }
+    ]
+  },
+  "random:50:0:flink-query": {
+    "query": "Apache Flink job stream processing session window",
+    "gold": [
+      "benchflow-ai--pdf-1",
+      "benchflow-ai--senior-data-engineer"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "personamanagmentlayer--airflow-expert",
+        "score": 4.585563,
+        "name": "airflow-expert",
+        "owner": "personamanagmentlayer",
+        "repo": "pcl"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--senior-data-engineer",
+        "score": 2.329691,
+        "name": "senior-data-engineer",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:0:manufacturing-equipment-maintenance": {
+    "query": "PDF parsing extraction CSV sensor data analysis thermocouple time series",
+    "gold": [
+      "benchflow-ai--reflow-profile-compliance-toolkit",
+      "benchflow-ai--reflow_machine_maintenance_guidance"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "rightnow-ai--sql-analyst",
+        "score": 6.70763,
+        "name": "sql-analyst",
+        "owner": "rightnow-ai",
+        "repo": "openfang"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--reflow_machine_maintenance_guidance",
+        "score": 5.121223,
+        "name": "reflow_machine_maintenance_guidance",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "cisco-ai-defense--data-exfiltrator",
+        "score": 4.05829,
+        "name": "data-exfiltrator",
+        "owner": "cisco-ai-defense",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "ccxt--ccxt-php",
+        "score": 3.665238,
+        "name": "ccxt-php",
+        "owner": "ccxt",
+        "repo": ""
+      },
+      {
+        "rank": 5,
+        "skill_id": "davila7--vulnerability-scanner",
+        "score": 3.531143,
+        "name": "vulnerability-scanner",
+        "owner": "davila7",
+        "repo": "claude-code-templates"
+      },
+      {
+        "rank": 6,
+        "skill_id": "benchflow-ai--reflow-profile-compliance-toolkit",
+        "score": 3.494071,
+        "name": "reflow-profile-compliance-toolkit",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 7,
+        "skill_id": "solatis--codebase-analysis",
+        "score": 3.057987,
+        "name": "codebase-analysis",
+        "owner": "solatis",
+        "repo": ""
+      },
+      {
+        "rank": 8,
+        "skill_id": "whawkinsiv--community",
+        "score": 2.404066,
+        "name": "community",
+        "owner": "whawkinsiv",
+        "repo": "claude-code-skills"
+      },
+      {
+        "rank": 9,
+        "skill_id": "wshobson--spark-optimization",
+        "score": 2.283399,
+        "name": "spark-optimization",
+        "owner": "wshobson",
+        "repo": ""
+      },
+      {
+        "rank": 10,
+        "skill_id": "djankies--using-type-guards",
+        "score": 1.970085,
+        "name": "using-type-guards",
+        "owner": "djankies",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:0:pg-essay-to-audiobook": {
+    "query": "text-to-speech TTS web scraping essays",
+    "gold": [
+      "benchflow-ai--audiobook",
+      "benchflow-ai--elevenlabs-tts",
+      "benchflow-ai--gtts",
+      "benchflow-ai--openai-tts"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "ilkerzg--fal-audio",
+        "score": 12.245569,
+        "name": "fal-audio",
+        "owner": "ilkerzg",
+        "repo": "agent-skills"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--elevenlabs-tts",
+        "score": 11.911127,
+        "name": "elevenlabs-tts",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--audiobook",
+        "score": 10.938345,
+        "name": "audiobook",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--openai-tts",
+        "score": 10.858315,
+        "name": "openai-tts",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 5,
+        "skill_id": "omer-metin--ai-music-audio",
+        "score": 9.768905,
+        "name": "ai-music-audio",
+        "owner": "omer-metin",
+        "repo": "skills-for-antigravity"
+      },
+      {
+        "rank": 6,
+        "skill_id": "benchflow-ai--gtts",
+        "score": 8.733584,
+        "name": "gtts",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 7,
+        "skill_id": "tamtom--gplay-release-flow",
+        "score": 2.075576,
+        "name": "gplay-release-flow",
+        "owner": "tamtom",
+        "repo": "gplay-cli-skills"
+      },
+      {
+        "rank": 8,
+        "skill_id": "marcelmichau--validate-e2e",
+        "score": 1.938833,
+        "name": "validate-e2e",
+        "owner": "marcelmichau",
+        "repo": "fake-survey-generator"
+      },
+      {
+        "rank": 9,
+        "skill_id": "sigridjineth--ansible-convert",
+        "score": 1.84787,
+        "name": "ansible-convert",
+        "owner": "sigridjineth",
+        "repo": "hello-ansible-skills"
+      },
+      {
+        "rank": 10,
+        "skill_id": "libukai--vscode-sftp-config",
+        "score": 1.832684,
+        "name": "vscode-sftp-config",
+        "owner": "libukai",
+        "repo": "awesome-agent-skills"
+      }
+    ]
+  },
+  "random:50:0:reserves-at-risk-calc": {
+    "query": "openpyxl Excel automation IMF data scraping financial risk calculation",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 4,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "davepoon--twitter-automation",
+        "score": 4.05127,
+        "name": "twitter-automation",
+        "owner": "davepoon",
+        "repo": "buildwithclaude"
+      },
+      {
+        "rank": 2,
+        "skill_id": "thebushidocollective--c-data-structures",
+        "score": 3.278983,
+        "name": "c-data-structures",
+        "owner": "thebushidocollective",
+        "repo": "han"
+      },
+      {
+        "rank": 3,
+        "skill_id": "josiahsiegel--databricks-2025",
+        "score": 2.929287,
+        "name": "databricks-2025",
+        "owner": "josiahsiegel",
+        "repo": "claude-plugin-marketplace"
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--xlsx-1",
+        "score": 2.809321,
+        "name": "xlsx-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 5,
+        "skill_id": "ThinkInAIXYZ--infographic-syntax-creator",
+        "score": 2.098022,
+        "name": "infographic-syntax-creator",
+        "owner": "ThinkInAIXYZ",
+        "repo": ""
+      },
+      {
+        "rank": 6,
+        "skill_id": "epsilondelta-ai--flowbook",
+        "score": 1.792773,
+        "name": "flowbook",
+        "owner": "epsilondelta-ai",
+        "repo": "flowbook"
+      },
+      {
+        "rank": 7,
+        "skill_id": "aws-samples--visual-design",
+        "score": 1.471608,
+        "name": "visual-design",
+        "owner": "aws-samples",
+        "repo": "sample-strands-agent-with-agentcore"
+      }
+    ]
+  },
+  "random:50:0:shock-analysis-demand": {
+    "query": "Excel formula automation IMF WEO data macroeconomic modeling",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 4,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "jeremylongshore--data-normalization-tool",
+        "score": 4.183357,
+        "name": "data-normalization-tool",
+        "owner": "jeremylongshore",
+        "repo": "claude-code-plugins-plus-skills"
+      },
+      {
+        "rank": 2,
+        "skill_id": "aaaaqwq--reddit-automation",
+        "score": 4.025126,
+        "name": "reddit-automation",
+        "owner": "aaaaqwq",
+        "repo": "claude-code-skills"
+      },
+      {
+        "rank": 3,
+        "skill_id": "0xdarkmatter--markitdown",
+        "score": 3.061059,
+        "name": "markitdown",
+        "owner": "0xdarkmatter",
+        "repo": "claude-mods"
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--xlsx-1",
+        "score": 2.92195,
+        "name": "xlsx-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 5,
+        "skill_id": "axiomhq--controlling-costs",
+        "score": 2.888041,
+        "name": "controlling-costs",
+        "owner": "axiomhq",
+        "repo": "skills"
+      },
+      {
+        "rank": 6,
+        "skill_id": "szeyu--computer-science-tutor",
+        "score": 2.531896,
+        "name": "computer-science-tutor",
+        "owner": "szeyu",
+        "repo": "vibe-study-skills"
+      },
+      {
+        "rank": 7,
+        "skill_id": "krishamaze--vyapar-migration",
+        "score": 2.179186,
+        "name": "vyapar-migration",
+        "owner": "krishamaze",
+        "repo": "skills"
+      },
+      {
+        "rank": 8,
+        "skill_id": "tdimino--firecrawl",
+        "score": 1.315564,
+        "name": "firecrawl",
+        "owner": "tdimino",
+        "repo": "claude-code-minoan"
+      }
+    ]
+  },
+  "random:50:0:shock-analysis-supply": {
+    "query": "Excel Solver optimization HP filter economics Cobb-Douglas production function",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 0,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "curiositech--large-scale-map-visualization",
+        "score": 2.675037,
+        "name": "large-scale-map-visualization",
+        "owner": "curiositech",
+        "repo": "some_claude_skills"
+      },
+      {
+        "rank": 2,
+        "skill_id": "petekp--swiftui",
+        "score": 2.641952,
+        "name": "swiftui",
+        "owner": "petekp",
+        "repo": "claude-code-setup"
+      },
+      {
+        "rank": 3,
+        "skill_id": "clostaunau--java-best-practices",
+        "score": 2.228515,
+        "name": "java-best-practices",
+        "owner": "clostaunau",
+        "repo": "holiday-card"
+      }
+    ]
+  },
+  "random:50:0:speaker-diarization-subtitles": {
+    "query": "speaker diarization pyannote speech-to-text transcription ASS subtitle generation",
+    "gold": [
+      "benchflow-ai--Automatic Speech Recognition (ASR)",
+      "benchflow-ai--Multimodal Fusion for Speaker Diarization",
+      "benchflow-ai--Speaker Clustering Methods",
+      "benchflow-ai--Voice Activity Detection (VAD)"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "jeremylongshore--deepgram-core-workflow-a",
+        "score": 14.4252,
+        "name": "deepgram-core-workflow-a",
+        "owner": "jeremylongshore",
+        "repo": "claude-code-plugins-plus-skills"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--Automatic Speech Recognition (ASR)",
+        "score": 13.719924,
+        "name": "Automatic Speech Recognition (ASR)",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--Multimodal Fusion for Speaker Diarization",
+        "score": 8.495824,
+        "name": "Multimodal Fusion for Speaker Diarization",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--Voice Activity Detection (VAD)",
+        "score": 7.429077,
+        "name": "Voice Activity Detection (VAD)",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 5,
+        "skill_id": "benchflow-ai--Speaker Clustering Methods",
+        "score": 4.068251,
+        "name": "Speaker Clustering Methods",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 6,
+        "skill_id": "cinience--alicloud-ai-audio-tts-realtime",
+        "score": 3.671186,
+        "name": "alicloud-ai-audio-tts-realtime",
+        "owner": "cinience",
+        "repo": "alicloud-skills"
+      },
+      {
+        "rank": 7,
+        "skill_id": "nahisaho--bug-hunter",
+        "score": 3.129194,
+        "name": "bug-hunter",
+        "owner": "nahisaho",
+        "repo": ""
+      },
+      {
+        "rank": 8,
+        "skill_id": "peixotorms--elementor-controls",
+        "score": 2.747651,
+        "name": "elementor-controls",
+        "owner": "peixotorms",
+        "repo": "odinlayer-skills"
+      },
+      {
+        "rank": 9,
+        "skill_id": "hoodini--honest-agent",
+        "score": 1.982742,
+        "name": "honest-agent",
+        "owner": "hoodini",
+        "repo": "ai-agents-skills"
+      },
+      {
+        "rank": 10,
+        "skill_id": "peixotorms--wp-security",
+        "score": 1.581001,
+        "name": "wp-security",
+        "owner": "peixotorms",
+        "repo": "odinlayer-skills"
+      }
+    ]
+  },
+  "random:50:1:azure-bgp-oscillation-route-leak": {
+    "query": "BGP routing analysis graph cycle detection JSON network topology",
+    "gold": [
+      "benchflow-ai--azure-bgp"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "vercel-labs--json-render-react",
+        "score": 6.947314,
+        "name": "json-render-react",
+        "owner": "vercel-labs",
+        "repo": "json-render"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--azure-bgp",
+        "score": 6.334966,
+        "name": "azure-bgp",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "terrylica--disk-hygiene",
+        "score": 3.715812,
+        "name": "disk-hygiene",
+        "owner": "terrylica",
+        "repo": "cc-skills"
+      },
+      {
+        "rank": 4,
+        "skill_id": "agricidaniel--seo-content",
+        "score": 3.356946,
+        "name": "seo-content",
+        "owner": "agricidaniel",
+        "repo": "claude-seo"
+      },
+      {
+        "rank": 5,
+        "skill_id": "jeremylongshore--tracking-token-launches",
+        "score": 3.0511,
+        "name": "tracking-token-launches",
+        "owner": "jeremylongshore",
+        "repo": "claude-code-plugins-plus-skills"
+      },
+      {
+        "rank": 6,
+        "skill_id": "coreylyn--harmonyos-dev",
+        "score": 2.824985,
+        "name": "harmonyos-dev",
+        "owner": "coreylyn",
+        "repo": "harmonyos-skills"
+      },
+      {
+        "rank": 7,
+        "skill_id": "aj-geddes--incident-response-plan",
+        "score": 2.555663,
+        "name": "incident-response-plan",
+        "owner": "aj-geddes",
+        "repo": "useful-ai-prompts"
+      },
+      {
+        "rank": 8,
+        "skill_id": "rshankras--market-research",
+        "score": 2.123517,
+        "name": "market-research",
+        "owner": "rshankras",
+        "repo": ""
+      },
+      {
+        "rank": 9,
+        "skill_id": "aaron-he-zhu--performance-reporter",
+        "score": 1.599493,
+        "name": "performance-reporter",
+        "owner": "aaron-he-zhu",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:1:fix-druid-loophole-cve": {
+    "query": "Apache Druid security CVE patch Maven build",
+    "gold": [
+      "benchflow-ai--jackson-security",
+      "benchflow-ai--senior-java"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "affaan-m--springboot-verification",
+        "score": 6.224962,
+        "name": "springboot-verification",
+        "owner": "affaan-m",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--jackson-security",
+        "score": 3.978688,
+        "name": "jackson-security",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "learnwy--requirement-workflow",
+        "score": 3.431868,
+        "name": "requirement-workflow",
+        "owner": "learnwy",
+        "repo": "skills"
+      },
+      {
+        "rank": 4,
+        "skill_id": "jeremylongshore--apollo-enterprise-rbac",
+        "score": 3.390769,
+        "name": "apollo-enterprise-rbac",
+        "owner": "jeremylongshore",
+        "repo": "claude-code-plugins-plus-skills"
+      },
+      {
+        "rank": 5,
+        "skill_id": "benchflow-ai--senior-java",
+        "score": 2.250005,
+        "name": "senior-java",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 6,
+        "skill_id": "joelhooks--pi-tui-design",
+        "score": 1.70345,
+        "name": "pi-tui-design",
+        "owner": "joelhooks",
+        "repo": "pi-tools"
+      }
+    ]
+  },
+  "random:50:1:flink-query": {
+    "query": "Apache Flink job stream processing session window",
+    "gold": [
+      "benchflow-ai--pdf-1",
+      "benchflow-ai--senior-data-engineer"
+    ],
+    "first_gold_rank@10": 3,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "Prorise-cool--value-stream-mapping",
+        "score": 5.733966,
+        "name": "value-stream-mapping",
+        "owner": "Prorise-cool",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "inference-sh--python-executor",
+        "score": 4.931578,
+        "name": "python-executor",
+        "owner": "inference-sh",
+        "repo": "skills"
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--senior-data-engineer",
+        "score": 2.735365,
+        "name": "senior-data-engineer",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:1:manufacturing-equipment-maintenance": {
+    "query": "PDF parsing extraction CSV sensor data analysis thermocouple time series",
+    "gold": [
+      "benchflow-ai--reflow-profile-compliance-toolkit",
+      "benchflow-ai--reflow_machine_maintenance_guidance"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "tkersey--mesh",
+        "score": 7.311102,
+        "name": "mesh",
+        "owner": "tkersey",
+        "repo": "dotfiles"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--reflow_machine_maintenance_guidance",
+        "score": 4.746142,
+        "name": "reflow_machine_maintenance_guidance",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "yaleh--baseline-quality-assessment",
+        "score": 4.236741,
+        "name": "baseline-quality-assessment",
+        "owner": "yaleh",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "aj-geddes--business-analyst",
+        "score": 4.086969,
+        "name": "business-analyst",
+        "owner": "aj-geddes",
+        "repo": "claude-code-bmad-skills"
+      },
+      {
+        "rank": 5,
+        "skill_id": "ruvnet--worker-benchmarks",
+        "score": 3.567937,
+        "name": "worker-benchmarks",
+        "owner": "ruvnet",
+        "repo": "claude-flow"
+      },
+      {
+        "rank": 6,
+        "skill_id": "benchflow-ai--reflow-profile-compliance-toolkit",
+        "score": 3.494071,
+        "name": "reflow-profile-compliance-toolkit",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 7,
+        "skill_id": "biomejs--biome-developer",
+        "score": 3.075712,
+        "name": "biome-developer",
+        "owner": "biomejs",
+        "repo": "biome"
+      },
+      {
+        "rank": 8,
+        "skill_id": "alsk1992--trading-polymarket",
+        "score": 2.283128,
+        "name": "trading-polymarket",
+        "owner": "alsk1992",
+        "repo": "cloddsbot"
+      },
+      {
+        "rank": 9,
+        "skill_id": "manutej--redis-state-management",
+        "score": 2.140804,
+        "name": "redis-state-management",
+        "owner": "manutej",
+        "repo": "luxor-claude-marketplace"
+      },
+      {
+        "rank": 10,
+        "skill_id": "nweii--react-useeffect",
+        "score": 1.930233,
+        "name": "react-useeffect",
+        "owner": "nweii",
+        "repo": "agent-stuff"
+      }
+    ]
+  },
+  "random:50:1:reserves-at-risk-calc": {
+    "query": "openpyxl Excel automation IMF data scraping financial risk calculation",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 3,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "zenobi-us--mise",
+        "score": 3.391073,
+        "name": "mise",
+        "owner": "zenobi-us",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "srstomp--spike",
+        "score": 2.984437,
+        "name": "spike",
+        "owner": "srstomp",
+        "repo": "pokayokay"
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--xlsx-1",
+        "score": 2.958252,
+        "name": "xlsx-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "alirezarezvani--senior-pm",
+        "score": 2.815621,
+        "name": "senior-pm",
+        "owner": "alirezarezvani",
+        "repo": "claude-skills"
+      },
+      {
+        "rank": 5,
+        "skill_id": "kivo360--moai-lang-r",
+        "score": 2.640345,
+        "name": "moai-lang-r",
+        "owner": "kivo360",
+        "repo": ""
+      },
+      {
+        "rank": 6,
+        "skill_id": "jd-opensource--pentest-secrets-exposure",
+        "score": 2.52281,
+        "name": "pentest-secrets-exposure",
+        "owner": "jd-opensource",
+        "repo": "joysafeter"
+      },
+      {
+        "rank": 7,
+        "skill_id": "omer-metin--email-systems",
+        "score": 2.339264,
+        "name": "email-systems",
+        "owner": "omer-metin",
+        "repo": "skills-for-antigravity"
+      },
+      {
+        "rank": 8,
+        "skill_id": "lubusin--frappe-frontend-development",
+        "score": 2.225595,
+        "name": "frappe-frontend-development",
+        "owner": "lubusin",
+        "repo": "agent-skills"
+      },
+      {
+        "rank": 9,
+        "skill_id": "akashp1712--next-loading-skeleton",
+        "score": 2.168815,
+        "name": "next-loading-skeleton",
+        "owner": "akashp1712",
+        "repo": "skills"
+      },
+      {
+        "rank": 10,
+        "skill_id": "giuseppe-trisciuoglio--unit-test-bean-validation",
+        "score": 2.038779,
+        "name": "unit-test-bean-validation",
+        "owner": "giuseppe-trisciuoglio",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:1:shock-analysis-demand": {
+    "query": "Excel formula automation IMF WEO data macroeconomic modeling",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 4,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "josiahsiegel--modern-automation-patterns",
+        "score": 6.159115,
+        "name": "modern-automation-patterns",
+        "owner": "josiahsiegel",
+        "repo": "claude-plugin-marketplace"
+      },
+      {
+        "rank": 2,
+        "skill_id": "baotoq--dotnet-ddd",
+        "score": 3.50811,
+        "name": "dotnet-ddd",
+        "owner": "baotoq",
+        "repo": "micro-commerce"
+      },
+      {
+        "rank": 3,
+        "skill_id": "plurigrid--compositional-acset-comparison",
+        "score": 3.502923,
+        "name": "compositional-acset-comparison",
+        "owner": "plurigrid",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--xlsx-1",
+        "score": 3.398062,
+        "name": "xlsx-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 5,
+        "skill_id": "ailabs-393--business-document-generator",
+        "score": 2.296339,
+        "name": "business-document-generator",
+        "owner": "ailabs-393",
+        "repo": "ai-labs-claude-skills"
+      },
+      {
+        "rank": 6,
+        "skill_id": "patricio0312rev--codebase-summarizer",
+        "score": 2.022636,
+        "name": "codebase-summarizer",
+        "owner": "patricio0312rev",
+        "repo": "skills"
+      }
+    ]
+  },
+  "random:50:1:shock-analysis-supply": {
+    "query": "Excel Solver optimization HP filter economics Cobb-Douglas production function",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 0,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "DNYoussef--when-optimizing-prompts-use-prompt-optimization-analyzer",
+        "score": 5.642177,
+        "name": "when-optimizing-prompts-use-prompt-optimization-analyzer",
+        "owner": "DNYoussef",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:2:fix-build-agentops": {
+    "query": "Python build debugging git diff patch format",
+    "gold": [
+      "benchflow-ai--analyze-ci",
+      "benchflow-ai--temporal-python-testing",
+      "benchflow-ai--testing-python",
+      "benchflow-ai--uv-package-manager"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "inference-sh--python-sdk",
+        "score": 6.636455,
+        "name": "python-sdk",
+        "owner": "inference-sh",
+        "repo": "skills"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--testing-python",
+        "score": 5.783381,
+        "name": "testing-python",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "drillan--detect-python-command",
+        "score": 5.017968,
+        "name": "detect-python-command",
+        "owner": "drillan",
+        "repo": "mixseek-plus"
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--temporal-python-testing",
+        "score": 4.763591,
+        "name": "temporal-python-testing",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 5,
+        "skill_id": "benchflow-ai--uv-package-manager",
+        "score": 3.969764,
+        "name": "uv-package-manager",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 6,
+        "skill_id": "yoanbernabeu--ph-profile-optimizer",
+        "score": 2.607351,
+        "name": "ph-profile-optimizer",
+        "owner": "yoanbernabeu",
+        "repo": "producthunt-skills"
+      },
+      {
+        "rank": 7,
+        "skill_id": "daleseo--bun-build",
+        "score": 2.49393,
+        "name": "bun-build",
+        "owner": "daleseo",
+        "repo": "bun-skills"
+      },
+      {
+        "rank": 8,
+        "skill_id": "resciencelab--archive",
+        "score": 2.182463,
+        "name": "archive",
+        "owner": "resciencelab",
+        "repo": "opc-skills"
+      },
+      {
+        "rank": 9,
+        "skill_id": "prakharmnnit--backend-principle-eng-nodejs-pro-max",
+        "score": 2.1781,
+        "name": "backend-principle-eng-nodejs-pro-max",
+        "owner": "prakharmnnit",
+        "repo": "skills-and-personas"
+      }
+    ]
+  },
+  "random:50:2:flink-query": {
+    "query": "Apache Flink job stream processing session window",
+    "gold": [
+      "benchflow-ai--pdf-1",
+      "benchflow-ai--senior-data-engineer"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "zechenzhangagi--whisper",
+        "score": 3.102507,
+        "name": "whisper",
+        "owner": "zechenzhangagi",
+        "repo": "ai-research-skills"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--senior-data-engineer",
+        "score": 2.500307,
+        "name": "senior-data-engineer",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:2:latex-formula-extraction": {
+    "query": "PDF LaTeX formula extraction LaTeX syntax parsing",
+    "gold": [
+      "benchflow-ai--marker",
+      "benchflow-ai--pdf-1"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "openhands--pdflatex",
+        "score": 9.442991,
+        "name": "pdflatex",
+        "owner": "openhands",
+        "repo": "skills"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--marker",
+        "score": 8.905325,
+        "name": "marker",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--pdf-1",
+        "score": 5.382369,
+        "name": "pdf-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "axtonliu--mermaid-visualizer",
+        "score": 3.268722,
+        "name": "mermaid-visualizer",
+        "owner": "axtonliu",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:2:manufacturing-equipment-maintenance": {
+    "query": "PDF parsing extraction CSV sensor data analysis thermocouple time series",
+    "gold": [
+      "benchflow-ai--reflow-profile-compliance-toolkit",
+      "benchflow-ai--reflow_machine_maintenance_guidance"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "zenobi-us--data-researcher",
+        "score": 7.693901,
+        "name": "data-researcher",
+        "owner": "zenobi-us",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--reflow_machine_maintenance_guidance",
+        "score": 5.582251,
+        "name": "reflow_machine_maintenance_guidance",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--reflow-profile-compliance-toolkit",
+        "score": 3.608985,
+        "name": "reflow-profile-compliance-toolkit",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "l3digital-net--qt-model-view",
+        "score": 2.602483,
+        "name": "qt-model-view",
+        "owner": "l3digital-net",
+        "repo": "claude-code-plugins"
+      },
+      {
+        "rank": 5,
+        "skill_id": "arco-design--arco-design",
+        "score": 2.165831,
+        "name": "arco-design",
+        "owner": "arco-design",
+        "repo": "arco-design-skill"
+      },
+      {
+        "rank": 6,
+        "skill_id": "langfuse--langfuse",
+        "score": 1.682845,
+        "name": "langfuse",
+        "owner": "langfuse",
+        "repo": "skills"
+      }
+    ]
+  },
+  "random:50:2:reserves-at-risk-calc": {
+    "query": "openpyxl Excel automation IMF data scraping financial risk calculation",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 6,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "aws-samples--browser-automation",
+        "score": 4.217871,
+        "name": "browser-automation",
+        "owner": "aws-samples",
+        "repo": "sample-strands-agent-with-agentcore"
+      },
+      {
+        "rank": 2,
+        "skill_id": "rmyndharis--content-marketer",
+        "score": 4.120459,
+        "name": "content-marketer",
+        "owner": "rmyndharis",
+        "repo": "antigravity-skills"
+      },
+      {
+        "rank": 3,
+        "skill_id": "ferminrp--bcra-central-deudores",
+        "score": 3.800096,
+        "name": "bcra-central-deudores",
+        "owner": "ferminrp",
+        "repo": "agent-skills"
+      },
+      {
+        "rank": 4,
+        "skill_id": "hannesill--apsiii-score",
+        "score": 3.725251,
+        "name": "apsiii-score",
+        "owner": "hannesill",
+        "repo": ""
+      },
+      {
+        "rank": 5,
+        "skill_id": "sickn33--outlook-automation",
+        "score": 3.078183,
+        "name": "outlook-automation",
+        "owner": "sickn33",
+        "repo": "antigravity-awesome-skills"
+      },
+      {
+        "rank": 6,
+        "skill_id": "benchflow-ai--xlsx-1",
+        "score": 2.929712,
+        "name": "xlsx-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 7,
+        "skill_id": "yonatangross--web-research-workflow",
+        "score": 2.625303,
+        "name": "web-research-workflow",
+        "owner": "yonatangross",
+        "repo": "orchestkit"
+      },
+      {
+        "rank": 8,
+        "skill_id": "CharlesWiltgen--axiom-ios-concurrency",
+        "score": 2.21022,
+        "name": "axiom-ios-concurrency",
+        "owner": "CharlesWiltgen",
+        "repo": ""
+      },
+      {
+        "rank": 9,
+        "skill_id": "nweii--using-heavy-mcps",
+        "score": 2.054692,
+        "name": "using-heavy-mcps",
+        "owner": "nweii",
+        "repo": "agent-stuff"
+      },
+      {
+        "rank": 10,
+        "skill_id": "borghei--scrum-master",
+        "score": 2.026177,
+        "name": "scrum-master",
+        "owner": "borghei",
+        "repo": "claude-skills"
+      }
+    ]
+  },
+  "random:50:2:shock-analysis-demand": {
+    "query": "Excel formula automation IMF WEO data macroeconomic modeling",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 3,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "mindmorass--workflow-builder",
+        "score": 4.394082,
+        "name": "workflow-builder",
+        "owner": "mindmorass",
+        "repo": "reflex"
+      },
+      {
+        "rank": 2,
+        "skill_id": "sickn33--startup-financial-modeling",
+        "score": 3.459316,
+        "name": "startup-financial-modeling",
+        "owner": "sickn33",
+        "repo": "antigravity-awesome-skills"
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--xlsx-1",
+        "score": 3.203369,
+        "name": "xlsx-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "aj-geddes--network-debugging",
+        "score": 2.898163,
+        "name": "network-debugging",
+        "owner": "aj-geddes",
+        "repo": "useful-ai-prompts"
+      },
+      {
+        "rank": 5,
+        "skill_id": "aj-geddes--user-research-analysis",
+        "score": 2.657949,
+        "name": "user-research-analysis",
+        "owner": "aj-geddes",
+        "repo": "useful-ai-prompts"
+      },
+      {
+        "rank": 6,
+        "skill_id": "syntax-syndicate--email-sequence",
+        "score": 2.229617,
+        "name": "email-sequence",
+        "owner": "syntax-syndicate",
+        "repo": "marketing-skills"
+      },
+      {
+        "rank": 7,
+        "skill_id": "thecraighewitt--programmatic-seo",
+        "score": 1.75571,
+        "name": "programmatic-seo",
+        "owner": "thecraighewitt",
+        "repo": "seomachine"
+      }
+    ]
+  },
+  "random:50:2:shock-analysis-supply": {
+    "query": "Excel Solver optimization HP filter economics Cobb-Douglas production function",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 0,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "mastra-ai--react-best-practices",
+        "score": 4.086068,
+        "name": "react-best-practices",
+        "owner": "mastra-ai",
+        "repo": "mastra"
+      },
+      {
+        "rank": 2,
+        "skill_id": "zenobi-us--graphql-architect",
+        "score": 3.537472,
+        "name": "graphql-architect",
+        "owner": "zenobi-us",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "jeremylongshore--generating-stored-procedures",
+        "score": 2.393071,
+        "name": "generating-stored-procedures",
+        "owner": "jeremylongshore",
+        "repo": "claude-code-plugins-plus-skills"
+      },
+      {
+        "rank": 4,
+        "skill_id": "mohitmishra786--valgrind",
+        "score": 2.320425,
+        "name": "valgrind",
+        "owner": "mohitmishra786",
+        "repo": "low-level-dev-skills"
+      }
+    ]
+  },
+  "random:50:3:azure-bgp-oscillation-route-leak": {
+    "query": "BGP routing analysis graph cycle detection JSON network topology",
+    "gold": [
+      "benchflow-ai--azure-bgp"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "personamanagmentlayer--codeql-expert",
+        "score": 7.242767,
+        "name": "codeql-expert",
+        "owner": "personamanagmentlayer",
+        "repo": "pcl"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--azure-bgp",
+        "score": 6.175924,
+        "name": "azure-bgp",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "catlog22--workflow-test-fix",
+        "score": 5.1936,
+        "name": "workflow-test-fix",
+        "owner": "catlog22",
+        "repo": "claude-code-workflow"
+      },
+      {
+        "rank": 4,
+        "skill_id": "cris-achiardi--figma-variables-generator",
+        "score": 3.903458,
+        "name": "figma-variables-generator",
+        "owner": "cris-achiardi",
+        "repo": ""
+      },
+      {
+        "rank": 5,
+        "skill_id": "bbeierle12--test-driven-development",
+        "score": 3.556,
+        "name": "test-driven-development",
+        "owner": "bbeierle12",
+        "repo": "skill-mcp-claude"
+      },
+      {
+        "rank": 6,
+        "skill_id": "solatis--codebase-analysis",
+        "score": 2.588329,
+        "name": "codebase-analysis",
+        "owner": "solatis",
+        "repo": ""
+      },
+      {
+        "rank": 7,
+        "skill_id": "neurofoo--ooda",
+        "score": 2.551508,
+        "name": "ooda",
+        "owner": "neurofoo",
+        "repo": ""
+      },
+      {
+        "rank": 8,
+        "skill_id": "github--game-engine",
+        "score": 2.222012,
+        "name": "game-engine",
+        "owner": "github",
+        "repo": "awesome-copilot"
+      },
+      {
+        "rank": 9,
+        "skill_id": "mgd34msu--gather-plan-apply",
+        "score": 1.542255,
+        "name": "gather-plan-apply",
+        "owner": "mgd34msu",
+        "repo": "goodvibes-plugin"
+      }
+    ]
+  },
+  "random:50:3:court-form-filling": {
+    "query": "PDF form filling court form automation",
+    "gold": [
+      "benchflow-ai--pdf-1"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "ynulihao--browser-automation",
+        "score": 19.77411,
+        "name": "browser-automation",
+        "owner": "ynulihao",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--pdf-1",
+        "score": 10.802613,
+        "name": "pdf-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "composiohq--adobe-automation",
+        "score": 3.295771,
+        "name": "adobe-automation",
+        "owner": "composiohq",
+        "repo": "awesome-claude-skills"
+      },
+      {
+        "rank": 4,
+        "skill_id": "cin12211--ui-ux-pro-max",
+        "score": 3.100639,
+        "name": "ui-ux-pro-max",
+        "owner": "cin12211",
+        "repo": "orca-q"
+      },
+      {
+        "rank": 5,
+        "skill_id": "rudrankriyam--asc-shots-pipeline",
+        "score": 2.078203,
+        "name": "asc-shots-pipeline",
+        "owner": "rudrankriyam",
+        "repo": "app-store-connect-cli-skills"
+      },
+      {
+        "rank": 6,
+        "skill_id": "rfxlamia--skillkit",
+        "score": 1.855843,
+        "name": "skillkit",
+        "owner": "rfxlamia",
+        "repo": "claude-skillkit"
+      }
+    ]
+  },
+  "random:50:3:crystallographic-wyckoff-position-analysis": {
+    "query": "CIF file parser crystallography space groups Wyckoff position analysis",
+    "gold": [
+      "benchflow-ai--pymatgen",
+      "benchflow-ai--sympy"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "thebeardedbearsas--workflow-analysis",
+        "score": 5.438703,
+        "name": "workflow-analysis",
+        "owner": "thebeardedbearsas",
+        "repo": "claude-craft"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--pymatgen",
+        "score": 4.191323,
+        "name": "pymatgen",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "browser-act--amazon-product-search-api-skill",
+        "score": 1.392435,
+        "name": "amazon-product-search-api-skill",
+        "owner": "browser-act",
+        "repo": "skills"
+      }
+    ]
+  },
+  "random:50:3:financial-modeling-qa": {
+    "query": "pandas Excel analysis PDF parsing extraction",
+    "gold": [
+      "benchflow-ai--pdf-1",
+      "benchflow-ai--xlsx-2"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "jmagly--pdf-extractor",
+        "score": 5.516037,
+        "name": "pdf-extractor",
+        "owner": "jmagly",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--pdf-1",
+        "score": 5.270362,
+        "name": "pdf-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "ancoleman--shell-scripting",
+        "score": 3.764502,
+        "name": "shell-scripting",
+        "owner": "ancoleman",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--xlsx-2",
+        "score": 3.665695,
+        "name": "xlsx-2",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 5,
+        "skill_id": "davila7--geo-database",
+        "score": 2.818427,
+        "name": "geo-database",
+        "owner": "davila7",
+        "repo": "claude-code-templates"
+      },
+      {
+        "rank": 6,
+        "skill_id": "benchflow-ai--trend-analysis",
+        "score": 2.77806,
+        "name": "trend-analysis",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:3:fix-druid-loophole-cve": {
+    "query": "Apache Druid security CVE patch Maven build",
+    "gold": [
+      "benchflow-ai--jackson-security",
+      "benchflow-ai--senior-java"
+    ],
+    "first_gold_rank@10": 3,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "sickn33--api-security-testing",
+        "score": 3.787126,
+        "name": "api-security-testing",
+        "owner": "sickn33",
+        "repo": "antigravity-awesome-skills"
+      },
+      {
+        "rank": 2,
+        "skill_id": "patricio0312rev--secure-headers-csp-builder",
+        "score": 3.547367,
+        "name": "secure-headers-csp-builder",
+        "owner": "patricio0312rev",
+        "repo": "skills"
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--jackson-security",
+        "score": 3.344567,
+        "name": "jackson-security",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "sickn33--frontend-ui-dark-ts",
+        "score": 2.610757,
+        "name": "frontend-ui-dark-ts",
+        "owner": "sickn33",
+        "repo": "antigravity-awesome-skills"
+      },
+      {
+        "rank": 5,
+        "skill_id": "jeremylongshore--building-api-gateway",
+        "score": 2.44936,
+        "name": "building-api-gateway",
+        "owner": "jeremylongshore",
+        "repo": "claude-code-plugins-plus-skills"
+      },
+      {
+        "rank": 6,
+        "skill_id": "udecode--frontend-design",
+        "score": 2.333933,
+        "name": "frontend-design",
+        "owner": "udecode",
+        "repo": "plate"
+      },
+      {
+        "rank": 7,
+        "skill_id": "sickn33--cloud-penetration-testing",
+        "score": 2.244897,
+        "name": "cloud-penetration-testing",
+        "owner": "sickn33",
+        "repo": "antigravity-awesome-skills"
+      },
+      {
+        "rank": 8,
+        "skill_id": "onmax--ts-library",
+        "score": 2.228896,
+        "name": "ts-library",
+        "owner": "onmax",
+        "repo": ""
+      },
+      {
+        "rank": 9,
+        "skill_id": "benchflow-ai--senior-java",
+        "score": 1.870248,
+        "name": "senior-java",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 10,
+        "skill_id": "cin12211--git-expert",
+        "score": 1.753211,
+        "name": "git-expert",
+        "owner": "cin12211",
+        "repo": "orca-q"
+      }
+    ]
+  },
+  "random:50:3:flink-query": {
+    "query": "Apache Flink job stream processing session window",
+    "gold": [
+      "benchflow-ai--pdf-1",
+      "benchflow-ai--senior-data-engineer"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "Prorise-cool--value-stream-mapping",
+        "score": 4.67643,
+        "name": "value-stream-mapping",
+        "owner": "Prorise-cool",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--senior-data-engineer",
+        "score": 2.437454,
+        "name": "senior-data-engineer",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "thehotwireclub--hwc-media-content",
+        "score": 1.626197,
+        "name": "hwc-media-content",
+        "owner": "thehotwireclub",
+        "repo": "hotwire_club-skills"
+      }
+    ]
+  },
+  "random:50:3:pdf-excel-diff": {
+    "query": "PDF table extraction pandas Excel comparison",
+    "gold": [
+      "benchflow-ai--pdf-1",
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "HeshamFS--post-processing",
+        "score": 6.50879,
+        "name": "post-processing",
+        "owner": "HeshamFS",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--pdf-1",
+        "score": 6.208352,
+        "name": "pdf-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "Jeffallan--pandas-pro",
+        "score": 5.323705,
+        "name": "pandas-pro",
+        "owner": "Jeffallan",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "majiayu000--pi",
+        "score": 3.878286,
+        "name": "pi",
+        "owner": "majiayu000",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:3:shock-analysis-demand": {
+    "query": "Excel formula automation IMF WEO data macroeconomic modeling",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 3,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "aeonbridge--evolution-api",
+        "score": 3.642133,
+        "name": "evolution-api",
+        "owner": "aeonbridge",
+        "repo": "ab-anthropic-claude-skills"
+      },
+      {
+        "rank": 2,
+        "skill_id": "ismxy0934--technical-analysis",
+        "score": 3.279934,
+        "name": "technical-analysis",
+        "owner": "ismxy0934",
+        "repo": "qing-skills"
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--xlsx-1",
+        "score": 3.247979,
+        "name": "xlsx-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "Microck--data-viz-plots",
+        "score": 2.784605,
+        "name": "data-viz-plots",
+        "owner": "Microck",
+        "repo": ""
+      },
+      {
+        "rank": 5,
+        "skill_id": "florianbuetow--tampering",
+        "score": 2.350716,
+        "name": "tampering",
+        "owner": "florianbuetow",
+        "repo": "claude-code"
+      },
+      {
+        "rank": 6,
+        "skill_id": "rysweet--goal-seeking-agent-pattern",
+        "score": 2.090648,
+        "name": "goal-seeking-agent-pattern",
+        "owner": "rysweet",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:3:shock-analysis-supply": {
+    "query": "Excel Solver optimization HP filter economics Cobb-Douglas production function",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 0,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "fusengine--swift-core",
+        "score": 3.278388,
+        "name": "swift-core",
+        "owner": "fusengine",
+        "repo": "agents"
+      },
+      {
+        "rank": 2,
+        "skill_id": "sickn33--prisma-expert",
+        "score": 3.176226,
+        "name": "prisma-expert",
+        "owner": "sickn33",
+        "repo": "antigravity-awesome-skills"
+      },
+      {
+        "rank": 3,
+        "skill_id": "jeremylongshore--databricks-core-workflow-b",
+        "score": 3.170816,
+        "name": "databricks-core-workflow-b",
+        "owner": "jeremylongshore",
+        "repo": "claude-code-plugins-plus-skills"
+      }
+    ]
+  },
+  "random:50:4:data-to-d3": {
+    "query": "D3.js visualization bubble chart force layout CSV data processing",
+    "gold": [
+      "benchflow-ai--d3js-visualization"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "aws-samples--file-processing",
+        "score": 14.582111,
+        "name": "file-processing",
+        "owner": "aws-samples",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--d3js-visualization",
+        "score": 11.371117,
+        "name": "d3js-visualization",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "markdown-viewer--architecture",
+        "score": 4.440694,
+        "name": "architecture",
+        "owner": "markdown-viewer",
+        "repo": "skills"
+      },
+      {
+        "rank": 4,
+        "skill_id": "paulrberg--biome-js",
+        "score": 2.918622,
+        "name": "biome-js",
+        "owner": "paulrberg",
+        "repo": "agent-skills"
+      },
+      {
+        "rank": 5,
+        "skill_id": "BbgnsurfTech--checking-hipaa-compliance",
+        "score": 2.73696,
+        "name": "checking-hipaa-compliance",
+        "owner": "BbgnsurfTech",
+        "repo": ""
+      },
+      {
+        "rank": 6,
+        "skill_id": "jeremylongshore--deploying-monitoring-stacks",
+        "score": 2.294692,
+        "name": "deploying-monitoring-stacks",
+        "owner": "jeremylongshore",
+        "repo": "claude-code-plugins-plus-skills"
+      },
+      {
+        "rank": 7,
+        "skill_id": "tech-leads-club--seo",
+        "score": 1.484888,
+        "name": "seo",
+        "owner": "tech-leads-club",
+        "repo": ""
+      },
+      {
+        "rank": 8,
+        "skill_id": "coinmarketcap-official--cmc-api-crypto",
+        "score": 1.264214,
+        "name": "cmc-api-crypto",
+        "owner": "coinmarketcap-official",
+        "repo": "skills-for-ai-agents-by-coinmarketcap"
+      },
+      {
+        "rank": 9,
+        "skill_id": "gmickel--browser",
+        "score": 1.231907,
+        "name": "browser",
+        "owner": "gmickel",
+        "repo": "gmickel-claude-marketplace"
+      },
+      {
+        "rank": 10,
+        "skill_id": "jackspace--cloudflare-kv",
+        "score": 1.00155,
+        "name": "cloudflare-kv",
+        "owner": "jackspace",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:4:econ-detrending-correlation": {
+    "query": "Hodrick-Prescott filter pandas Excel economics",
+    "gold": [
+      "benchflow-ai--timeseries-detrending"
+    ],
+    "first_gold_rank@10": 3,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "vamseeachanta--notion-api",
+        "score": 3.531242,
+        "name": "notion-api",
+        "owner": "vamseeachanta",
+        "repo": "workspace-hub"
+      },
+      {
+        "rank": 2,
+        "skill_id": "sickn33--wireshark-analysis",
+        "score": 2.957108,
+        "name": "wireshark-analysis",
+        "owner": "sickn33",
+        "repo": "antigravity-awesome-skills"
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--timeseries-detrending",
+        "score": 2.457634,
+        "name": "timeseries-detrending",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:4:flink-query": {
+    "query": "Apache Flink job stream processing session window",
+    "gold": [
+      "benchflow-ai--pdf-1",
+      "benchflow-ai--senior-data-engineer"
+    ],
+    "first_gold_rank@10": 4,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "huiali--rust-auth",
+        "score": 3.646514,
+        "name": "rust-auth",
+        "owner": "huiali",
+        "repo": "rust-skills"
+      },
+      {
+        "rank": 2,
+        "skill_id": "dirnbauer--document-processing",
+        "score": 3.53195,
+        "name": "document-processing",
+        "owner": "dirnbauer",
+        "repo": "webconsulting-skills"
+      },
+      {
+        "rank": 3,
+        "skill_id": "wyattowalsh--honest-review",
+        "score": 2.833188,
+        "name": "honest-review",
+        "owner": "wyattowalsh",
+        "repo": "agents"
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--senior-data-engineer",
+        "score": 2.482553,
+        "name": "senior-data-engineer",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:4:reserves-at-risk-calc": {
+    "query": "openpyxl Excel automation IMF data scraping financial risk calculation",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "cisco-ai-defense--data-exfiltrator",
+        "score": 5.270798,
+        "name": "data-exfiltrator",
+        "owner": "cisco-ai-defense",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--xlsx-1",
+        "score": 3.717254,
+        "name": "xlsx-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "sickn33--coda-automation",
+        "score": 2.749929,
+        "name": "coda-automation",
+        "owner": "sickn33",
+        "repo": "antigravity-awesome-skills"
+      },
+      {
+        "rank": 4,
+        "skill_id": "sickn33--playwright-skill",
+        "score": 2.557117,
+        "name": "playwright-skill",
+        "owner": "sickn33",
+        "repo": "antigravity-awesome-skills"
+      },
+      {
+        "rank": 5,
+        "skill_id": "addyosmani--browser-testing-with-devtools",
+        "score": 2.386724,
+        "name": "browser-testing-with-devtools",
+        "owner": "addyosmani",
+        "repo": "agent-skills"
+      },
+      {
+        "rank": 6,
+        "skill_id": "BbgnsurfTech--scanning-database-security",
+        "score": 2.270556,
+        "name": "scanning-database-security",
+        "owner": "BbgnsurfTech",
+        "repo": ""
+      },
+      {
+        "rank": 7,
+        "skill_id": "homeassistant-ai--home-assistant-best-practices",
+        "score": 1.999949,
+        "name": "home-assistant-best-practices",
+        "owner": "homeassistant-ai",
+        "repo": "skills"
+      }
+    ]
+  },
+  "random:50:4:shock-analysis-demand": {
+    "query": "Excel formula automation IMF WEO data macroeconomic modeling",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 3,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "machina-sports--kalshi",
+        "score": 4.716748,
+        "name": "kalshi",
+        "owner": "machina-sports",
+        "repo": "sports-skills"
+      },
+      {
+        "rank": 2,
+        "skill_id": "davepoon--klaviyo-automation",
+        "score": 3.89983,
+        "name": "klaviyo-automation",
+        "owner": "davepoon",
+        "repo": "buildwithclaude"
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--xlsx-1",
+        "score": 3.836158,
+        "name": "xlsx-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "aznatkoiny--deep-learning",
+        "score": 2.214817,
+        "name": "deep-learning",
+        "owner": "aznatkoiny",
+        "repo": "zai-skills"
+      }
+    ]
+  },
+  "random:50:4:shock-analysis-supply": {
+    "query": "Excel Solver optimization HP filter economics Cobb-Douglas production function",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 0,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "davila7--docs-search",
+        "score": 3.868907,
+        "name": "docs-search",
+        "owner": "davila7",
+        "repo": "claude-code-templates"
+      },
+      {
+        "rank": 2,
+        "skill_id": "ansarullahanasz360--setup-claude",
+        "score": 3.653771,
+        "name": "setup-claude",
+        "owner": "ansarullahanasz360",
+        "repo": "cc-guide"
+      },
+      {
+        "rank": 3,
+        "skill_id": "mintuz--local-ai-models",
+        "score": 2.252508,
+        "name": "local-ai-models",
+        "owner": "mintuz",
+        "repo": "claude-plugins"
+      }
+    ]
+  },
+  "random:50:5:financial-modeling-qa": {
+    "query": "pandas Excel analysis PDF parsing extraction",
+    "gold": [
+      "benchflow-ai--pdf-1",
+      "benchflow-ai--xlsx-2"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "eyadsibai--document-processing",
+        "score": 6.564845,
+        "name": "document-processing",
+        "owner": "eyadsibai",
+        "repo": "ltk"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--pdf-1",
+        "score": 4.617248,
+        "name": "pdf-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "spatie--laravel-pdf",
+        "score": 3.940118,
+        "name": "laravel-pdf",
+        "owner": "spatie",
+        "repo": "laravel-pdf"
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--xlsx-2",
+        "score": 3.247138,
+        "name": "xlsx-2",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 5,
+        "skill_id": "joellewis--debt-management",
+        "score": 3.154626,
+        "name": "debt-management",
+        "owner": "joellewis",
+        "repo": "finance_skills"
+      },
+      {
+        "rank": 6,
+        "skill_id": "pproenca--ruby-refactor",
+        "score": 2.917359,
+        "name": "ruby-refactor",
+        "owner": "pproenca",
+        "repo": "dot-skills"
+      },
+      {
+        "rank": 7,
+        "skill_id": "kukapay--trading-strategist",
+        "score": 2.886834,
+        "name": "trading-strategist",
+        "owner": "kukapay",
+        "repo": ""
+      },
+      {
+        "rank": 8,
+        "skill_id": "boshu2--reverse-engineer-rpi",
+        "score": 2.223947,
+        "name": "reverse-engineer-rpi",
+        "owner": "boshu2",
+        "repo": "agentops"
+      }
+    ]
+  },
+  "random:50:5:fix-build-agentops": {
+    "query": "Python build debugging git diff patch format",
+    "gold": [
+      "benchflow-ai--analyze-ci",
+      "benchflow-ai--temporal-python-testing",
+      "benchflow-ai--testing-python",
+      "benchflow-ai--uv-package-manager"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "oaustegard--generating-patches",
+        "score": 12.148455,
+        "name": "generating-patches",
+        "owner": "oaustegard",
+        "repo": "claude-skills"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--testing-python",
+        "score": 6.219018,
+        "name": "testing-python",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--temporal-python-testing",
+        "score": 5.109513,
+        "name": "temporal-python-testing",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--uv-package-manager",
+        "score": 4.388771,
+        "name": "uv-package-manager",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 5,
+        "skill_id": "vibery-studio--backend-development",
+        "score": 3.203048,
+        "name": "backend-development",
+        "owner": "vibery-studio",
+        "repo": "templates"
+      },
+      {
+        "rank": 6,
+        "skill_id": "oceanswave--book-manuscript-development",
+        "score": 2.611399,
+        "name": "book-manuscript-development",
+        "owner": "oceanswave",
+        "repo": "i-know-kung-fu"
+      },
+      {
+        "rank": 7,
+        "skill_id": "adeonir--debug-tools",
+        "score": 2.567507,
+        "name": "debug-tools",
+        "owner": "adeonir",
+        "repo": "agent-skills"
+      },
+      {
+        "rank": 8,
+        "skill_id": "jeremylongshore--sam-template-builder",
+        "score": 2.287201,
+        "name": "sam-template-builder",
+        "owner": "jeremylongshore",
+        "repo": "claude-code-plugins-plus-skills"
+      },
+      {
+        "rank": 9,
+        "skill_id": "daymade--tunnel-doctor",
+        "score": 1.475433,
+        "name": "tunnel-doctor",
+        "owner": "daymade",
+        "repo": "claude-code-skills"
+      }
+    ]
+  },
+  "random:50:5:flink-query": {
+    "query": "Apache Flink job stream processing session window",
+    "gold": [
+      "benchflow-ai--pdf-1",
+      "benchflow-ai--senior-data-engineer"
+    ],
+    "first_gold_rank@10": 3,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "rmyndharis--scala-pro",
+        "score": 6.886965,
+        "name": "scala-pro",
+        "owner": "rmyndharis",
+        "repo": "antigravity-skills"
+      },
+      {
+        "rank": 2,
+        "skill_id": "hoangvantuan--creative-thought-partner",
+        "score": 4.053024,
+        "name": "creative-thought-partner",
+        "owner": "hoangvantuan",
+        "repo": "claude-plugin"
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--senior-data-engineer",
+        "score": 2.607736,
+        "name": "senior-data-engineer",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:5:manufacturing-equipment-maintenance": {
+    "query": "PDF parsing extraction CSV sensor data analysis thermocouple time series",
+    "gold": [
+      "benchflow-ai--reflow-profile-compliance-toolkit",
+      "benchflow-ai--reflow_machine_maintenance_guidance"
+    ],
+    "first_gold_rank@10": 3,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "omer-metin--document-ai",
+        "score": 17.636795,
+        "name": "document-ai",
+        "owner": "omer-metin",
+        "repo": "skills-for-antigravity"
+      },
+      {
+        "rank": 2,
+        "skill_id": "LerianStudio--cash-flow-analysis",
+        "score": 5.80185,
+        "name": "cash-flow-analysis",
+        "owner": "LerianStudio",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--reflow_machine_maintenance_guidance",
+        "score": 4.992609,
+        "name": "reflow_machine_maintenance_guidance",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--reflow-profile-compliance-toolkit",
+        "score": 3.532969,
+        "name": "reflow-profile-compliance-toolkit",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 5,
+        "skill_id": "alexwelcing--schema-markup",
+        "score": 2.88768,
+        "name": "schema-markup",
+        "owner": "alexwelcing",
+        "repo": "copy"
+      },
+      {
+        "rank": 6,
+        "skill_id": "dirnbauer--typo3-seo",
+        "score": 2.829987,
+        "name": "typo3-seo",
+        "owner": "dirnbauer",
+        "repo": "webconsulting-skills"
+      },
+      {
+        "rank": 7,
+        "skill_id": "multiversx--multiversx-blockchain-data",
+        "score": 2.803811,
+        "name": "multiversx-blockchain-data",
+        "owner": "multiversx",
+        "repo": "mx-ai-skills"
+      },
+      {
+        "rank": 8,
+        "skill_id": "derklinke--agent-browser",
+        "score": 2.005974,
+        "name": "agent-browser",
+        "owner": "derklinke",
+        "repo": "codex-config"
+      },
+      {
+        "rank": 9,
+        "skill_id": "poteto--react-best-practices",
+        "score": 1.95601,
+        "name": "react-best-practices",
+        "owner": "poteto",
+        "repo": "noodle"
+      }
+    ]
+  },
+  "random:50:5:pdf-excel-diff": {
+    "query": "PDF table extraction pandas Excel comparison",
+    "gold": [
+      "benchflow-ai--pdf-1",
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "vibery-studio--pdf",
+        "score": 5.326764,
+        "name": "pdf",
+        "owner": "vibery-studio",
+        "repo": "templates"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--pdf-1",
+        "score": 5.295107,
+        "name": "pdf-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:5:protein-expression-analysis": {
+    "query": "openpyxl Excel formulas proteomics fold change",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "composiohq--excel-automation",
+        "score": 6.610359,
+        "name": "excel-automation",
+        "owner": "composiohq",
+        "repo": "awesome-claude-skills"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--xlsx-1",
+        "score": 5.770906,
+        "name": "xlsx-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:5:reserves-at-risk-calc": {
+    "query": "openpyxl Excel automation IMF data scraping financial risk calculation",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 3,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "davepoon--instagram-automation",
+        "score": 3.736841,
+        "name": "instagram-automation",
+        "owner": "davepoon",
+        "repo": "buildwithclaude"
+      },
+      {
+        "rank": 2,
+        "skill_id": "sickn33--azure-monitor-ingestion-java",
+        "score": 3.613596,
+        "name": "azure-monitor-ingestion-java",
+        "owner": "sickn33",
+        "repo": "antigravity-awesome-skills"
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--xlsx-1",
+        "score": 3.203369,
+        "name": "xlsx-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "kaakati--clean-architecture-patterns",
+        "score": 3.064328,
+        "name": "clean-architecture-patterns",
+        "owner": "kaakati",
+        "repo": "rails-enterprise-dev"
+      },
+      {
+        "rank": 5,
+        "skill_id": "oliver-kriska--ecto-constraint-debug",
+        "score": 2.572655,
+        "name": "ecto-constraint-debug",
+        "owner": "oliver-kriska",
+        "repo": "claude-elixir-phoenix"
+      }
+    ]
+  },
+  "random:50:5:shock-analysis-demand": {
+    "query": "Excel formula automation IMF WEO data macroeconomic modeling",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 3,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "shubhamsaboo--visualization-expert",
+        "score": 4.427345,
+        "name": "visualization-expert",
+        "owner": "shubhamsaboo",
+        "repo": "awesome-llm-apps"
+      },
+      {
+        "rank": 2,
+        "skill_id": "secondsky--nuxt-data",
+        "score": 4.254039,
+        "name": "nuxt-data",
+        "owner": "secondsky",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--xlsx-1",
+        "score": 3.430955,
+        "name": "xlsx-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "thedivergentai--godot-mcp-scene-builder",
+        "score": 3.41113,
+        "name": "godot-mcp-scene-builder",
+        "owner": "thedivergentai",
+        "repo": "gd-agentic-skills"
+      },
+      {
+        "rank": 5,
+        "skill_id": "daveskender--indicator-catalog",
+        "score": 3.18411,
+        "name": "indicator-catalog",
+        "owner": "daveskender",
+        "repo": "stock.indicators"
+      },
+      {
+        "rank": 6,
+        "skill_id": "sickn33--twitter-automation",
+        "score": 3.18411,
+        "name": "twitter-automation",
+        "owner": "sickn33",
+        "repo": "antigravity-awesome-skills"
+      },
+      {
+        "rank": 7,
+        "skill_id": "K-Dense-AI--vaex",
+        "score": 2.555297,
+        "name": "vaex",
+        "owner": "K-Dense-AI",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:5:shock-analysis-supply": {
+    "query": "Excel Solver optimization HP filter economics Cobb-Douglas production function",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 0,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "rmyndharis--code-reviewer",
+        "score": 5.027188,
+        "name": "code-reviewer",
+        "owner": "rmyndharis",
+        "repo": "antigravity-skills"
+      },
+      {
+        "rank": 2,
+        "skill_id": "Microck--pinecone",
+        "score": 3.753544,
+        "name": "pinecone",
+        "owner": "Microck",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "frankxai--oci-services-expert",
+        "score": 2.92675,
+        "name": "oci-services-expert",
+        "owner": "frankxai",
+        "repo": "claude-skills-library"
+      },
+      {
+        "rank": 4,
+        "skill_id": "kimasplund--error-handling-skills",
+        "score": 2.699181,
+        "name": "error-handling-skills",
+        "owner": "kimasplund",
+        "repo": "claude_cognitive_reasoning"
+      },
+      {
+        "rank": 5,
+        "skill_id": "qredence--dspy-development",
+        "score": 2.504758,
+        "name": "dspy-development",
+        "owner": "qredence",
+        "repo": "skills"
+      },
+      {
+        "rank": 6,
+        "skill_id": "ar4mirez--cuda-guide",
+        "score": 2.212353,
+        "name": "cuda-guide",
+        "owner": "ar4mirez",
+        "repo": "samuel"
+      }
+    ]
+  },
+  "random:50:6:econ-detrending-correlation": {
+    "query": "Hodrick-Prescott filter pandas Excel economics",
+    "gold": [
+      "benchflow-ai--timeseries-detrending"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "mlflow--retrieving-mlflow-traces",
+        "score": 3.804898,
+        "name": "retrieving-mlflow-traces",
+        "owner": "mlflow",
+        "repo": "skills"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--timeseries-detrending",
+        "score": 2.874698,
+        "name": "timeseries-detrending",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:6:fix-build-agentops": {
+    "query": "Python build debugging git diff patch format",
+    "gold": [
+      "benchflow-ai--analyze-ci",
+      "benchflow-ai--temporal-python-testing",
+      "benchflow-ai--testing-python",
+      "benchflow-ai--uv-package-manager"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "maxvaega--git-helper",
+        "score": 6.960519,
+        "name": "git-helper",
+        "owner": "maxvaega",
+        "repo": "skillkit"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--testing-python",
+        "score": 6.172468,
+        "name": "testing-python",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--temporal-python-testing",
+        "score": 5.063277,
+        "name": "temporal-python-testing",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--uv-package-manager",
+        "score": 4.239693,
+        "name": "uv-package-manager",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 5,
+        "skill_id": "nickcrew--python-testing-patterns",
+        "score": 3.982693,
+        "name": "python-testing-patterns",
+        "owner": "nickcrew",
+        "repo": "claude-ctx-plugin"
+      },
+      {
+        "rank": 6,
+        "skill_id": "omer-metin--thought-leadership",
+        "score": 3.697467,
+        "name": "thought-leadership",
+        "owner": "omer-metin",
+        "repo": "skills-for-antigravity"
+      },
+      {
+        "rank": 7,
+        "skill_id": "montimage--code-review",
+        "score": 2.492496,
+        "name": "code-review",
+        "owner": "montimage",
+        "repo": "skills"
+      }
+    ]
+  },
+  "random:50:6:fix-druid-loophole-cve": {
+    "query": "Apache Druid security CVE patch Maven build",
+    "gold": [
+      "benchflow-ai--jackson-security",
+      "benchflow-ai--senior-java"
+    ],
+    "first_gold_rank@10": 3,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "jeremylongshore--granola-security-basics",
+        "score": 5.038303,
+        "name": "granola-security-basics",
+        "owner": "jeremylongshore",
+        "repo": "claude-code-plugins-plus-skills"
+      },
+      {
+        "rank": 2,
+        "skill_id": "wshobson--bazel-build-optimization",
+        "score": 4.775029,
+        "name": "bazel-build-optimization",
+        "owner": "wshobson",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--jackson-security",
+        "score": 4.2865,
+        "name": "jackson-security",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "yoanbernabeu--ph-profile-optimizer",
+        "score": 3.342521,
+        "name": "ph-profile-optimizer",
+        "owner": "yoanbernabeu",
+        "repo": "producthunt-skills"
+      },
+      {
+        "rank": 5,
+        "skill_id": "benchflow-ai--senior-java",
+        "score": 2.356346,
+        "name": "senior-java",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:6:flink-query": {
+    "query": "Apache Flink job stream processing session window",
+    "gold": [
+      "benchflow-ai--pdf-1",
+      "benchflow-ai--senior-data-engineer"
+    ],
+    "first_gold_rank@10": 3,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "salesforcecommercecloud--b2c-scaffold",
+        "score": 4.296174,
+        "name": "b2c-scaffold",
+        "owner": "salesforcecommercecloud",
+        "repo": "b2c-developer-tooling"
+      },
+      {
+        "rank": 2,
+        "skill_id": "vercel--dce-edge",
+        "score": 3.728064,
+        "name": "dce-edge",
+        "owner": "vercel",
+        "repo": "next.js"
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--senior-data-engineer",
+        "score": 2.318109,
+        "name": "senior-data-engineer",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:6:protein-expression-analysis": {
+    "query": "openpyxl Excel formulas proteomics fold change",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "aws-samples--excel-spreadsheets",
+        "score": 6.623543,
+        "name": "excel-spreadsheets",
+        "owner": "aws-samples",
+        "repo": "sample-strands-agent-with-agentcore"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--xlsx-1",
+        "score": 5.372849,
+        "name": "xlsx-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "bacoco--openspec-change-closure",
+        "score": 5.304426,
+        "name": "openspec-change-closure",
+        "owner": "bacoco",
+        "repo": "bmad-skills"
+      }
+    ]
+  },
+  "random:50:6:react-performance-debugging": {
+    "query": "Next.js optimization React performance profiling",
+    "gold": [
+      "benchflow-ai--browser-testing-2",
+      "benchflow-ai--react-best-practices-2"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "oimiragieo--react-best-practices-vercel",
+        "score": 17.967861,
+        "name": "react-best-practices-vercel",
+        "owner": "oimiragieo",
+        "repo": "agent-studio"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--react-best-practices-2",
+        "score": 9.651905,
+        "name": "react-best-practices-2",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "duck4nh--webpack-expert",
+        "score": 5.572559,
+        "name": "webpack-expert",
+        "owner": "duck4nh",
+        "repo": "antigravity-kit"
+      },
+      {
+        "rank": 4,
+        "skill_id": "aidotnet--react-component",
+        "score": 4.19709,
+        "name": "react-component",
+        "owner": "aidotnet",
+        "repo": "moyucode"
+      },
+      {
+        "rank": 5,
+        "skill_id": "Microck--react-native-expo",
+        "score": 3.001342,
+        "name": "react-native-expo",
+        "owner": "Microck",
+        "repo": ""
+      },
+      {
+        "rank": 6,
+        "skill_id": "itechmeat--mantine-dev",
+        "score": 2.689314,
+        "name": "mantine-dev",
+        "owner": "itechmeat",
+        "repo": ""
+      },
+      {
+        "rank": 7,
+        "skill_id": "mindrally--koa-typescript",
+        "score": 2.6449,
+        "name": "koa-typescript",
+        "owner": "mindrally",
+        "repo": "skills"
+      },
+      {
+        "rank": 8,
+        "skill_id": "pr-pm--creating-skills",
+        "score": 2.584444,
+        "name": "creating-skills",
+        "owner": "pr-pm",
+        "repo": ""
+      },
+      {
+        "rank": 9,
+        "skill_id": "sickn33--gcp-cloud-run",
+        "score": 2.546743,
+        "name": "gcp-cloud-run",
+        "owner": "sickn33",
+        "repo": ""
+      },
+      {
+        "rank": 10,
+        "skill_id": "benchflow-ai--browser-testing-2",
+        "score": 2.510126,
+        "name": "browser-testing-2",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:6:reserves-at-risk-calc": {
+    "query": "openpyxl Excel automation IMF data scraping financial risk calculation",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "sickn33--azure-storage-file-datalake-py",
+        "score": 3.261155,
+        "name": "azure-storage-file-datalake-py",
+        "owner": "sickn33",
+        "repo": "antigravity-awesome-skills"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--xlsx-1",
+        "score": 2.922539,
+        "name": "xlsx-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "Dexploarer--nextjs-page-generator",
+        "score": 2.318697,
+        "name": "nextjs-page-generator",
+        "owner": "Dexploarer",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "nweii--react-useeffect",
+        "score": 2.255065,
+        "name": "react-useeffect",
+        "owner": "nweii",
+        "repo": "agent-stuff"
+      },
+      {
+        "rank": 5,
+        "skill_id": "pproenca--ios-design",
+        "score": 1.732166,
+        "name": "ios-design",
+        "owner": "pproenca",
+        "repo": "dot-skills"
+      },
+      {
+        "rank": 6,
+        "skill_id": "jezweb--d1-drizzle-schema",
+        "score": 1.552206,
+        "name": "d1-drizzle-schema",
+        "owner": "jezweb",
+        "repo": "claude-skills"
+      }
+    ]
+  },
+  "random:50:6:shock-analysis-demand": {
+    "query": "Excel formula automation IMF WEO data macroeconomic modeling",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 5,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "SpillwaveSolutions--automating-excel",
+        "score": 10.677255,
+        "name": "automating-excel",
+        "owner": "SpillwaveSolutions",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "daymade--excel-automation",
+        "score": 8.119036,
+        "name": "excel-automation",
+        "owner": "daymade",
+        "repo": "claude-code-skills"
+      },
+      {
+        "rank": 3,
+        "skill_id": "Jeffallan--test-master",
+        "score": 3.250765,
+        "name": "test-master",
+        "owner": "Jeffallan",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "machina-sports--nba-data",
+        "score": 3.126386,
+        "name": "nba-data",
+        "owner": "machina-sports",
+        "repo": "sports-skills"
+      },
+      {
+        "rank": 5,
+        "skill_id": "benchflow-ai--xlsx-1",
+        "score": 3.100642,
+        "name": "xlsx-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 6,
+        "skill_id": "bytedance--chart-visualization",
+        "score": 2.097171,
+        "name": "chart-visualization",
+        "owner": "bytedance",
+        "repo": "deer-flow"
+      },
+      {
+        "rank": 7,
+        "skill_id": "qverisai--x-founder-operations",
+        "score": 1.573573,
+        "name": "x-founder-operations",
+        "owner": "qverisai",
+        "repo": "open-qveris-skills"
+      },
+      {
+        "rank": 8,
+        "skill_id": "pymc-labs--marimo-notebook",
+        "score": 1.478323,
+        "name": "marimo-notebook",
+        "owner": "pymc-labs",
+        "repo": "python-analytics-skills"
+      }
+    ]
+  },
+  "random:50:6:shock-analysis-supply": {
+    "query": "Excel Solver optimization HP filter economics Cobb-Douglas production function",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 0,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "htlin222--debug",
+        "score": 3.421798,
+        "name": "debug",
+        "owner": "htlin222",
+        "repo": "dotfiles"
+      },
+      {
+        "rank": 2,
+        "skill_id": "Jeffallan--angular-architect",
+        "score": 3.37111,
+        "name": "angular-architect",
+        "owner": "Jeffallan",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "cryptorabea--unity-workflows",
+        "score": 2.486948,
+        "name": "unity-workflows",
+        "owner": "cryptorabea",
+        "repo": "claude_unity_dev_plugin"
+      },
+      {
+        "rank": 4,
+        "skill_id": "popup-studio-ai--phase-3-mockup",
+        "score": 1.987416,
+        "name": "phase-3-mockup",
+        "owner": "popup-studio-ai",
+        "repo": "bkit-claude-code"
+      }
+    ]
+  },
+  "random:50:7:azure-bgp-oscillation-route-leak": {
+    "query": "BGP routing analysis graph cycle detection JSON network topology",
+    "gold": [
+      "benchflow-ai--azure-bgp"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "zenobi-us--performance-monitor",
+        "score": 6.45679,
+        "name": "performance-monitor",
+        "owner": "zenobi-us",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--azure-bgp",
+        "score": 6.214175,
+        "name": "azure-bgp",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "ant-design--ant-design",
+        "score": 3.535765,
+        "name": "ant-design",
+        "owner": "ant-design",
+        "repo": "antd-skill"
+      },
+      {
+        "rank": 4,
+        "skill_id": "anthropics--data-context-extractor",
+        "score": 2.289424,
+        "name": "data-context-extractor",
+        "owner": "anthropics",
+        "repo": ""
+      },
+      {
+        "rank": 5,
+        "skill_id": "bgauryy--octocode-research",
+        "score": 2.080815,
+        "name": "octocode-research",
+        "owner": "bgauryy",
+        "repo": "octocode-mcp"
+      }
+    ]
+  },
+  "random:50:7:financial-modeling-qa": {
+    "query": "pandas Excel analysis PDF parsing extraction",
+    "gold": [
+      "benchflow-ai--pdf-1",
+      "benchflow-ai--xlsx-2"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "krishagel--pdf-to-markdown",
+        "score": 5.910098,
+        "name": "pdf-to-markdown",
+        "owner": "krishagel",
+        "repo": "geoffrey"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--pdf-1",
+        "score": 5.490228,
+        "name": "pdf-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "nikhilbhansali--dataforseo",
+        "score": 2.990746,
+        "name": "dataforseo",
+        "owner": "nikhilbhansali",
+        "repo": "dataforseo-skill-claude"
+      },
+      {
+        "rank": 4,
+        "skill_id": "omer-metin--statistical-analysis",
+        "score": 2.837423,
+        "name": "statistical-analysis",
+        "owner": "omer-metin",
+        "repo": "skills-for-antigravity"
+      },
+      {
+        "rank": 5,
+        "skill_id": "benchflow-ai--xlsx-2",
+        "score": 2.806368,
+        "name": "xlsx-2",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 6,
+        "skill_id": "ddunnock--fishbone-diagram",
+        "score": 1.992359,
+        "name": "fishbone-diagram",
+        "owner": "ddunnock",
+        "repo": "claude-plugins"
+      },
+      {
+        "rank": 7,
+        "skill_id": "wyattowalsh--research",
+        "score": 1.880355,
+        "name": "research",
+        "owner": "wyattowalsh",
+        "repo": "agents"
+      },
+      {
+        "rank": 8,
+        "skill_id": "piperubio--commercial-discovery",
+        "score": 1.608326,
+        "name": "commercial-discovery",
+        "owner": "piperubio",
+        "repo": "ai-agents"
+      },
+      {
+        "rank": 9,
+        "skill_id": "duongdev--ccpm-debugging",
+        "score": 1.229853,
+        "name": "ccpm-debugging",
+        "owner": "duongdev",
+        "repo": "ccpm"
+      }
+    ]
+  },
+  "random:50:7:flink-query": {
+    "query": "Apache Flink job stream processing session window",
+    "gold": [
+      "benchflow-ai--pdf-1",
+      "benchflow-ai--senior-data-engineer"
+    ],
+    "first_gold_rank@10": 3,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "sickn33--azure-storage-queue-py",
+        "score": 4.261796,
+        "name": "azure-storage-queue-py",
+        "owner": "sickn33",
+        "repo": "antigravity-awesome-skills"
+      },
+      {
+        "rank": 2,
+        "skill_id": "sunholo-data--cloud-environment-setup",
+        "score": 3.19165,
+        "name": "cloud-environment-setup",
+        "owner": "sunholo-data",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--senior-data-engineer",
+        "score": 2.406191,
+        "name": "senior-data-engineer",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:7:lake-warming-attribution": {
+    "query": "climate trend analysis regression feature importance",
+    "gold": [
+      "benchflow-ai--contribution-analysis",
+      "benchflow-ai--meteorology-driver-classification",
+      "benchflow-ai--pca-decomposition",
+      "benchflow-ai--trend-analysis"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "tondevrel--sklearn-explainability",
+        "score": 7.050673,
+        "name": "sklearn-explainability",
+        "owner": "tondevrel",
+        "repo": "scientific-agent-skills"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--trend-analysis",
+        "score": 5.836521,
+        "name": "trend-analysis",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "nahisaho--code-reviewer",
+        "score": 2.680401,
+        "name": "code-reviewer",
+        "owner": "nahisaho",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--meteorology-driver-classification",
+        "score": 2.40074,
+        "name": "meteorology-driver-classification",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 5,
+        "skill_id": "benchflow-ai--contribution-analysis",
+        "score": 2.194563,
+        "name": "contribution-analysis",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 6,
+        "skill_id": "sendaifun--zz-code-recon",
+        "score": 2.194563,
+        "name": "zz-code-recon",
+        "owner": "sendaifun",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:7:reserves-at-risk-calc": {
+    "query": "openpyxl Excel automation IMF data scraping financial risk calculation",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 6,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "0xhubed--risk-management",
+        "score": 4.691804,
+        "name": "risk-management",
+        "owner": "0xhubed",
+        "repo": "agent-trading-arena"
+      },
+      {
+        "rank": 2,
+        "skill_id": "0xBigBoss--axe-ios-simulator",
+        "score": 4.488648,
+        "name": "axe-ios-simulator",
+        "owner": "0xBigBoss",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "wix--wix-cli-data-collection",
+        "score": 3.905006,
+        "name": "wix-cli-data-collection",
+        "owner": "wix",
+        "repo": "skills"
+      },
+      {
+        "rank": 4,
+        "skill_id": "CharlesWiltgen--axiom-core-data",
+        "score": 3.428054,
+        "name": "axiom-core-data",
+        "owner": "CharlesWiltgen",
+        "repo": ""
+      },
+      {
+        "rank": 5,
+        "skill_id": "ratacat--data-integrity-guardian",
+        "score": 3.236217,
+        "name": "data-integrity-guardian",
+        "owner": "ratacat",
+        "repo": "claude-skills"
+      },
+      {
+        "rank": 6,
+        "skill_id": "benchflow-ai--xlsx-1",
+        "score": 2.820378,
+        "name": "xlsx-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 7,
+        "skill_id": "mathews-tom--architecture-reviewer",
+        "score": 2.516479,
+        "name": "architecture-reviewer",
+        "owner": "mathews-tom",
+        "repo": "praxis-skills"
+      },
+      {
+        "rank": 8,
+        "skill_id": "barneyjm--ev-charger",
+        "score": 2.400673,
+        "name": "ev-charger",
+        "owner": "barneyjm",
+        "repo": "camino-skills"
+      },
+      {
+        "rank": 9,
+        "skill_id": "clidey--whodb",
+        "score": 2.334623,
+        "name": "whodb",
+        "owner": "clidey",
+        "repo": "whodb"
+      },
+      {
+        "rank": 10,
+        "skill_id": "wondelai--hundred-million-offers",
+        "score": 2.223066,
+        "name": "hundred-million-offers",
+        "owner": "wondelai",
+        "repo": "skills"
+      }
+    ]
+  },
+  "random:50:7:shock-analysis-demand": {
+    "query": "Excel formula automation IMF WEO data macroeconomic modeling",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 4,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "eyadsibai--data-engineering",
+        "score": 8.911725,
+        "name": "data-engineering",
+        "owner": "eyadsibai",
+        "repo": "ltk"
+      },
+      {
+        "rank": 2,
+        "skill_id": "alexpeclub--n8n-prd-generator",
+        "score": 5.287925,
+        "name": "n8n-prd-generator",
+        "owner": "alexpeclub",
+        "repo": "n8n-prd-generator"
+      },
+      {
+        "rank": 3,
+        "skill_id": "tukuaiai--coingecko",
+        "score": 3.882295,
+        "name": "coingecko",
+        "owner": "tukuaiai",
+        "repo": "vibe-coding-cn"
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--xlsx-1",
+        "score": 3.136327,
+        "name": "xlsx-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 5,
+        "skill_id": "vasilyu1983--project-astrology-chinese",
+        "score": 2.001292,
+        "name": "project-astrology-chinese",
+        "owner": "vasilyu1983",
+        "repo": ""
+      },
+      {
+        "rank": 6,
+        "skill_id": "thecraighewitt--programmatic-seo",
+        "score": 1.776652,
+        "name": "programmatic-seo",
+        "owner": "thecraighewitt",
+        "repo": "seomachine"
+      }
+    ]
+  },
+  "random:50:7:shock-analysis-supply": {
+    "query": "Excel Solver optimization HP filter economics Cobb-Douglas production function",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 0,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "benchflow-ai--discover-important-function",
+        "score": 4.165133,
+        "name": "discover-important-function",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "anthropics--dcf-model",
+        "score": 2.241234,
+        "name": "dcf-model",
+        "owner": "anthropics",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:8:crystallographic-wyckoff-position-analysis": {
+    "query": "CIF file parser crystallography space groups Wyckoff position analysis",
+    "gold": [
+      "benchflow-ai--pymatgen",
+      "benchflow-ai--sympy"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "xspoonai--data-processor",
+        "score": 7.087055,
+        "name": "data-processor",
+        "owner": "xspoonai",
+        "repo": "spoon-core"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--pymatgen",
+        "score": 4.13796,
+        "name": "pymatgen",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "sanctifiedops--whale-wallet-analysis",
+        "score": 2.707326,
+        "name": "whale-wallet-analysis",
+        "owner": "sanctifiedops",
+        "repo": "solana-skills"
+      },
+      {
+        "rank": 4,
+        "skill_id": "davidortinau--maui-secure-storage",
+        "score": 2.615122,
+        "name": "maui-secure-storage",
+        "owner": "davidortinau",
+        "repo": "maui-skills"
+      },
+      {
+        "rank": 5,
+        "skill_id": "acedergren--secrets-management",
+        "score": 2.499177,
+        "name": "secrets-management",
+        "owner": "acedergren",
+        "repo": "oci-agent-skills"
+      },
+      {
+        "rank": 6,
+        "skill_id": "alirezarezvani--slash-command-factory",
+        "score": 2.348697,
+        "name": "slash-command-factory",
+        "owner": "alirezarezvani",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:8:econ-detrending-correlation": {
+    "query": "Hodrick-Prescott filter pandas Excel economics",
+    "gold": [
+      "benchflow-ai--timeseries-detrending"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "lc2panda--wps-office",
+        "score": 5.443375,
+        "name": "wps-office",
+        "owner": "lc2panda",
+        "repo": "wps-skills"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--timeseries-detrending",
+        "score": 3.027161,
+        "name": "timeseries-detrending",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:8:fix-druid-loophole-cve": {
+    "query": "Apache Druid security CVE patch Maven build",
+    "gold": [
+      "benchflow-ai--jackson-security",
+      "benchflow-ai--senior-java"
+    ],
+    "first_gold_rank@10": 3,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "sraloff--apache-lamp-config",
+        "score": 5.001249,
+        "name": "apache-lamp-config",
+        "owner": "sraloff",
+        "repo": "gravityboots"
+      },
+      {
+        "rank": 2,
+        "skill_id": "jeremylongshore--deepgram-security-basics",
+        "score": 4.204377,
+        "name": "deepgram-security-basics",
+        "owner": "jeremylongshore",
+        "repo": "claude-code-plugins-plus-skills"
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--jackson-security",
+        "score": 3.697006,
+        "name": "jackson-security",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "davila7--code-review",
+        "score": 2.524034,
+        "name": "code-review",
+        "owner": "davila7",
+        "repo": "claude-code-templates"
+      },
+      {
+        "rank": 5,
+        "skill_id": "rmyndharis--dbt-transformation-patterns",
+        "score": 2.432413,
+        "name": "dbt-transformation-patterns",
+        "owner": "rmyndharis",
+        "repo": "antigravity-skills"
+      },
+      {
+        "rank": 6,
+        "skill_id": "rmyndharis--gitlab-ci-patterns",
+        "score": 2.374941,
+        "name": "gitlab-ci-patterns",
+        "owner": "rmyndharis",
+        "repo": "antigravity-skills"
+      },
+      {
+        "rank": 7,
+        "skill_id": "elithrar--agents-sdk",
+        "score": 2.24248,
+        "name": "agents-sdk",
+        "owner": "elithrar",
+        "repo": "dotfiles"
+      },
+      {
+        "rank": 8,
+        "skill_id": "benchflow-ai--senior-java",
+        "score": 2.124014,
+        "name": "senior-java",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 9,
+        "skill_id": "ronnycoding--create-claude-plugin",
+        "score": 2.037888,
+        "name": "create-claude-plugin",
+        "owner": "ronnycoding",
+        "repo": ""
+      },
+      {
+        "rank": 10,
+        "skill_id": "mgd34msu--code-review",
+        "score": 1.784614,
+        "name": "code-review",
+        "owner": "mgd34msu",
+        "repo": "goodvibes-plugin"
+      }
+    ]
+  },
+  "random:50:8:flink-query": {
+    "query": "Apache Flink job stream processing session window",
+    "gold": [
+      "benchflow-ai--pdf-1",
+      "benchflow-ai--senior-data-engineer"
+    ],
+    "first_gold_rank@10": 4,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "taylorhuston--start-session",
+        "score": 5.656996,
+        "name": "start-session",
+        "owner": "taylorhuston",
+        "repo": "local-life-manager"
+      },
+      {
+        "rank": 2,
+        "skill_id": "Microck--claudeisms-operational-guidelines",
+        "score": 3.72268,
+        "name": "claudeisms-operational-guidelines",
+        "owner": "Microck",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "oakoss--stripe-integration",
+        "score": 2.579249,
+        "name": "stripe-integration",
+        "owner": "oakoss",
+        "repo": "agent-skills"
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--senior-data-engineer",
+        "score": 2.579104,
+        "name": "senior-data-engineer",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:8:manufacturing-equipment-maintenance": {
+    "query": "PDF parsing extraction CSV sensor data analysis thermocouple time series",
+    "gold": [
+      "benchflow-ai--reflow-profile-compliance-toolkit",
+      "benchflow-ai--reflow_machine_maintenance_guidance"
+    ],
+    "first_gold_rank@10": 4,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "liyecom--csv-summarizer",
+        "score": 7.128909,
+        "name": "csv-summarizer",
+        "owner": "liyecom",
+        "repo": "liye-ai"
+      },
+      {
+        "rank": 2,
+        "skill_id": "davila7--screenshot-feature-extractor",
+        "score": 5.67481,
+        "name": "screenshot-feature-extractor",
+        "owner": "davila7",
+        "repo": "claude-code-templates"
+      },
+      {
+        "rank": 3,
+        "skill_id": "brightdata--bright-data-best-practices",
+        "score": 4.973088,
+        "name": "bright-data-best-practices",
+        "owner": "brightdata",
+        "repo": "skills"
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--reflow_machine_maintenance_guidance",
+        "score": 4.58042,
+        "name": "reflow_machine_maintenance_guidance",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 5,
+        "skill_id": "benchflow-ai--reflow-profile-compliance-toolkit",
+        "score": 3.488176,
+        "name": "reflow-profile-compliance-toolkit",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 6,
+        "skill_id": "ailabs-393--resume-manager",
+        "score": 3.456032,
+        "name": "resume-manager",
+        "owner": "ailabs-393",
+        "repo": "ai-labs-claude-skills"
+      },
+      {
+        "rank": 7,
+        "skill_id": "melodic-software--data-classification",
+        "score": 3.259873,
+        "name": "data-classification",
+        "owner": "melodic-software",
+        "repo": "claude-code-plugins"
+      },
+      {
+        "rank": 8,
+        "skill_id": "patricio0312rev--data-retention-archiving-planner",
+        "score": 3.0801,
+        "name": "data-retention-archiving-planner",
+        "owner": "patricio0312rev",
+        "repo": "skills"
+      },
+      {
+        "rank": 9,
+        "skill_id": "reactive--data-client-endpoint-setup",
+        "score": 3.0256,
+        "name": "data-client-endpoint-setup",
+        "owner": "reactive",
+        "repo": "data-client"
+      },
+      {
+        "rank": 10,
+        "skill_id": "davila7--arboreto",
+        "score": 2.201687,
+        "name": "arboreto",
+        "owner": "davila7",
+        "repo": "claude-code-templates"
+      }
+    ]
+  },
+  "random:50:8:react-performance-debugging": {
+    "query": "Next.js optimization React performance profiling",
+    "gold": [
+      "benchflow-ai--browser-testing-2",
+      "benchflow-ai--react-best-practices-2"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "Heyvhuang--review-react-best-practices",
+        "score": 17.535771,
+        "name": "review-react-best-practices",
+        "owner": "Heyvhuang",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--react-best-practices-2",
+        "score": 12.113743,
+        "name": "react-best-practices-2",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "thebushidocollective--rubocop-integration",
+        "score": 8.390141,
+        "name": "rubocop-integration",
+        "owner": "thebushidocollective",
+        "repo": "han"
+      },
+      {
+        "rank": 4,
+        "skill_id": "heroui-inc--heroui-react",
+        "score": 4.933939,
+        "name": "heroui-react",
+        "owner": "heroui-inc",
+        "repo": ""
+      },
+      {
+        "rank": 5,
+        "skill_id": "benchflow-ai--browser-testing-2",
+        "score": 2.721329,
+        "name": "browser-testing-2",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:8:shock-analysis-demand": {
+    "query": "Excel formula automation IMF WEO data macroeconomic modeling",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "openhands--security",
+        "score": 4.033531,
+        "name": "security",
+        "owner": "openhands",
+        "repo": "skills"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--xlsx-1",
+        "score": 3.591598,
+        "name": "xlsx-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "composiohq--browserbase-tool-automation",
+        "score": 3.299475,
+        "name": "browserbase-tool-automation",
+        "owner": "composiohq",
+        "repo": "awesome-claude-skills"
+      },
+      {
+        "rank": 4,
+        "skill_id": "aaaaqwq--zoom-automation",
+        "score": 3.028097,
+        "name": "zoom-automation",
+        "owner": "aaaaqwq",
+        "repo": "claude-code-skills"
+      },
+      {
+        "rank": 5,
+        "skill_id": "alicoder001--api-patterns",
+        "score": 3.028097,
+        "name": "api-patterns",
+        "owner": "alicoder001",
+        "repo": "agent-skills"
+      },
+      {
+        "rank": 6,
+        "skill_id": "aaaaqwq--datadog-automation",
+        "score": 2.841152,
+        "name": "datadog-automation",
+        "owner": "aaaaqwq",
+        "repo": "claude-code-skills"
+      }
+    ]
+  },
+  "random:50:8:shock-analysis-supply": {
+    "query": "Excel Solver optimization HP filter economics Cobb-Douglas production function",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 0,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "karchtho--dockerfile-generator",
+        "score": 5.912416,
+        "name": "dockerfile-generator",
+        "owner": "karchtho",
+        "repo": "my-claude-marketplace"
+      },
+      {
+        "rank": 2,
+        "skill_id": "mindrally--postcss-best-practices",
+        "score": 3.254881,
+        "name": "postcss-best-practices",
+        "owner": "mindrally",
+        "repo": "skills"
+      },
+      {
+        "rank": 3,
+        "skill_id": "nucliweb--webperf-loading",
+        "score": 2.496798,
+        "name": "webperf-loading",
+        "owner": "nucliweb",
+        "repo": "webperf-snippets"
+      },
+      {
+        "rank": 4,
+        "skill_id": "dedalus-erp-pas--react-best-practices",
+        "score": 1.856929,
+        "name": "react-best-practices",
+        "owner": "dedalus-erp-pas",
+        "repo": "foundation-skills"
+      }
+    ]
+  },
+  "random:50:8:travel-planning": {
+    "query": "travel itinerary planner POI database search budget trip optimization",
+    "gold": [
+      "benchflow-ai--search-accommodations",
+      "benchflow-ai--search-attractions",
+      "benchflow-ai--search-cities",
+      "benchflow-ai--search-driving-distance",
+      "benchflow-ai--search-flights",
+      "benchflow-ai--search-restaurants"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "maxnorm--magento-performance-analyst",
+        "score": 8.833724,
+        "name": "magento-performance-analyst",
+        "owner": "maxnorm",
+        "repo": "magento2-agent-skills"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--search-driving-distance",
+        "score": 8.627467,
+        "name": "search-driving-distance",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--search-accommodations",
+        "score": 4.9107,
+        "name": "search-accommodations",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--pareto-optimization",
+        "score": 4.245881,
+        "name": "pareto-optimization",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 5,
+        "skill_id": "BbgnsurfTech--excel-variance-analyzer",
+        "score": 3.650686,
+        "name": "excel-variance-analyzer",
+        "owner": "BbgnsurfTech",
+        "repo": ""
+      },
+      {
+        "rank": 6,
+        "skill_id": "benchflow-ai--search-flights",
+        "score": 2.674372,
+        "name": "search-flights",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 7,
+        "skill_id": "openclaudia--google-ads",
+        "score": 2.449,
+        "name": "google-ads",
+        "owner": "openclaudia",
+        "repo": "openclaudia-skills"
+      },
+      {
+        "rank": 8,
+        "skill_id": "composiohq--canvas-automation",
+        "score": 2.363885,
+        "name": "canvas-automation",
+        "owner": "composiohq",
+        "repo": "awesome-claude-skills"
+      },
+      {
+        "rank": 9,
+        "skill_id": "benchflow-ai--search-attractions",
+        "score": 2.047827,
+        "name": "search-attractions",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 10,
+        "skill_id": "benchflow-ai--search-restaurants",
+        "score": 2.047827,
+        "name": "search-restaurants",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:9:crystallographic-wyckoff-position-analysis": {
+    "query": "CIF file parser crystallography space groups Wyckoff position analysis",
+    "gold": [
+      "benchflow-ai--pymatgen",
+      "benchflow-ai--sympy"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "dmythro--bun-api",
+        "score": 5.019626,
+        "name": "bun-api",
+        "owner": "dmythro",
+        "repo": "agent-skills"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--pymatgen",
+        "score": 4.335131,
+        "name": "pymatgen",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "oimiragieo--omega-codex-cli",
+        "score": 3.452994,
+        "name": "omega-codex-cli",
+        "owner": "oimiragieo",
+        "repo": "agent-studio"
+      },
+      {
+        "rank": 4,
+        "skill_id": "cyberkaida--deep-analysis",
+        "score": 3.263417,
+        "name": "deep-analysis",
+        "owner": "cyberkaida",
+        "repo": ""
+      },
+      {
+        "rank": 5,
+        "skill_id": "jackspace--nextjs",
+        "score": 1.567012,
+        "name": "nextjs",
+        "owner": "jackspace",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:9:econ-detrending-correlation": {
+    "query": "Hodrick-Prescott filter pandas Excel economics",
+    "gold": [
+      "benchflow-ai--timeseries-detrending"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "shubhamsaboo--data-analyst",
+        "score": 5.982779,
+        "name": "data-analyst",
+        "owner": "shubhamsaboo",
+        "repo": "awesome-llm-apps"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--timeseries-detrending",
+        "score": 3.450863,
+        "name": "timeseries-detrending",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:9:fix-druid-loophole-cve": {
+    "query": "Apache Druid security CVE patch Maven build",
+    "gold": [
+      "benchflow-ai--jackson-security",
+      "benchflow-ai--senior-java"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "jeremylongshore--scanning-api-security",
+        "score": 4.747692,
+        "name": "scanning-api-security",
+        "owner": "jeremylongshore",
+        "repo": "claude-code-plugins-plus-skills"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--jackson-security",
+        "score": 3.988731,
+        "name": "jackson-security",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "bagelhole--azure-functions",
+        "score": 3.102799,
+        "name": "azure-functions",
+        "owner": "bagelhole",
+        "repo": "devops-security-agent-skills"
+      },
+      {
+        "rank": 4,
+        "skill_id": "bagelhole--circleci",
+        "score": 2.600631,
+        "name": "circleci",
+        "owner": "bagelhole",
+        "repo": "devops-security-agent-skills"
+      },
+      {
+        "rank": 5,
+        "skill_id": "oimiragieo--proactive-audit",
+        "score": 2.338601,
+        "name": "proactive-audit",
+        "owner": "oimiragieo",
+        "repo": "agent-studio"
+      },
+      {
+        "rank": 6,
+        "skill_id": "benchflow-ai--senior-java",
+        "score": 2.26261,
+        "name": "senior-java",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 7,
+        "skill_id": "tech-leads-club--nx-workspace",
+        "score": 1.983341,
+        "name": "nx-workspace",
+        "owner": "tech-leads-club",
+        "repo": ""
+      },
+      {
+        "rank": 8,
+        "skill_id": "petekp--openclaw-customizer",
+        "score": 1.205221,
+        "name": "openclaw-customizer",
+        "owner": "petekp",
+        "repo": "claude-code-setup"
+      }
+    ]
+  },
+  "random:50:9:flink-query": {
+    "query": "Apache Flink job stream processing session window",
+    "gold": [
+      "benchflow-ai--pdf-1",
+      "benchflow-ai--senior-data-engineer"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "arvindand--skill-crafting",
+        "score": 3.895266,
+        "name": "skill-crafting",
+        "owner": "arvindand",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--senior-data-engineer",
+        "score": 2.568042,
+        "name": "senior-data-engineer",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:9:manufacturing-equipment-maintenance": {
+    "query": "PDF parsing extraction CSV sensor data analysis thermocouple time series",
+    "gold": [
+      "benchflow-ai--reflow-profile-compliance-toolkit",
+      "benchflow-ai--reflow_machine_maintenance_guidance"
+    ],
+    "first_gold_rank@10": 3,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "indranilbanerjee--data-import",
+        "score": 7.95166,
+        "name": "data-import",
+        "owner": "indranilbanerjee",
+        "repo": "digital-marketing-pro"
+      },
+      {
+        "rank": 2,
+        "skill_id": "sickn33--reverse-engineer",
+        "score": 5.43847,
+        "name": "reverse-engineer",
+        "owner": "sickn33",
+        "repo": "antigravity-awesome-skills"
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--reflow_machine_maintenance_guidance",
+        "score": 5.370381,
+        "name": "reflow_machine_maintenance_guidance",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--reflow-profile-compliance-toolkit",
+        "score": 3.362472,
+        "name": "reflow-profile-compliance-toolkit",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 5,
+        "skill_id": "plinde--pandoc",
+        "score": 3.340051,
+        "name": "pandoc",
+        "owner": "plinde",
+        "repo": "claude-plugins"
+      },
+      {
+        "rank": 6,
+        "skill_id": "angular--reference-core",
+        "score": 3.066045,
+        "name": "reference-core",
+        "owner": "angular",
+        "repo": "angular"
+      },
+      {
+        "rank": 7,
+        "skill_id": "frontic--frontic-implementation",
+        "score": 3.034137,
+        "name": "frontic-implementation",
+        "owner": "frontic",
+        "repo": "skills"
+      },
+      {
+        "rank": 8,
+        "skill_id": "secondsky--mobile-offline-support",
+        "score": 2.364202,
+        "name": "mobile-offline-support",
+        "owner": "secondsky",
+        "repo": ""
+      },
+      {
+        "rank": 9,
+        "skill_id": "mlflow--retrieving-mlflow-traces",
+        "score": 2.218531,
+        "name": "retrieving-mlflow-traces",
+        "owner": "mlflow",
+        "repo": "skills"
+      }
+    ]
+  },
+  "random:50:9:organize-messy-files": {
+    "query": "PDF text extraction document classification sorting",
+    "gold": [
+      "benchflow-ai--docx-2",
+      "benchflow-ai--file-organizer",
+      "benchflow-ai--pdf-1",
+      "benchflow-ai--planning-with-files",
+      "benchflow-ai--pptx"
+    ],
+    "first_gold_rank@10": 2,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "vanman2024--document-parsers",
+        "score": 15.036312,
+        "name": "document-parsers",
+        "owner": "vanman2024",
+        "repo": "ai-dev-marketplace"
+      },
+      {
+        "rank": 2,
+        "skill_id": "benchflow-ai--docx-2",
+        "score": 8.942217,
+        "name": "docx-2",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--pdf-1",
+        "score": 8.218208,
+        "name": "pdf-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      }
+    ]
+  },
+  "random:50:9:reserves-at-risk-calc": {
+    "query": "openpyxl Excel automation IMF data scraping financial risk calculation",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 3,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "daffy0208--data-visualizer",
+        "score": 3.694885,
+        "name": "data-visualizer",
+        "owner": "daffy0208",
+        "repo": ""
+      },
+      {
+        "rank": 2,
+        "skill_id": "composiohq--anonyflow-automation",
+        "score": 3.223415,
+        "name": "anonyflow-automation",
+        "owner": "composiohq",
+        "repo": "awesome-claude-skills"
+      },
+      {
+        "rank": 3,
+        "skill_id": "benchflow-ai--xlsx-1",
+        "score": 2.908886,
+        "name": "xlsx-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 4,
+        "skill_id": "ckorhonen--freshdesk-api",
+        "score": 2.876112,
+        "name": "freshdesk-api",
+        "owner": "ckorhonen",
+        "repo": "claude-skills"
+      },
+      {
+        "rank": 5,
+        "skill_id": "sickn33--klaviyo-automation",
+        "score": 2.643949,
+        "name": "klaviyo-automation",
+        "owner": "sickn33",
+        "repo": "antigravity-awesome-skills"
+      },
+      {
+        "rank": 6,
+        "skill_id": "rawveg--laravel-dusk",
+        "score": 2.572795,
+        "name": "laravel-dusk",
+        "owner": "rawveg",
+        "repo": "skillsforge-marketplace"
+      },
+      {
+        "rank": 7,
+        "skill_id": "anirudh-777--pocketbase-data-modeling",
+        "score": 2.483915,
+        "name": "pocketbase-data-modeling",
+        "owner": "anirudh-777",
+        "repo": "pocketbase-skills"
+      },
+      {
+        "rank": 8,
+        "skill_id": "ruvnet--workflow-automation",
+        "score": 2.410607,
+        "name": "workflow-automation",
+        "owner": "ruvnet",
+        "repo": "claude-flow"
+      },
+      {
+        "rank": 9,
+        "skill_id": "binjuhor--threejs",
+        "score": 1.371234,
+        "name": "threejs",
+        "owner": "binjuhor",
+        "repo": "shadcn-lar"
+      },
+      {
+        "rank": 10,
+        "skill_id": "omer-metin--content-strategy",
+        "score": 0.930716,
+        "name": "content-strategy",
+        "owner": "omer-metin",
+        "repo": "skills-for-antigravity"
+      }
+    ]
+  },
+  "random:50:9:shock-analysis-demand": {
+    "query": "Excel formula automation IMF WEO data macroeconomic modeling",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 4,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "daymade--excel-automation",
+        "score": 8.232975,
+        "name": "excel-automation",
+        "owner": "daymade",
+        "repo": "claude-code-skills"
+      },
+      {
+        "rank": 2,
+        "skill_id": "peterbamuhigire--android-data-persistence",
+        "score": 2.995974,
+        "name": "android-data-persistence",
+        "owner": "peterbamuhigire",
+        "repo": "skills-web-dev"
+      },
+      {
+        "rank": 3,
+        "skill_id": "davepoon--figma-automation",
+        "score": 2.870101,
+        "name": "figma-automation",
+        "owner": "davepoon",
+        "repo": "buildwithclaude"
+      },
+      {
+        "rank": 4,
+        "skill_id": "benchflow-ai--xlsx-1",
+        "score": 2.847457,
+        "name": "xlsx-1",
+        "owner": "benchflow-ai",
+        "repo": ""
+      },
+      {
+        "rank": 5,
+        "skill_id": "jeremylongshore--dashboard-layout-planner",
+        "score": 2.604167,
+        "name": "dashboard-layout-planner",
+        "owner": "jeremylongshore",
+        "repo": "claude-code-plugins-plus-skills"
+      },
+      {
+        "rank": 6,
+        "skill_id": "gohypergiant--accelint-nextjs-best-practices",
+        "score": 2.327207,
+        "name": "accelint-nextjs-best-practices",
+        "owner": "gohypergiant",
+        "repo": "agent-skills"
+      },
+      {
+        "rank": 7,
+        "skill_id": "jeremylongshore--generating-docker-compose-files",
+        "score": 2.204229,
+        "name": "generating-docker-compose-files",
+        "owner": "jeremylongshore",
+        "repo": "claude-code-plugins-plus-skills"
+      },
+      {
+        "rank": 8,
+        "skill_id": "zechenzhangagi--prompt-guard",
+        "score": 1.91718,
+        "name": "prompt-guard",
+        "owner": "zechenzhangagi",
+        "repo": "ai-research-skills"
+      },
+      {
+        "rank": 9,
+        "skill_id": "jdrhyne--google-ads",
+        "score": 1.754367,
+        "name": "google-ads",
+        "owner": "jdrhyne",
+        "repo": ""
+      },
+      {
+        "rank": 10,
+        "skill_id": "vibery-studio--shopify",
+        "score": 1.256602,
+        "name": "shopify",
+        "owner": "vibery-studio",
+        "repo": "templates"
+      }
+    ]
+  },
+  "random:50:9:shock-analysis-supply": {
+    "query": "Excel Solver optimization HP filter economics Cobb-Douglas production function",
+    "gold": [
+      "benchflow-ai--xlsx-1"
+    ],
+    "first_gold_rank@10": 0,
+    "top_results": [
+      {
+        "rank": 1,
+        "skill_id": "sickn33--fastapi-templates",
+        "score": 3.498783,
+        "name": "fastapi-templates",
+        "owner": "sickn33",
+        "repo": "antigravity-awesome-skills"
+      },
+      {
+        "rank": 2,
+        "skill_id": "mblode--blog-post",
+        "score": 3.004322,
+        "name": "blog-post",
+        "owner": "mblode",
+        "repo": "agent-skills"
+      },
+      {
+        "rank": 3,
+        "skill_id": "rfxlamia--skillkit",
+        "score": 2.366963,
+        "name": "skillkit",
+        "owner": "rfxlamia",
+        "repo": "claude-skillkit"
+      }
+    ]
+  }
+}
