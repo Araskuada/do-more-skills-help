@@ -86,6 +86,29 @@ Main takeaways:
 
 See the enhanced analysis in [`docs/rq3_retriever_enhanced_analysis_2026-07-09.md`](docs/rq3_retriever_enhanced_analysis_2026-07-09.md). The original baseline remains documented in [`docs/rq3_retriever_comparison_analysis_2026-07-09.md`](docs/rq3_retriever_comparison_analysis_2026-07-09.md).
 
+## Current RQ4 Experiment
+
+We completed the first RQ4 downstream skill exposure experiment using SkillsBench.
+
+This is a reproducible readiness proxy, not an actual agent pass-rate run. It measures whether each retrieval condition exposes the complete curated skill set needed by a task, and how many noisy non-gold skills are exposed at the same time.
+
+- Tasks: 87 SkillsBench default tasks
+- Unique skill documents: 202
+- Task gold skill references: 232
+- Average gold skills per task: 2.67
+- Conditions: no skill, oracle gold, oracle gold + noise, BM25 top-K, TF-IDF top-K, MiniLM top-K, BM25+MiniLM top-K, all skills visible
+
+Main result:
+
+- BM25 Top-1 is gold for **0.747** of tasks, but complete gold coverage is only **0.195**.
+- Hybrid BM25+MiniLM Top-10 has the best complete gold coverage: **0.747**.
+- Hybrid Top-10 still exposes **7.68** extra non-gold skills per task on average.
+- Exposing all skills gives complete coverage **1.000**, but adds **199.33** extra skills and about **165k** median context tokens.
+
+Takeaway: retrieval correctness helps, but downstream readiness requires a complete and reasonably clean skill set, not just a correct Top-1 skill.
+
+See the full analysis in [`docs/rq4_downstream_skill_exposure_analysis_2026-07-09.md`](docs/rq4_downstream_skill_exposure_analysis_2026-07-09.md).
+
 ## Previous Pilot Experiment
 
 We completed a first retrieval-scaling pilot using the Skill-Usage dataset.
@@ -113,6 +136,7 @@ docs/
   rq2_distractor_type_analysis_2026-07-09.md
   rq3_retriever_comparison_analysis_2026-07-09.md
   rq3_retriever_enhanced_analysis_2026-07-09.md
+  rq4_downstream_skill_exposure_analysis_2026-07-09.md
   first_experiment_retrieval_scaling_pilot.md
   data_usage_guide.md
   project_data_inventory.md
@@ -122,6 +146,7 @@ experiments/
   rq2_distractor_types.py
   rq3_retriever_comparison.py
   rq3_retriever_enhanced.py
+  rq4_downstream_skill_exposure.py
   retrieval_scaling_pilot.py
 
 data/experiments/
@@ -150,6 +175,11 @@ data/experiments/
     summary.json
     per_query_metrics.csv
     neural_doc_embeddings.npy
+  rq4_downstream_skill_exposure/
+    summary.csv
+    summary.json
+    per_task_exposure.csv
+    case_studies.json
   retrieval_scaling_pilot/
     summary.csv
     summary.json
@@ -240,6 +270,20 @@ It writes results to:
 
 ```text
 data/experiments/rq3_retriever_enhanced/
+```
+
+## Reproducing RQ4
+
+After downloading SkillsBench to `data/raw/skillsbench`, run:
+
+```bash
+python3 experiments/rq4_downstream_skill_exposure.py
+```
+
+The script writes results to:
+
+```text
+data/experiments/rq4_downstream_skill_exposure/
 ```
 
 ## Reproducing the Pilot
