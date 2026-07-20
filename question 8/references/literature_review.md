@@ -1,6 +1,5 @@
 # Question 8 Literature Review
 
-检索与核验日期：2026-07-20。下列条目均通过 arXiv 摘要页或 ACM Digital Library 页面核对了题名、作者、年份和永久链接。
 
 ## 1. Large skill libraries and retrieval bottlenecks
 
