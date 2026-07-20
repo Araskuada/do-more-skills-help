@@ -1,7 +1,6 @@
 # RQ5 Experiment Proposal: Decision-Budget Stress Test for LLM Skill Routing
 
-**Date**: 2026-07-20  
-**Deadline**: 2026-07-26
+**Date**: 2026-07-20
 
 ---
 
@@ -593,32 +592,7 @@ docs/rq5_decision_budget/analysis.md
 
 ---
 
-## 15. Schedule: July 20-26
-
-| Date | Work | Required Deliverable |
-|---|---|---|
-| Jul 20 | Freeze RQ, proposal, scope, model, and output schema | This proposal |
-| Jul 21 | Restore data; implement loaders, candidate construction, prompt generation, dry-run, and invariants | Dry-run menus and tests |
-| Jul 22 | Implement API/resume/parser; run 10-task pilot; apply the noise-level adjustment rule and freeze the final grid; fix only pre-defined data-quality problems | Valid pilot JSONL and frozen noise grid |
-| Jul 23 | Run all primary calls under the frozen grid; resume until condition matrix is complete | Complete raw responses |
-| Jul 24 | Generate metrics, paired bootstrap CIs, plots, and error cases | Summary tables and SVGs |
-| Jul 25 | Write RQ5 analysis; integrate RQ5 with RQ1-RQ4 narrative and README | Draft final analysis |
-| Jul 26 | Reproduce summaries from raw logs, audit claims, finalize report and backup artifacts | Final RQ5 package |
-
-### Fixed Priority
-
-If time is lost, reduce scope in this order:
-
-1. remove optional order-sensitivity calls;
-2. remove exploratory similarity regression;
-3. keep only three noise counts (the smallest, one middle, and the largest of the frozen grid) for both distractor types;
-4. never remove raw logging, menu validation, multi-gold metrics, or claim-boundary documentation.
-
-Do not add extra models, solver/judge experiments, Function Calling, full `SKILL.md` injection, or downstream execution before the primary RQ5 package is complete.
-
----
-
-## 16. Threats to Validity
+## 15. Threats to Validity
 
 ### Construct Validity
 
@@ -650,7 +624,7 @@ Do not add extra models, solver/judge experiments, Function Calling, full `SKILL
 
 ---
 
-## 17. Expected Figures and Tables
+## 16. Expected Figures and Tables
 
 1. **Macro F1 vs noise count**, with random and hard distractor curves and paired-bootstrap confidence intervals.
 2. **Exact set match vs noise count**.
@@ -661,7 +635,7 @@ Do not add extra models, solver/judge experiments, Function Calling, full `SKILL
 
 ---
 
-## 18. Claim Boundaries
+## 17. Claim Boundaries
 
 RQ5 may support claims such as:
 
@@ -684,7 +658,7 @@ The intended conclusion is conditional and systems-oriented:
 
 ---
 
-## 19. Definition of Done
+## 18. Definition of Done
 
 RQ5 is complete only when:
 

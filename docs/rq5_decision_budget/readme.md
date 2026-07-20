@@ -3,7 +3,7 @@
 **Script**: `experiments/rq5_llm_router_decision_budget.py`
 **Proposal**: `docs/rq5_decision_budget/proposal.md`
 **Output directory**: `data/experiments/rq5_llm_router/`
-**Status**: Implemented; waiting for `data/raw/Skill-Usage` restoration and pilot run
+**Status**: Finished
 
 ---
 
@@ -31,8 +31,8 @@ Skill library
 task x distractor_type x noise_count
 ```
 
-- **Tasks**: all Skill-Usage tasks with fully resolvable gold skills (expected 87). Single-gold tasks are a pre-specified sensitivity subgroup, not the main dataset.
-- **Noise count** `n in {0, 2, 5, 10, 20}` (provisional; frozen after the 10-task pilot per the adjustment rule in proposal Section 6).
+- **Tasks**: all Skill-Usage tasks with fully resolvable gold skills (87 confirmed). Single-gold tasks (26) are a pre-specified sensitivity subgroup, not the main dataset.
+- **Noise count** `n in {0, 2, 5, 10, 20}` (frozen on 2026-07-20 after the 10-task pilot per the adjustment rule in proposal Section 6; see `noise_grid_decision.json`).
 - **Distractor types**:
   - `random`: one deterministic permutation of non-gold skills per task (seed 6002 + stable task hash); noise levels take nested prefixes;
   - `hard`: top-ranked non-gold skills from the RQ3 hybrid BM25 + MiniLM retriever (reciprocal-rank fusion), nested prefixes.
@@ -176,6 +176,7 @@ All files under `data/experiments/rq5_llm_router/`:
 | `experiment_metadata.json` | Model, grid, task/gold distribution, claim boundary |
 | `experiment_plan.csv` | One row per condition: sizes, gold fraction, gold positions |
 | `candidate_menus.jsonl` | Full validated menus (reproducible from seed) |
+| `noise_grid_decision.json` | Frozen post-pilot noise-grid decision record: decision date, pilot command, pilot macro F1 (hard, n=20) = 0.421, matched rule branch, final grid `{0, 2, 5, 10, 20}` |
 | `raw_responses.jsonl` | Append-only raw API records: text, parse status, tokens, latency, retries |
 | `per_condition_results.csv` | Per-condition metrics joined with covariates |
 | `summary.csv` / `summary.json` | Macro metrics per (type, n), single-gold table, bootstrap contrasts |
