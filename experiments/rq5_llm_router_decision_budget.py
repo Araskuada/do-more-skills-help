@@ -95,6 +95,17 @@ def condition_id(task: str, distractor_type: str, noise_count: int) -> str:
     return f"{task}|{distractor_type}|n{noise_count}"
 
 
+def redact_base_url(base_url: str) -> str:
+    """Replace the account-specific workspace subdomain with a placeholder.
+
+    Workspace-dedicated endpoints look like
+    https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/... and the WorkspaceId
+    identifies the user's account, so it must not be written to tracked
+    experiment outputs.
+    """
+    return re.sub(r"//[^./]+(\.[a-z0-9-]+\.maas\.aliyuncs\.com)", r"//<workspace>\1", base_url)
+
+
 # ---------------------------------------------------------------------------
 # Distractor construction
 # ---------------------------------------------------------------------------
@@ -800,7 +811,13 @@ def main() -> None:
     parser.add_argument("--skill-usage-root", default="data/raw/Skill-Usage")
     parser.add_argument("--output-dir", default="data/experiments/rq5_llm_router")
     parser.add_argument("--model", default="qwen3.7-plus")
-    parser.add_argument("--base-url", default=DASHSCOPE_COMPATIBLE_URL)
+    parser.add_argument(
+        "--base-url",
+        default=os.environ.get("DASHSCOPE_BASE_URL", DASHSCOPE_COMPATIBLE_URL),
+        help="Chat Completions endpoint. Defaults to $DASHSCOPE_BASE_URL if set; "
+        "prefer the env var for workspace-dedicated URLs to keep the workspace ID "
+        "out of shell history.",
+    )
     parser.add_argument("--api-key-env", default="DASHSCOPE_API_KEY")
     parser.add_argument("--api-key-prompt", action="store_true", help="Read API key with hidden terminal input.")
     parser.add_argument("--noise-counts", nargs="+", type=int, default=DEFAULT_NOISE_COUNTS)
@@ -880,7 +897,7 @@ def main() -> None:
 
     metadata = {
         "model": args.model,
-        "base_url": args.base_url,
+        "base_url": redact_base_url(args.base_url),
         "temperature": args.temperature,
         "max_completion_tokens": args.max_completion_tokens,
         "enable_thinking": False,
