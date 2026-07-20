@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="620" viewBox="0 0 1120 620">
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<text x="90" y="38" font-family="Arial" font-size="24" font-weight="700" fill="#0f172a">Multi-skill retrieval: coverage and recall</text>
+<text x="90" y="63" font-family="Arial" font-size="13" fill="#475569">Mean over 61 multi-skill tasks; whiskers are task-bootstrap 95% CIs; red is a leakage-labelled upper bound</text>
+<line x1="90" y1="490.0" x2="990" y2="490.0" stroke="#cbd5e1" stroke-width="1"/>
+<text x="78" y="494.0" text-anchor="end" font-family="Arial" font-size="12" fill="#475569">0.0</text>
+<line x1="90" y1="408.0" x2="990" y2="408.0" stroke="#cbd5e1" stroke-width="1"/>
+<text x="78" y="412.0" text-anchor="end" font-family="Arial" font-size="12" fill="#475569">0.2</text>
+<line x1="90" y1="326.0" x2="990" y2="326.0" stroke="#cbd5e1" stroke-width="1"/>
+<text x="78" y="330.0" text-anchor="end" font-family="Arial" font-size="12" fill="#475569">0.4</text>
+<line x1="90" y1="244.0" x2="990" y2="244.0" stroke="#cbd5e1" stroke-width="1"/>
+<text x="78" y="248.0" text-anchor="end" font-family="Arial" font-size="12" fill="#475569">0.6</text>
+<line x1="90" y1="162.0" x2="990" y2="162.0" stroke="#cbd5e1" stroke-width="1"/>
+<text x="78" y="166.0" text-anchor="end" font-family="Arial" font-size="12" fill="#475569">0.8</text>
+<line x1="90" y1="80.0" x2="990" y2="80.0" stroke="#cbd5e1" stroke-width="1"/>
+<text x="78" y="84.0" text-anchor="end" font-family="Arial" font-size="12" fill="#475569">1.0</text>
+<rect x="131.5" y="402.6" width="31" height="87.4" rx="3" fill="#64748b" stroke="#64748b" stroke-width="3"/>
+<line x1="147.0" y1="443.0" x2="147.0" y2="355.6" stroke="#0f172a" stroke-width="2"/>
+<line x1="142.0" y1="443.0" x2="152.0" y2="443.0" stroke="#0f172a" stroke-width="2"/>
+<line x1="142.0" y1="355.6" x2="152.0" y2="355.6" stroke="#0f172a" stroke-width="2"/>
+<text x="147.0" y="395.6" text-anchor="middle" font-family="Arial" font-size="11" fill="#0f172a">0.213</text>
+<rect x="167.5" y="299.8" width="31" height="190.2" rx="3" fill="#ffffff" stroke="#64748b" stroke-width="3"/>
+<line x1="183.0" y1="337.2" x2="183.0" y2="261.1" stroke="#0f172a" stroke-width="2"/>
+<line x1="178.0" y1="337.2" x2="188.0" y2="337.2" stroke="#0f172a" stroke-width="2"/>
+<line x1="178.0" y1="261.1" x2="188.0" y2="261.1" stroke="#0f172a" stroke-width="2"/>
+<text x="183.0" y="292.8" text-anchor="middle" font-family="Arial" font-size="11" fill="#0f172a">0.464</text>
+<text x="165.0" y="515" text-anchor="middle" font-family="Arial" font-size="11" fill="#334155" transform="rotate(24 165.0,515)">Hybrid Top-10</text>
+<rect x="281.5" y="389.2" width="31" height="100.8" rx="3" fill="#2563eb" stroke="#2563eb" stroke-width="3"/>
+<line x1="297.0" y1="429.5" x2="297.0" y2="342.1" stroke="#0f172a" stroke-width="2"/>
+<line x1="292.0" y1="429.5" x2="302.0" y2="429.5" stroke="#0f172a" stroke-width="2"/>
+<line x1="292.0" y1="342.1" x2="302.0" y2="342.1" stroke="#0f172a" stroke-width="2"/>
+<text x="297.0" y="382.2" text-anchor="middle" font-family="Arial" font-size="11" fill="#0f172a">0.246</text>
+<rect x="317.5" y="295.1" width="31" height="194.9" rx="3" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
+<line x1="333.0" y1="332.1" x2="333.0" y2="256.2" stroke="#0f172a" stroke-width="2"/>
+<line x1="328.0" y1="332.1" x2="338.0" y2="332.1" stroke="#0f172a" stroke-width="2"/>
+<line x1="328.0" y1="256.2" x2="338.0" y2="256.2" stroke="#0f172a" stroke-width="2"/>
+<text x="333.0" y="288.1" text-anchor="middle" font-family="Arial" font-size="11" fill="#0f172a">0.475</text>
+<text x="315.0" y="515" text-anchor="middle" font-family="Arial" font-size="11" fill="#334155" transform="rotate(24 315.0,515)">Semantic graph</text>
+<rect x="431.5" y="402.6" width="31" height="87.4" rx="3" fill="#f59e0b" stroke="#f59e0b" stroke-width="3"/>
+<line x1="447.0" y1="443.0" x2="447.0" y2="362.3" stroke="#0f172a" stroke-width="2"/>
+<line x1="442.0" y1="443.0" x2="452.0" y2="443.0" stroke="#0f172a" stroke-width="2"/>
+<line x1="442.0" y1="362.3" x2="452.0" y2="362.3" stroke="#0f172a" stroke-width="2"/>
+<text x="447.0" y="395.6" text-anchor="middle" font-family="Arial" font-size="11" fill="#0f172a">0.213</text>
+<rect x="467.5" y="303.2" width="31" height="186.8" rx="3" fill="#ffffff" stroke="#f59e0b" stroke-width="3"/>
+<line x1="483.0" y1="338.2" x2="483.0" y2="265.5" stroke="#0f172a" stroke-width="2"/>
+<line x1="478.0" y1="338.2" x2="488.0" y2="338.2" stroke="#0f172a" stroke-width="2"/>
+<line x1="478.0" y1="265.5" x2="488.0" y2="265.5" stroke="#0f172a" stroke-width="2"/>
+<text x="483.0" y="296.2" text-anchor="middle" font-family="Arial" font-size="11" fill="#0f172a">0.456</text>
+<text x="465.0" y="515" text-anchor="middle" font-family="Arial" font-size="11" fill="#334155" transform="rotate(24 465.0,515)">Metadata graph</text>
+<rect x="581.5" y="395.9" width="31" height="94.1" rx="3" fill="#8b5cf6" stroke="#8b5cf6" stroke-width="3"/>
+<line x1="597.0" y1="436.2" x2="597.0" y2="348.9" stroke="#0f172a" stroke-width="2"/>
+<line x1="592.0" y1="436.2" x2="602.0" y2="436.2" stroke="#0f172a" stroke-width="2"/>
+<line x1="592.0" y1="348.9" x2="602.0" y2="348.9" stroke="#0f172a" stroke-width="2"/>
+<text x="597.0" y="388.9" text-anchor="middle" font-family="Arial" font-size="11" fill="#0f172a">0.230</text>
+<rect x="617.5" y="298.7" width="31" height="191.3" rx="3" fill="#ffffff" stroke="#8b5cf6" stroke-width="3"/>
+<line x1="633.0" y1="337.0" x2="633.0" y2="262.0" stroke="#0f172a" stroke-width="2"/>
+<line x1="628.0" y1="337.0" x2="638.0" y2="337.0" stroke="#0f172a" stroke-width="2"/>
+<line x1="628.0" y1="262.0" x2="638.0" y2="262.0" stroke="#0f172a" stroke-width="2"/>
+<text x="633.0" y="291.7" text-anchor="middle" font-family="Arial" font-size="11" fill="#0f172a">0.467</text>
+<text x="615.0" y="515" text-anchor="middle" font-family="Arial" font-size="11" fill="#334155" transform="rotate(24 615.0,515)">CV co-required</text>
+<rect x="731.5" y="382.5" width="31" height="107.5" rx="3" fill="#0f766e" stroke="#0f766e" stroke-width="3"/>
+<line x1="747.0" y1="429.5" x2="747.0" y2="335.4" stroke="#0f172a" stroke-width="2"/>
+<line x1="742.0" y1="429.5" x2="752.0" y2="429.5" stroke="#0f172a" stroke-width="2"/>
+<line x1="742.0" y1="335.4" x2="752.0" y2="335.4" stroke="#0f172a" stroke-width="2"/>
+<text x="747.0" y="375.5" text-anchor="middle" font-family="Arial" font-size="11" fill="#0f172a">0.262</text>
+<rect x="767.5" y="296.5" width="31" height="193.5" rx="3" fill="#ffffff" stroke="#0f766e" stroke-width="3"/>
+<line x1="783.0" y1="336.0" x2="783.0" y2="260.5" stroke="#0f172a" stroke-width="2"/>
+<line x1="778.0" y1="336.0" x2="788.0" y2="336.0" stroke="#0f172a" stroke-width="2"/>
+<line x1="778.0" y1="260.5" x2="788.0" y2="260.5" stroke="#0f172a" stroke-width="2"/>
+<text x="783.0" y="289.5" text-anchor="middle" font-family="Arial" font-size="11" fill="#0f172a">0.472</text>
+<text x="765.0" y="515" text-anchor="middle" font-family="Arial" font-size="11" fill="#334155" transform="rotate(24 765.0,515)">CV all edges</text>
+<rect x="881.5" y="281.6" width="31" height="208.4" rx="3" fill="#dc2626" stroke="#dc2626" stroke-width="3"/>
+<line x1="897.0" y1="335.4" x2="897.0" y2="227.9" stroke="#0f172a" stroke-width="2"/>
+<line x1="892.0" y1="335.4" x2="902.0" y2="335.4" stroke="#0f172a" stroke-width="2"/>
+<line x1="892.0" y1="227.9" x2="902.0" y2="227.9" stroke="#0f172a" stroke-width="2"/>
+<text x="897.0" y="274.6" text-anchor="middle" font-family="Arial" font-size="11" fill="#0f172a">0.508</text>
+<rect x="917.5" y="235.1" width="31" height="254.9" rx="3" fill="#ffffff" stroke="#dc2626" stroke-width="3"/>
+<line x1="933.0" y1="280.1" x2="933.0" y2="192.5" stroke="#0f172a" stroke-width="2"/>
+<line x1="928.0" y1="280.1" x2="938.0" y2="280.1" stroke="#0f172a" stroke-width="2"/>
+<line x1="928.0" y1="192.5" x2="938.0" y2="192.5" stroke="#0f172a" stroke-width="2"/>
+<text x="933.0" y="228.1" text-anchor="middle" font-family="Arial" font-size="11" fill="#0f172a">0.622</text>
+<text x="915.0" y="515" text-anchor="middle" font-family="Arial" font-size="11" fill="#334155" transform="rotate(24 915.0,515)">Transductive upper bound</text>
+<rect x="840" y="25" width="14" height="14" fill="#334155"/><text x="861" y="37" font-family="Arial" font-size="12">Complete coverage</text>
+<rect x="840" y="48" width="14" height="14" fill="white" stroke="#334155" stroke-width="2"/><text x="861" y="60" font-family="Arial" font-size="12">Gold recall</text>
+<line x1="840" y1="78" x2="854" y2="78" stroke="#0f172a" stroke-width="2"/><text x="861" y="82" font-family="Arial" font-size="12">95% task-bootstrap CI</text>
+</svg>

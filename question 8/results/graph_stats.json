@@ -1,0 +1,91 @@
+{
+  "experiment": "Question 8 relational skill graph",
+  "seed": 6002,
+  "task_count": 87,
+  "multi_skill_task_count": 61,
+  "candidate_library": {
+    "bm25_hard": 1994,
+    "dense_hard": 1452,
+    "random_fill": 1356,
+    "gold_union": 198,
+    "target_size": 5000,
+    "actual_size": 5000,
+    "hard_depth_per_query": 40
+  },
+  "full_library_size": 34396,
+  "unique_gold_skills": 198,
+  "gold_assignments": 229,
+  "gold_per_task_histogram": {
+    "1": 26,
+    "2": 20,
+    "3": 18,
+    "4": 12,
+    "5": 6,
+    "6": 4,
+    "7": 1
+  },
+  "gold_skill_frequency_histogram": {
+    "1": 186,
+    "2": 8,
+    "3": 2,
+    "10": 1,
+    "11": 1
+  },
+  "singleton_gold_skills": 186,
+  "repeated_gold_skills": 12,
+  "corequired_pairs": 279,
+  "repeated_corequired_pairs": 7,
+  "content_edge_counts": {
+    "semantic_knn": 16756,
+    "same_owner": 5514,
+    "produces_consumes": 2767
+  },
+  "transductive_corequired_edges": 279,
+  "fold_graph_stats": [
+    {
+      "fold": 0,
+      "train_tasks": 67,
+      "test_tasks": 20,
+      "cv_corequired_edges": 199,
+      "test_gold_skills_seen_in_train_fraction": 0.21666666666666665
+    },
+    {
+      "fold": 1,
+      "train_tasks": 69,
+      "test_tasks": 18,
+      "cv_corequired_edges": 229,
+      "test_gold_skills_seen_in_train_fraction": 0.28611111111111115
+    },
+    {
+      "fold": 2,
+      "train_tasks": 70,
+      "test_tasks": 17,
+      "cv_corequired_edges": 225,
+      "test_gold_skills_seen_in_train_fraction": 0.27941176470588236
+    },
+    {
+      "fold": 3,
+      "train_tasks": 71,
+      "test_tasks": 16,
+      "cv_corequired_edges": 237,
+      "test_gold_skills_seen_in_train_fraction": 0.171875
+    },
+    {
+      "fold": 4,
+      "train_tasks": 71,
+      "test_tasks": 16,
+      "cv_corequired_edges": 233,
+      "test_gold_skills_seen_in_train_fraction": 0.240625
+    }
+  ],
+  "parameters": {
+    "library_size": 5000,
+    "semantic_k": 8,
+    "semantic_threshold": 0.52,
+    "beta": 0.35,
+    "folds": 5
+  },
+  "runtime_seconds": 21.23483429999942,
+  "embedding_cache": "E:\\硕士课程作业\\6002\\do-more-skills-help\\data\\experiments\\rerun_full_2026-07-17\\rq3_retriever_enhanced\\neural_doc_embeddings.npy",
+  "token_estimation": "ceil(character_count / 4) over name + description + full SKILL.md"
+}
