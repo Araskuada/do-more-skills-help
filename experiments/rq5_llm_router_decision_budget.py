@@ -915,6 +915,18 @@ def main() -> None:
             "Selected skills are not executed; results are not downstream task success."
         ),
     }
+    decision_path = output_dir / "noise_grid_decision.json"
+    if decision_path.exists():
+        decision = load_json(decision_path)
+        frozen_grid = sorted(set(int(n) for n in decision["final_grid"]))
+        if sorted(set(args.noise_counts)) != frozen_grid:
+            raise SystemExit(
+                f"--noise-counts {sorted(set(args.noise_counts))} does not match the frozen grid "
+                f"{frozen_grid} recorded in {decision_path}. Use the frozen grid or delete the "
+                "decision file if it was written in error (never after full-run calls begin)."
+            )
+        metadata["noise_grid_status"] = "frozen_by_pilot_decision"
+        metadata["noise_grid_decision"] = decision
     (output_dir / "experiment_metadata.json").write_text(json.dumps(metadata, indent=2, ensure_ascii=False) + "\n")
 
     plan_csv_rows = [
