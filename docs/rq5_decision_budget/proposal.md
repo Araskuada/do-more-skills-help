@@ -2,7 +2,6 @@
 
 **Date**: 2026-07-20  
 **Deadline**: 2026-07-26
-**Status**: Proposed, not yet implemented or run
 
 ---
 
@@ -557,7 +556,7 @@ data/experiments/rq5_llm_router/
 ### Analysis Document
 
 ```text
-docs/rq5_decision_budget_analysis_2026-07-XX.md
+docs/rq5_decision_budget/analysis.md
 ```
 
 ---
