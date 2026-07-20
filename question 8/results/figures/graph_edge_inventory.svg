@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<text x="90" y="35" font-family="Arial" font-size="23" font-weight="700">Graph edge inventory</text>
+<text x="90" y="58" font-family="Arial" font-size="13" fill="#64748b">Content-derived graph is dense; reusable supervised relations are sparse</text>
+<rect x="143.8" y="75.0" width="95" height="330.0" rx="5" fill="#2563eb"/>
+<text x="191.2" y="66.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700">16,756</text>
+<text x="191.2" y="430" text-anchor="middle" font-family="Arial" font-size="12">semantic_knn</text>
+<rect x="306.2" y="296.4" width="95" height="108.6" rx="5" fill="#f59e0b"/>
+<text x="353.8" y="287.4" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700">5,514</text>
+<text x="353.8" y="430" text-anchor="middle" font-family="Arial" font-size="12">same_owner</text>
+<rect x="468.8" y="350.5" width="95" height="54.5" rx="5" fill="#0f766e"/>
+<text x="516.2" y="341.5" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700">2,767</text>
+<text x="516.2" y="430" text-anchor="middle" font-family="Arial" font-size="12">produces_consumes</text>
+<rect x="631.2" y="399.5" width="95" height="5.5" rx="5" fill="#dc2626"/>
+<text x="678.8" y="390.5" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700">279</text>
+<text x="678.8" y="430" text-anchor="middle" font-family="Arial" font-size="12">co_required (upper)</text>
+</svg>

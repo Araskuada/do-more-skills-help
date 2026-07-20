@@ -1,0 +1,301 @@
+[
+  {
+    "case_type": "largest_loss",
+    "method": "graph_cv_all_seed3",
+    "task_id": "latex-formula-extraction",
+    "query": "PDF LaTeX formula extraction LaTeX syntax parsing",
+    "gold_skills": [
+      "benchflow-ai--marker",
+      "benchflow-ai--pdf-1"
+    ],
+    "baseline_retrieved": [
+      "omer-metin--document-ai",
+      "vanman2024--document-parsers",
+      "yoanbernabeu--slidev-latex",
+      "mathews-tom--md-to-pdf",
+      "benchflow-ai--marker",
+      "vamseeachanta--pdf-text-extractor",
+      "laurigates--docs-latex",
+      "plurigrid--bdd-mathematical-verification",
+      "mofa-org--pdf-processing",
+      "aliceisjustplaying--pdf-to-markdown"
+    ],
+    "graph_retrieved": [
+      "omer-metin--document-ai",
+      "vanman2024--document-parsers",
+      "yoanbernabeu--slidev-latex",
+      "vamseeachanta--pdf-text-extractor",
+      "existential-birds--docling",
+      "famaoai-creator--doc-to-text",
+      "enuno--docling",
+      "jmagly--pdf-extractor",
+      "davila7--pdf-processing",
+      "melodic-software--document-extraction"
+    ],
+    "baseline_recall": 0.5,
+    "graph_recall": 0.0
+  },
+  {
+    "case_type": "largest_loss",
+    "method": "graph_cv_all_seed3",
+    "task_id": "adaptive-cruise-control",
+    "query": "PID controller simulation YAML config parsing CSV time series",
+    "gold_skills": [
+      "benchflow-ai--csv-processing",
+      "benchflow-ai--pid-controller",
+      "benchflow-ai--simulation-metrics",
+      "benchflow-ai--vehicle-dynamics",
+      "benchflow-ai--yaml-config"
+    ],
+    "baseline_retrieved": [
+      "benchflow-ai--yaml-config",
+      "jackspace--yaml-config-helper",
+      "famaoai-creator--data-transformer",
+      "laurigates--yq-yaml-processing",
+      "HeshamFS--post-processing",
+      "benchflow-ai--csv-processing",
+      "jeremylongshore--yaml-config-validator",
+      "0xdarkmatter--data-processing",
+      "benchflow-ai--imc-tuning-rules",
+      "benchflow-ai--pid-controller"
+    ],
+    "graph_retrieved": [
+      "benchflow-ai--yaml-config",
+      "jackspace--yaml-config-helper",
+      "famaoai-creator--data-transformer",
+      "laurigates--yq-yaml-processing",
+      "jeremylongshore--yaml-config-validator",
+      "massgen--massgen-config-creator",
+      "vamseeachanta--yaml-configuration",
+      "d-o-hub--yaml-validator",
+      "jeremylongshore--yaml-master",
+      "0xdarkmatter--data-processing"
+    ],
+    "baseline_recall": 0.6,
+    "graph_recall": 0.2
+  },
+  {
+    "case_type": "largest_gain",
+    "method": "graph_cv_all_seed3",
+    "task_id": "software-dependency-audit",
+    "query": "npm vulnerability scanner CVE security database package-lock.json audit",
+    "gold_skills": [
+      "benchflow-ai--cvss-score-extraction",
+      "benchflow-ai--trivy-offline-vulnerability-scanning",
+      "benchflow-ai--vulnerability-csv-reporting"
+    ],
+    "baseline_retrieved": [
+      "Dexploarer--dependency-vulnerability-scanner",
+      "secondsky--vulnerability-scanning",
+      "patricio0312rev--dependency-vulnerability-triage",
+      "alirezarezvani--dependency-auditor",
+      "BerryKuipers--audit-dependencies",
+      "curiositech--security-auditor",
+      "equinor--npm-research",
+      "BbgnsurfTech--scanning-for-vulnerabilities",
+      "aj-geddes--vulnerability-scanning",
+      "parcadei--security"
+    ],
+    "graph_retrieved": [
+      "Dexploarer--dependency-vulnerability-scanner",
+      "secondsky--vulnerability-scanning",
+      "patricio0312rev--dependency-vulnerability-triage",
+      "alirezarezvani--dependency-auditor",
+      "BerryKuipers--audit-dependencies",
+      "armanzeroeight--dependency-audit",
+      "benchflow-ai--trivy-offline-vulnerability-scanning",
+      "fusengine--dependency-audit",
+      "onewave-ai--dependency-auditor",
+      "finos--vulnerability-resolver"
+    ],
+    "baseline_recall": 0.0,
+    "graph_recall": 0.3333333333333333
+  },
+  {
+    "case_type": "largest_gain",
+    "method": "graph_cv_all_seed3",
+    "task_id": "fix-build-google-auto",
+    "query": "Java build debugging Maven build fix",
+    "gold_skills": [
+      "benchflow-ai--maven-build-lifecycle",
+      "benchflow-ai--maven-dependency-management",
+      "benchflow-ai--maven-plugin-configuration"
+    ],
+    "baseline_retrieved": [
+      "curiouslearner--java-maven-helper",
+      "benchflow-ai--maven-build-lifecycle",
+      "thebushidocollective--maven-build-lifecycle",
+      "jabrena--110-java-maven-best-practices",
+      "jabrena--112-java-maven-plugins",
+      "giuseppe-trisciuoglio--graalvm-native-image",
+      "personamanagmentlayer--java-expert",
+      "arvindand--maven-tools",
+      "jabrena--113-java-maven-documentation",
+      "readthedocs--readthedocs-build-failure-triage"
+    ],
+    "graph_retrieved": [
+      "curiouslearner--java-maven-helper",
+      "benchflow-ai--maven-build-lifecycle",
+      "thebushidocollective--maven-build-lifecycle",
+      "jabrena--110-java-maven-best-practices",
+      "jabrena--113-java-maven-documentation",
+      "benchflow-ai--maven-dependency-management",
+      "thebushidocollective--maven-dependency-management",
+      "jabrena--111-java-maven-dependencies",
+      "benchflow-ai--maven-plugin-configuration",
+      "thebushidocollective--maven-plugin-configuration"
+    ],
+    "baseline_recall": 0.3333333333333333,
+    "graph_recall": 1.0
+  },
+  {
+    "case_type": "largest_loss",
+    "method": "graph_transductive_upper_bound",
+    "task_id": "latex-formula-extraction",
+    "query": "PDF LaTeX formula extraction LaTeX syntax parsing",
+    "gold_skills": [
+      "benchflow-ai--marker",
+      "benchflow-ai--pdf-1"
+    ],
+    "baseline_retrieved": [
+      "omer-metin--document-ai",
+      "vanman2024--document-parsers",
+      "yoanbernabeu--slidev-latex",
+      "mathews-tom--md-to-pdf",
+      "benchflow-ai--marker",
+      "vamseeachanta--pdf-text-extractor",
+      "laurigates--docs-latex",
+      "plurigrid--bdd-mathematical-verification",
+      "mofa-org--pdf-processing",
+      "aliceisjustplaying--pdf-to-markdown"
+    ],
+    "graph_retrieved": [
+      "omer-metin--document-ai",
+      "vanman2024--document-parsers",
+      "yoanbernabeu--slidev-latex",
+      "vamseeachanta--pdf-text-extractor",
+      "existential-birds--docling",
+      "famaoai-creator--doc-to-text",
+      "enuno--docling",
+      "jmagly--pdf-extractor",
+      "davila7--pdf-processing",
+      "melodic-software--document-extraction"
+    ],
+    "baseline_recall": 0.5,
+    "graph_recall": 0.0
+  },
+  {
+    "case_type": "largest_loss",
+    "method": "graph_transductive_upper_bound",
+    "task_id": "powerlifting-coef-calc",
+    "query": "openpyxl Excel formulas Dots coefficient powerlifting",
+    "gold_skills": [
+      "benchflow-ai--powerlifting",
+      "benchflow-ai--senior-data-scientist",
+      "benchflow-ai--xlsx-1"
+    ],
+    "baseline_retrieved": [
+      "vamseeachanta--openpyxl",
+      "benchflow-ai--xlsx-3",
+      "daymade--excel-automation",
+      "benchflow-ai--powerlifting",
+      "davila7--spreadsheet",
+      "vasilyu1983--document-xlsx",
+      "lc2panda--wps-excel",
+      "K-Dense-AI--xlsx",
+      "twwch--excel-processor",
+      "jimmc414--xlsx"
+    ],
+    "graph_retrieved": [
+      "vamseeachanta--openpyxl",
+      "benchflow-ai--xlsx-3",
+      "daymade--excel-automation",
+      "vasilyu1983--document-xlsx",
+      "davila7--spreadsheet",
+      "jimmc414--xlsx",
+      "autumnsgrove--xlsx",
+      "apetta--agent-xlsx",
+      "wwwzhouhui--excel-report-generator",
+      "eyadsibai--xlsx"
+    ],
+    "baseline_recall": 0.3333333333333333,
+    "graph_recall": 0.0
+  },
+  {
+    "case_type": "largest_gain",
+    "method": "graph_transductive_upper_bound",
+    "task_id": "r2r-mpc-control",
+    "query": "model predictive control scipy optimization linear state-space model",
+    "gold_skills": [
+      "benchflow-ai--finite-horizon-lqr",
+      "benchflow-ai--integral-action-design",
+      "benchflow-ai--mpc-horizon-tuning",
+      "benchflow-ai--state-space-linearization"
+    ],
+    "baseline_retrieved": [
+      "benchflow-ai--state-space-linearization",
+      "omer-metin--control-systems",
+      "tondevrel--scipy",
+      "mindrally--scipy-best-practices",
+      "tondevrel--pyomo",
+      "benchflow-ai--imc-tuning-rules",
+      "benchflow-ai--scipy-curve-fit",
+      "aj-geddes--regression-modeling",
+      "apankov1--model-based-testing",
+      "haoxuanlithuai--bayesian-cognitive-model-builder"
+    ],
+    "graph_retrieved": [
+      "benchflow-ai--state-space-linearization",
+      "omer-metin--control-systems",
+      "tondevrel--scipy",
+      "mindrally--scipy-best-practices",
+      "benchflow-ai--finite-horizon-lqr",
+      "benchflow-ai--mpc-horizon-tuning",
+      "benchflow-ai--integral-action-design",
+      "tondevrel--numpy",
+      "benchflow-ai--scipy-curve-fit",
+      "tondevrel--pyomo"
+    ],
+    "baseline_recall": 0.25,
+    "graph_recall": 1.0
+  },
+  {
+    "case_type": "largest_gain",
+    "method": "graph_transductive_upper_bound",
+    "task_id": "hvac-control",
+    "query": "PID controller tuning temperature control simulation",
+    "gold_skills": [
+      "benchflow-ai--excitation-signal-design",
+      "benchflow-ai--first-order-model-fitting",
+      "benchflow-ai--imc-tuning-rules",
+      "benchflow-ai--safety-interlocks",
+      "benchflow-ai--scipy-curve-fit"
+    ],
+    "baseline_retrieved": [
+      "benchflow-ai--imc-tuning-rules",
+      "benchflow-ai--pid-controller",
+      "omer-metin--control-systems",
+      "benchflow-ai--simulation-metrics",
+      "benchflow-ai--glm-calibration",
+      "starwreckntx--simulation-speed-adjustment",
+      "benchflow-ai--glm-basics",
+      "letta-ai--tune-mjcf",
+      "jmsktm--fine-tuning-assistant",
+      "petekp--tuning-panel"
+    ],
+    "graph_retrieved": [
+      "benchflow-ai--imc-tuning-rules",
+      "benchflow-ai--pid-controller",
+      "omer-metin--control-systems",
+      "benchflow-ai--simulation-metrics",
+      "benchflow-ai--excitation-signal-design",
+      "benchflow-ai--vehicle-dynamics",
+      "benchflow-ai--csv-processing",
+      "benchflow-ai--safety-interlocks",
+      "benchflow-ai--first-order-model-fitting",
+      "benchflow-ai--scipy-curve-fit"
+    ],
+    "baseline_recall": 0.2,
+    "graph_recall": 1.0
+  }
+]
