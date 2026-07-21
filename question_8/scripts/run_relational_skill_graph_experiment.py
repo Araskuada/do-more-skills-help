@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Question 8: relational skill graph retrieval experiment.
 
-This script is intentionally self-contained and writes only below ``question 8``.
+This script is intentionally self-contained and writes only below ``question_8``.
 It reuses the read-only Skill-Usage corpus, the local MiniLM model, and the cached
 RQ3 document embeddings.  The formal result is leakage-free five-fold CV; a
 transductive co-required graph is reported only as an explicitly labelled upper

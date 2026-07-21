@@ -15,9 +15,9 @@ The project decomposes the problem into four connected stages: retrieval from a 
 | RQ1 | Retrieval scaling | `experiments/rq1_retrieval_scaling.py` | Complete |
 | RQ2 | Distractor type robustness | `experiments/rq2_distractor_types.py` | Complete |
 | RQ3 | Sparse, dense, hybrid retrievers | `experiments/rq3_retriever_enhanced.py` | Complete |
-| RQ4 | Downstream skill exposure and task readiness | `experiments/rq4_downstream_skill_exposure.py`, `experiments/rq4_adaptive_qwen_experiment.py`, `rq4/` | Complete pilot + judged analysis |
+| RQ4 | Downstream skill exposure and task readiness | `experiments/rq4_downstream_skill_exposure.py`, `experiments/rq4_adaptive_qwen_experiment.py`, `docs/rq4/` | Complete pilot + judged analysis |
 | RQ5 | LLM decision-budget stress test | `experiments/rq5_llm_router_decision_budget.py` | Complete |
-| Question 8 | Relational skill graph retrieval | `question 8/` | Complete |
+| Question 8 | Relational skill graph retrieval | `question_8/` | Complete |
 
 ## Main Findings
 
@@ -115,6 +115,7 @@ docs/
   rq2_distractor_type_analysis_2026-07-09.md
   rq3_retriever_enhanced_analysis_2026-07-09.md
   rq4_adaptive_qwen_analysis_2026-07-15.md
+  rq4/
   rq5_decision_budget/
 
 experiments/
@@ -132,14 +133,10 @@ data/experiments/
   rq3_retriever_enhanced/
   rq4_downstream_skill_exposure/
   rq4_adaptive_qwen/
+  rq4_qwen_judged_passrate/
   rq5_llm_router/
 
-rq4/
-  rq4 answer
-  qwen3.6-plus
-  per_task_results
-
-question 8/
+question_8/
   data/
   references/
   report/
@@ -220,8 +217,8 @@ python3 experiments/rq5_llm_router_decision_budget.py --resume --api-key-prompt
 Question 8 relational skill graph experiment:
 
 ```bash
-python3 "question 8/scripts/run_relational_skill_graph_experiment.py"
-python3 "question 8/scripts/analyze_results.py"
+python3 question_8/scripts/run_relational_skill_graph_experiment.py
+python3 question_8/scripts/analyze_results.py
 ```
 
 ## Reading Guide
@@ -231,10 +228,10 @@ For a fast overview, start with:
 1. `docs/rq1_retrieval_scaling_analysis_2026-07-09.md`
 2. `docs/rq2_distractor_type_analysis_2026-07-09.md`
 3. `docs/rq3_retriever_enhanced_analysis_2026-07-09.md`
-4. `rq4/rq4 answer`
-5. `rq4/qwen3.6-plus`
+4. `docs/rq4/rq4_answer.md`
+5. `docs/rq4/qwen3.6-plus.md`
 6. `docs/rq5_decision_budget/results.md`
-7. `question 8/report/Question8_关系化技能图实验报告.md`
+7. `question_8/report/Question8_关系化技能图实验报告.md`
 
 ## Claim Boundaries
 
